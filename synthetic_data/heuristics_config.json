@@ -1,0 +1,57 @@
+{
+  "gender": {
+    "female": [
+      "pregnancy", "pregnant", "conception", "infertile", "fertility",
+      "ovary", "ovaries", "uterus", "uterine", "womb",
+      "vagina", "vaginal", "menstruation", "menstrual cycle", "period",
+      "cervix", "cervical", "endometrium", "endometrial",
+      "fibroids", "breast tumor", "mammary", "mastitis", "breast cancer", "breast carcinoma"
+    ],
+    "mature_female": [
+      "menopause", "perimenopause", "climacteric", "postmenopause", "postmenopausal",
+      "bone loss", "osteoporosis", "brittle bones", "vaginal atrophy", "atrophic vaginitis",
+      "genitourinary syndrome of menopause", "flushing", "hot flashes", "night sweats",
+      "hormonal changes", "estrogen deficiency", "bone density loss"
+    ],
+    "male": [
+      "testicular", "testicle", "testis", "scrotum",
+      "penile", "penis", "erection", "erectile", "erectile dysfunction", "impotence",
+      "male infertility", "infertility", "oligospermia", "azoospermia", "sperm count", "semen analysis", "hypogonadism", "prostate health"
+    ],
+    "mature_male": [
+      "prostat", "prostate", "prostate enlargement", "benign prostatic hyperplasia", "BPH",
+      "prostatitis", "prostate cancer", "urinary retention", "urinary frequency", "nocturia", "prostate exam"
+    ]
+  },
+  "age": {
+    "female": [18, 50],
+    "mature_female": [50, 90],
+    "male": [18, 90],
+    "mature_male": [30, 90],
+    "elderly": [60, 90],
+    "default": [18, 90]
+  },
+  "blood_pressure": {
+    "high": [
+      "high blood pressure", "hypertension", "hypertensive", "heart disease", "cardiovascular disease",
+      "coronary", "coronary artery disease", "myocardial", "myocardial infarction", "stroke", "cerebrovascular disease",
+      "angina", "angina pectoris", "diabetes", "type 2 diabetes", "obesity", "overweight", "renal", "kidney", "chronic kidney disease",
+      "artery", "arterial plaque", "atherosclerosis", "atherosclerotic", "cardiac", "circulatory", "palpitation", "heart rhythm",
+      "tachycardia", "tachyarrhythmia", "arrhythmia", "cardiomyopathy", "vascular disease"
+    ],
+    "low": [
+      "low blood pressure", "hypotension", "dehydration", "fluid loss", "sepsis", "severe infection", "shock", "septic shock",
+      "anemia", "iron deficiency", "thyroid", "hypothyroidism", "adrenal insufficiency", "Addison", "Addison's disease",
+      "malnutrition", "undernutrition", "syncope", "faint", "dizziness", "weakness", "lethargy", "hypovolemia", "hypovolemic shock", "septicemia", "infection"
+    ]
+  },
+  "cholesterol": {
+    "high": [
+      "high cholesterol", "hypercholesterolemia", "dyslipidemia", "hyperlipidemia", "elevated cholesterol", "high triglycerides",
+      "lipid disorder", "cholesterol", "triglyceride", "lipid", "LDL", "HDL", "total cholesterol",
+      "heart disease", "coronary", "coronary artery disease", "myocardial", "myocardial infarction", "stroke",
+      "hypertension", "angina", "angina pectoris", "artery", "atherosclerosis", "atherosclerotic plaques",
+      "cardiac", "diabetes", "type 2 diabetes", "obesity", "metabolic syndrome", "fatty deposits"
+    ]
+  }
+}
