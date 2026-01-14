@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}Doctor Profile{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+
+            <h3 class="mb-1">
+                Dr. {{ doctor.user.username }}
+            </h3>
+            <p class="text-muted mb-4">
+                {{ doctor.specialization.specialization_name }}
+            </p>
+
+            <ul class="list-group list-group-flush">
+
+                <li class="list-group-item d-flex justify-content-between">
+                    <span><strong>Email</strong></span>
+                    <span>{{ doctor.user.email }}</span>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between">
+                    <span><strong>Gender</strong></span>
+                    <span>
+                        {% if doctor.user.gender == 'M' %}
+                            Male
+                        {% elif doctor.user.gender == 'F' %}
+                            Female
+                        {% else %}
+                            N/A
+                        {% endif %}
+                    </span>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between">
+                    <span><strong>Date of Birth</strong></span>
+                    <span>
+                        {{ doctor.user.birth_date.strftime('%Y-%m-%d') if doctor.user.birth_date else 'N/A' }}
+                    </span>
+                </li>
+
+            </ul>
+
+            <div class="mt-4 d-flex justify-content-between">
+                <a href="{{ url_for('patient.doctors') }}"
+                    class="btn btn-outline-secondary">
+                    ← Back to Doctors
+                </a>
+
+                <a href="{{ url_for('patient.new_appointment', doctor_id=doctor.doctor_id) }}"
+                    class="btn btn-primary">
+                    Book Appointment
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Notifications{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h3>Notifications</h3>
+
+    <div class="list-group mt-3">
+        {% for notif in notifications %}
+            <form method="POST" action="{{ url_for('patient.mark_notification_seen', notif_id=notif.notification_id) }}">
+                <button type="submit" 
+                        class="list-group-item list-group-item-action d-flex justify-content-between align-items-center {% if not notif.is_read %}fw-bold{% endif %}">
+                    <div>
+                        {{ notif.title }} - {{ notif.message }}
+                        <br>
+                        <small class="text-muted">{{ notif.created_at.strftime('%Y-%m-%d %H:%M') }}</small>
+                    </div>
+                    {% if not notif.is_read %}
+                        <span class="badge bg-primary rounded-pill">New</span>
+                    {% endif %}
+                </button>
+            </form>
+        {% else %}
+            <div class="text-center text-muted mt-4">
+                No notifications.
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

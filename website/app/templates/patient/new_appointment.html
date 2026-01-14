@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+{% block title %}New Appointment{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>Book a New Appointment</h2>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+            <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                {{ message }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <form method="POST" action="{{ url_for('patient.create_appointment') }}">
+    <div class="mb-3">
+        <label for="specialization">Specialization</label>
+    <select id="specialization" name="specialization" class="form-select" required>
+        <option value="">Select Specialization</option>
+        {% for spec in specializations %}
+        <option value="{{ spec.specialization_id }}">{{ spec.specialization_name }}</option>
+        {% endfor %}
+    </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="service">Service</label>
+        <select id="service" name="service" class="form-select" required>
+        <option value="">Select Service</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="doctor">Doctor</label>
+        <select id="doctor" name="doctor" class="form-select" required>
+        <option value="">Select Doctor</option>
+        </select>
+    </div>
+
+    <label for="appointment_date">Date:</label>
+    <input type="date" id="appointment_date" name="appointment_date" min="{{ date.today().strftime('%Y-%m-%d') }}">
+
+    <label for="availability">Time Slot:</label>
+    <select id="availability" name="availability">
+        <option value="">-- Select --</option>
+    </select>
+
+    <div class="mb-3">
+        <label for="notes">Notes</label>
+        <textarea id="notes" name="notes" class="form-control" placeholder="Optional notes"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Book Appointment</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#specialization').change(function() {
+            var spec_id = $(this).val();
+            if(!spec_id) {
+                $('#service').html('<option value="">Select Service</option>');
+                $('#doctor').html('<option value="">Select Doctor</option>');
+                $('#availability').html('<option value="">Select Availability</option>');
+                return;
+            }
+
+            $.getJSON('/patient/appointments/services/' + spec_id, function(data) {
+                var options = '<option value="">Select Service</option>';
+                $.each(data, function(i, s) {
+                    options += `<option value="${s.id}">${s.name}</option>`;
+                });
+                $('#service').html(options);
+            });
+
+            $.getJSON('/patient/appointments/doctors/' + spec_id, function(data) {
+                var options = '<option value="">Select Doctor</option>';
+                $.each(data, function(i, d) {
+                    options += `<option value="${d.id}">${d.name}</option>`;
+                });
+                $('#doctor').html(options);
+                $('#availability').html('<option value="">Select Availability</option>'); y
+            });
+        });
+
+        function loadAvailabilities() {
+            var doctor_id = $('#doctor').val();
+            var date = $('#appointment_date').val();
+            if(!doctor_id || !date) {
+                $('#availability').html('<option value="">Select Availability</option>');
+                return;
+            }
+
+            $.getJSON(`/patient/appointments/availabilities/${doctor_id}?date=${date}`, function(data) {
+                var options = '<option value="">Select Availability</option>';
+                if(data.length === 0) {
+                    options += '<option value="">No slots available</option>';
+                } else {
+                    $.each(data, function(i, a) {
+                        options += `<option value="${a.id}">${a.start} - ${a.end}</option>`;
+                    });
+                }
+                $('#availability').html(options);
+            });
+        }
+
+        $('#doctor').change(loadAvailabilities);
+        $('#appointment_date').change(loadAvailabilities);
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Create Medical Record{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>Create Medical Record</h2>
+
+    <div class="card p-4">
+        <p><strong>Patient:</strong> {{ appointment.patient.user.username }}</p>
+        <p><strong>Appointment Date:</strong> {{ appointment.availability.availability_date.strftime('%Y-%m-%d') }}</p>
+        <p><strong>Time:</strong> {{ appointment.availability.start_time.strftime('%H:%M') }} - {{ appointment.availability.end_time.strftime('%H:%M') }}</p>
+
+        <form method="POST">
+            <div class="mb-3">
+                <label for="symptoms" class="form-label">Symptoms</label>
+                <textarea class="form-control" id="symptoms" name="symptoms" rows="2" required></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="diagnosis" class="form-label">Diagnosis</label>
+                <textarea class="form-control" id="diagnosis" name="diagnosis" rows="2" required></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="treatment" class="form-label">Treatment</label>
+                <textarea class="form-control" id="treatment" name="treatment" rows="2" required></textarea>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="cholesterol_lvl" class="form-label">Cholesterol Level</label>
+                    <input type="number" class="form-control" id="cholesterol_lvl" name="cholesterol_lvl">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="blood_pressure_lvl" class="form-label">Blood Pressure (e.g., 120/80)</label>
+                    <input type="text" class="form-control" id="blood_pressure_lvl" name="blood_pressure_lvl">
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-success">Create Medical Record</button>
+            <a href="{{ url_for('doctor.appointments') }}" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+{% endblock %}

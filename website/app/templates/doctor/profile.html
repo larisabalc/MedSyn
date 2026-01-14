@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block title %}My Profile{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="card shadow-sm mb-4">
+        <div class="card-body d-flex align-items-center">
+            <div class="me-4">
+                <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center"
+                        style="width: 90px; height: 90px; font-size: 36px;">
+                    {{ user.username[0]|upper }}
+                </div>
+            </div>
+            <div>
+                <h3 class="mb-1">{{ user.username }}</h3>
+                <span class="badge bg-primary">Doctor</span>
+                <p class="text-muted mb-0">{{ user.email }}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="card shadow-sm h-100">
+                <div class="card-header fw-bold bg-light">
+                    Personal Information
+                </div>
+                <div class="card-body">
+                    <p><strong>Full Name:</strong> {{ user.username }}</p>
+
+                    <p>
+                        <strong>Gender:</strong>
+                        {% if user.gender == 'M' %} Male
+                        {% elif user.gender == 'F' %} Female
+                        {% else %} N/A {% endif %}
+                    </p>
+
+                    <p>
+                        <strong>Date of Birth:</strong>
+                        {{ user.birth_date.strftime('%Y-%m-%d') if user.birth_date else 'Not provided' }}
+                    </p>
+
+                    <p><strong>Email:</strong> {{ user.email }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card shadow-sm h-100">
+                <div class="card-header fw-bold bg-light">
+                    Doctor Details
+                </div>
+                <div class="card-body">
+                    <p>
+                        <strong>Specialization:</strong>
+                        {{ doctor.specialization.specialization_name if doctor and doctor.specialization else 'Not provided' }}
+                    </p>
+
+                    <p>
+                        <strong>Licence Number:</strong>
+                        {{ doctor.licence_no or 'Not provided' }}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="mt-4 text-end">
+        <a href="{{ url_for('doctor.edit_profile') }}" class="btn btn-outline-primary">
+            Edit Profile
+        </a>
+    </div>
+
+</div>
+{% endblock %}

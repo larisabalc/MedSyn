@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block title %}My Availability{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+
+    <h3 class="mb-3">🕒 Set Availability</h3>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% for category, message in messages %}
+            <div class="alert alert-{{ category }}">{{ message }}</div>
+        {% endfor %}
+    {% endwith %}
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <form method="POST">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <label class="form-label">Date</label>
+                        <input type="date" name="availability_date" class="form-control" required>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label class="form-label">Start Time</label>
+                        <input type="time" name="start_time" class="form-control" required>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label class="form-label">End Time</label>
+                        <input type="time" name="end_time" class="form-control" required>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary mt-3 w-100">
+                    ➕ Add Availability
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <h4 class="mb-3">📅 Existing Slots</h4>
+
+    {% if availabilities %}
+        <ul class="list-group">
+            {% for slot in availabilities %}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <strong>{{ slot.availability_date }}</strong><br>
+                        {{ slot.start_time }} – {{ slot.end_time }}
+                    </div>
+
+                    <div class="d-flex align-items-center gap-2">
+                        {% if slot.availability_status %}
+                            <span class="badge bg-success">Available</span>
+
+                            <form method="POST"
+                                action="{{ url_for('doctor.delete_availability', availability_id=slot.availability_id) }}"
+                                onsubmit="return confirm('Delete this availability slot?');">
+                                <button class="btn btn-sm btn-outline-danger">
+                                    Delete
+                                </button>
+                            </form>
+
+                        {% else %}
+                            <span class="badge bg-secondary">Unavailable</span>
+
+                            <button class="btn btn-sm btn-outline-danger" disabled title="Slot already booked">
+                                Delete
+                            </button>
+                        {% endif %}
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p class="text-muted">No availability slots defined yet.</p>
+    {% endif %}
+
+</div>
+{% endblock %}

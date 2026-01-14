@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block title %}Patient Dashboard{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+
+    <div class="mb-4">
+        <h2>Welcome, {{ user.username }} 👋</h2>
+        <p class="text-muted">Manage your appointments and consultations</p>
+    </div>
+
+    <div class="row g-4">
+
+    <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+            <div class="card-body text-center">
+                <i class="bi bi-calendar-plus display-4 text-primary"></i>
+                <h5 class="card-title mt-3">Book an Appointment</h5>
+                <p class="card-text">
+                    Schedule a consultation with a doctor.
+                </p>
+                <a href="{{ url_for('patient.new_appointment') }}" class="btn btn-primary w-100">
+                    Book Now
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+            <div class="card-body text-center">
+                <i class="bi bi-journal-text display-4 text-success"></i>
+                <h5 class="card-title mt-3">My Appointments</h5>
+                <p class="card-text">
+                    View all your appointments.
+                </p>
+                <a href="{{ url_for('patient.appointments') }}" class="btn btn-success w-100">
+                    View Appointments
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+        <div class="card-body text-center">
+            <i class="bi bi-people display-4 text-info"></i>
+            <h5 class="card-title mt-3">Doctors</h5>
+            <p class="card-text">Browse available doctors and specializations.</p>
+            <a href="{{ url_for('patient.doctors') }}" class="btn btn-info w-100 text-white">
+                See Doctors
+            </a>
+        </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <i class="bi bi-file-medical display-4 text-warning"></i>
+                    <h5 class="card-title mt-3">Medical Records</h5>
+                    <p class="card-text">View your medical history and consultations.</p>
+                    <a href="{{ url_for('patient.medical_records') }}" class="btn btn-warning w-100 text-white">View Records</a>
+                </div>
+            </div>
+        </div>
+
+    <div class="col-12">
+        <div class="card shadow-lg h-100 text-center p-4" style="background: linear-gradient(135deg, #6a11cb, #2575fc); color: white;">
+            <i class="bi bi-robot display-1 mb-3"></i>
+            <h3 class="card-title mb-2">AI Diagnosis & Doctor Recommendations 🤖</h3>
+            <p class="card-text mb-4">
+                Get AI-assisted insights for your symptoms and personalized doctor recommendations to make healthcare smarter and faster.
+            </p>
+            <a href="{{ url_for('patient.ai_diagnosis') }}" class="btn btn-light btn-lg">
+                Explore AI Assistance
+            </a>
+        </div>
+    </div>
+
+    </div>
+</div>
+{% endblock %}

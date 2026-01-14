@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+
+{% block title %}AI Diagnosis{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2 class="mb-4 text-primary">AI Diagnosis & Doctor Recommendations 🤖</h2>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    <div class="card shadow-lg p-4 mb-4 border-primary bg-light rounded-4">
+        <form method="POST" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="model_type" class="form-label fw-bold">Select AI Model</label>
+                <select id="model_type" name="model_type" class="form-select" required>
+                    <option value="">-- Choose Model --</option>
+                    <option value="with_context">With Context - ✅ Uses your age and gender</option>
+                    <option value="without_context">Without Context - ⚠️ Generic results</option>
+                </select>
+                <small class="text-muted">
+                    Choosing <strong>With Context</strong> enables additional fields for a more precise diagnosis.
+                </small>
+            </div>
+
+            <div class="mb-3">
+                <label for="symptoms" class="form-label fw-bold">Enter Symptoms</label>
+                <textarea id="symptoms" name="symptoms" class="form-control" rows="3" placeholder="Describe your symptoms">{{ request.form.symptoms }}</textarea>
+            </div>
+
+            <div class="row g-3 mb-3">
+                <div class="col-md-6">
+                    <label for="blood_pressure" class="form-label fw-bold">💓 Blood Pressure</label>
+                    <input type="text" id="blood_pressure" name="blood_pressure" class="form-control" placeholder="e.g., 120/80" value="{{ request.form.blood_pressure }}">
+                </div>
+                <div class="col-md-6">
+                    <label for="cholesterol" class="form-label fw-bold">🩸 Cholesterol Level</label>
+                    <input type="text" id="cholesterol" name="cholesterol" class="form-control" placeholder="e.g., 190 mg/dL" value="{{ request.form.cholesterol }}">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="files" class="form-label fw-bold">📂 Upload Files</label>
+                <input type="file" id="files" name="files" multiple class="form-control">
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg w-100">Generate Diagnosis</button>
+
+            <p class="mt-3 text-danger fst-italic">
+                ⚠️ Disclaimer: The AI diagnosis is for informational purposes only. It may make mistakes and should not replace consultation with a qualified doctor. Always consult a healthcare professional.
+            </p>
+        </form>
+    </div>
+
+    {% if diagnosis_result %}
+        <div class="card shadow-sm p-4 mb-4 border-success rounded-4">
+            <div class="card-body d-flex align-items-start">
+                <span class="fs-3 me-3">🩺</span>
+                <div>
+                    <h5 class="text-success mb-2">Diagnosis Result</h5>
+                    <p class="mb-0">{{ diagnosis_result }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="card shadow-sm p-4 mb-4 border-primary rounded-4">
+            <div class="card-body">
+                {% if recommended_doctors %}
+                    <h5 class="text-primary mb-3">👨‍⚕️ Recommended Doctors</h5>
+                    <ul class="list-group list-group-flush">
+                        {% for doctor in recommended_doctors %}
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div>
+                                    Dr. {{ doctor.user.username }} ({{ doctor.specialization.specialization_name }})
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <a href="{{ url_for('patient.doctor_profile', doctor_id=doctor.doctor_id) }}"
+                                    class="btn btn-sm btn-outline-primary">
+                                        View Profile
+                                    </a>
+                                    <a href="{{ url_for('patient.new_appointment', doctor_id=doctor.doctor_id) }}"
+                                    class="btn btn-sm btn-outline-success">
+                                        Book Appointment
+                                    </a>
+                                </div>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p class="text-muted mb-0">
+                        No doctors recommended based on this diagnosis.
+                    </p>
+                {% endif %}
+            </div>
+        </div>
+    {% endif %}
+
+</div>
+{% endblock %}

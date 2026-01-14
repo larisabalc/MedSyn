@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block title %}Register - MedSyn{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm mt-5">
+            <div class="card-body">
+                <h3 class="card-title text-center mb-4">Register</h3>
+
+                {% if error %}
+                    <div class="alert alert-danger">{{ error }}</div>
+                {% endif %}
+
+                <form method="POST">
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username</label>
+                        <input 
+                            type="text" 
+                            class="form-control" 
+                            id="username" 
+                            name="username" 
+                            placeholder="Username" 
+                            required
+                            value="{{ form.get('username', '') }}"
+                        >
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            name="email"
+                            placeholder="username@patient.com or username@doctor.com"
+                            required
+                            pattern="^[A-Za-z0-9._%+-]+@(patient|doctor)\.com$"
+                            title="Email must end with @patient.com or @doctor.com"
+                            value="{{ form.get('email', '') }}"
+                        >
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input 
+                            type="password" 
+                            class="form-control" 
+                            id="password" 
+                            name="password" 
+                            placeholder="Password" 
+                            required
+                        >
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="gender" class="form-label">Gender</label>
+                        <select class="form-select" id="gender" name="gender" required>
+                            <option value="">Select Gender</option>
+                            <option value="F" {% if form.get('gender') == 'F' %}selected{% endif %}>Female</option>
+                            <option value="M" {% if form.get('gender') == 'M' %}selected{% endif %}>Male</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="birthdate" class="form-label">Birthdate</label>
+                        <input 
+                            type="date" 
+                            class="form-control" 
+                            id="birthdate" 
+                            name="birthdate" 
+                            value="{{ form.get('birthdate', '') }}"
+                        >
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </div>
+
+                    <p class="mt-3 text-center">
+                        Already have an account? <a href="{{ url_for('auth.login') }}">Login here</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
