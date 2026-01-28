@@ -19,14 +19,5 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Logs
-*.log
-
-# Jupyter
-.ipynb_checkpoints/
-
-# AI / ML artifacts (optional – uncomment if needed)
-# *.h5
-# *.pt
-# *.pth
-# *.onnx
+# Node.js / npm
+node_modules/
