@@ -11,72 +11,74 @@
 
 <body class="bg-light">
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
-    <div class="container">
-        {% if session.get('role') == 'DOCTOR' %}
-            <a class="navbar-brand" href="{{ url_for('doctor.dashboard') }}">MedSyn</a>
-        {% else %}
-            <a class="navbar-brand" href="{{ url_for('patient.dashboard') }}">MedSyn</a>
-        {% endif %}
+{% if not hide_navbar %}
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+        <div class="container">
+            {% if session.get('role') == 'DOCTOR' %}
+                <a class="navbar-brand" href="{{ url_for('doctor.dashboard') }}">MedSyn</a>
+            {% else %}
+                <a class="navbar-brand" href="{{ url_for('patient.dashboard') }}">MedSyn</a>
+            {% endif %}
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto align-items-center">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
 
-                {% if session.get('user_id') %}
-                    <li class="nav-item dropdown me-3">
-                        <a class="nav-link position-relative"
-                            href="{% if session.get('role') == 'DOCTOR' %}
-                                        {{ url_for('doctor.notifications') }}
-                                    {% else %}
-                                        {{ url_for('patient.notifications') }}
-                                    {% endif %}">
-                            🔔
-                            {% if unseen_notifications and unseen_notifications > 0 %}
-                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                                    {{ unseen_notifications }}
-                                </span>
+                    {% if session.get('user_id') %}
+                        <li class="nav-item dropdown me-3">
+                            <a class="nav-link position-relative"
+                                href="{% if session.get('role') == 'DOCTOR' %}
+                                            {{ url_for('doctor.notifications') }}
+                                        {% else %}
+                                            {{ url_for('patient.notifications') }}
+                                        {% endif %}">
+                                🔔
+                                {% if unseen_notifications and unseen_notifications > 0 %}
+                                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                        {{ unseen_notifications }}
+                                    </span>
+                                {% endif %}
+                            </a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link d-flex align-items-center"
+                                href="{% if session.get('role') == 'DOCTOR' %}
+                                            {{ url_for('doctor.profile') }}
+                                        {% else %}
+                                            {{ url_for('patient.profile') }}
+                                        {% endif %}">
+                                👤 Profile
+                            </a>
+                        </li>
+                        <li class="nav-item me-3">
+                            {% if session.get('role') == 'DOCTOR' %}
+                                <span class="badge bg-light text-primary">🩺 Doctor</span>
+                            {% else %}
+                                <span class="badge bg-light text-primary">👤 Patient</span>
                             {% endif %}
-                        </a>
-                    </li>
-                    <li class="nav-item me-3">
-                        <a class="nav-link d-flex align-items-center"
-                            href="{% if session.get('role') == 'DOCTOR' %}
-                                        {{ url_for('doctor.profile') }}
-                                    {% else %}
-                                        {{ url_for('patient.profile') }}
-                                    {% endif %}">
-                            👤 Profile
-                        </a>
-                    </li>
-                    <li class="nav-item me-3">
-                        {% if session.get('role') == 'DOCTOR' %}
-                            <span class="badge bg-light text-primary">🩺 Doctor</span>
-                        {% else %}
-                            <span class="badge bg-light text-primary">👤 Patient</span>
-                        {% endif %}
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('auth.logout') }}">Logout</a>
-                    </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('auth.logout') }}">Logout</a>
+                        </li>
 
-                {% else %}
+                    {% else %}
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('auth.login') }}">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('auth.register') }}">Register</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('auth.login') }}">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('auth.register') }}">Register</a>
+                        </li>
 
-                {% endif %}
-            </ul>
+                    {% endif %}
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+{% endif %}
 
 <div class="container">
     {% block content %}{% endblock %}

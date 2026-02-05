@@ -4,6 +4,12 @@ import { initWebRTC, createOffer, toggleMic, toggleCamera, endCall } from "./web
 const params = new URLSearchParams(window.location.search);
 const roomId = params.get("room");
 const role = params.get("role") || "user";
+const doctorUsername = params.get("doctor");
+const patientUsername = params.get("patient");
+const APPOINTMENTS_URL =
+    role === "doctor"
+        ? "/doctor/appointments"
+        : "/patient/appointments";
 
 const joinBtn=document.getElementById("joinBtn");
 const joinCard=document.getElementById("joinCard");
@@ -27,15 +33,18 @@ function createVideoEl(label, muted=false){
     return {video, micInd, wrapper};
 }
 
-joinBtn.onclick=async()=>{
-    joinCard.style.display="none"; callUI.style.display="block";
+joinBtn.onclick = async () => {
+    joinCard.style.display = "none"; 
+    callUI.style.display = "block";
 
-    const {video, wrapper} = createVideoEl(`You: ${role}`, true);
-    localVideoEl = video;
-    localVideoEl.wrapper = wrapper;
+    const localName = role === "doctor" ? doctorUsername : patientUsername;
+    const remoteName = role === "doctor" ? patientUsername : doctorUsername;
 
-    const remoteLabel = role==="doctor"?"Patient":"Doctor";
-    const {video: remoteVideo, wrapper: remoteWrapper} = createVideoEl(remoteLabel);
+    const { video: localVideo, wrapper: localWrapper } = createVideoEl(`You: ${localName}`, true);
+    localVideoEl = localVideo;
+    localVideoEl.wrapper = localWrapper;
+
+    const { video: remoteVideo, wrapper: remoteWrapper } = createVideoEl(remoteName);
     remoteVideoEl = remoteVideo;
     remoteVideoEl.wrapper = remoteWrapper;
 
@@ -79,6 +88,12 @@ leaveBtn.onclick=()=>{
     joinCard.style.display="block";
     callUI.style.display="none";
     if(peerStatus) peerStatus.style.display = "block";
+    const baseUrl = "http://127.0.0.1:5000";
+
+    window.location.href =
+        role === "doctor"
+            ? `${baseUrl}/doctor/appointments`
+            : `${baseUrl}/patient/appointments`;
 };
 
 function detectSpeaking(videoEl, wrapper){

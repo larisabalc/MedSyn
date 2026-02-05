@@ -48,6 +48,17 @@ def dashboard():
         appointments_count=appointments_count
     )
 
+@patient_bp.route('/video_call/<int:appointment_id>')
+def video_call(appointment_id):
+    user_id = session.get("user_id")
+    user = User.query.get(user_id)
+
+    appointment_id = Appointment.query.get(appointment_id).appointment_id
+    doctor = Appointment.query.get(appointment_id).doctor.user.username
+
+    return redirect(f"http://localhost:8080/video_call.html?room={appointment_id}&doctor={doctor}&patient={user.username}&role=patient")
+
+
 # region AI_Diagnosis
 def get_suggested_doctors(diagnosis_result: str):
     """Return a list of Doctor objects based on AI diagnosis using CSV mapping"""

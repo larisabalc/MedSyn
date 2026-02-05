@@ -6,7 +6,11 @@
     <h2>My Appointments</h2>
 
     <div class="mb-3 d-flex align-items-center gap-2 flex-wrap">
-        <input type="text" id="searchInput" class="form-control" placeholder="Search by doctor, service, specialization" style="max-width: 400px;">
+        <input type="text"
+                id="searchInput"
+                class="form-control"
+                placeholder="Search by doctor, service, specialization"
+                style="max-width: 400px;">
 
         <div>
             <button id="sortAsc" class="btn btn-secondary btn-sm" title="Sort Ascending">&#9650;</button>
@@ -36,10 +40,16 @@
             </tr>
         </thead>
         <tbody>
-            {% for appt in appointments %}
+        {% for appt in appointments %}
             <tr>
-                <td class="appt-date">{{ appt.availability.availability_date.strftime('%Y-%m-%d') }}</td>
-                <td>{{ appt.availability.start_time.strftime('%H:%M') }} - {{ appt.availability.end_time.strftime('%H:%M') }}</td>
+                <td class="appt-date">
+                    {{ appt.availability.availability_date.strftime('%Y-%m-%d') }}
+                </td>
+                <td>
+                    {{ appt.availability.start_time.strftime('%H:%M') }}
+                    -
+                    {{ appt.availability.end_time.strftime('%H:%M') }}
+                </td>
                 <td class="appt-doctor">{{ appt.doctor.user.username }}</td>
                 <td class="appt-spec">{{ appt.doctor.specialization.specialization_name }}</td>
                 <td class="appt-service">{{ appt.service.service_name }}</td>
@@ -54,18 +64,29 @@
                     {% endif %}
                 </td>
                 <td>
-                    {% set appt_datetime = appt.availability.availability_date.strftime('%Y-%m-%d') + ' ' + appt.availability.start_time.strftime('%H:%M') %}
-                    {% set now = current_time %}
                     {% if appt.status == "Booked" %}
-                        <form method="POST" action="{{ url_for('patient.cancel_appointment', appointment_id=appt.appointment_id) }}">
-                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to cancel this appointment?');">Cancel</button>
-                        </form>
+                        <div class="d-flex gap-2 align-items-center">
+                            <form method="POST"
+                                action="{{ url_for('patient.cancel_appointment', appointment_id=appt.appointment_id) }}"
+                                class="m-0">
+                                <button type="submit"
+                                        class="btn btn-danger btn-sm"
+                                        onclick="return confirm('Are you sure you want to cancel this appointment?');">
+                                    Cancel
+                                </button>
+                            </form>
+
+                            <a href="{{ url_for('patient.video_call', appointment_id=appt.appointment_id) }}"
+                            class="btn btn-primary btn-sm">
+                                Join Call
+                            </a>
+                        </div>
                     {% else %}
                         <button class="btn btn-secondary btn-sm" disabled>Cancel</button>
                     {% endif %}
                 </td>
             </tr>
-            {% endfor %}
+        {% endfor %}
         </tbody>
     </table>
     {% else %}
@@ -74,55 +95,60 @@
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const tableBody = document.querySelector('#appointmentsTable tbody');
-        const searchInput = document.getElementById('searchInput');
-        const statusFilter = document.getElementById('statusFilter');
-        const sortAsc = document.getElementById('sortAsc');
-        const sortDesc = document.getElementById('sortDesc');
+document.addEventListener('DOMContentLoaded', function () {
+    const tableBody = document.querySelector('#appointmentsTable tbody');
+    const searchInput = document.getElementById('searchInput');
+    const statusFilter = document.getElementById('statusFilter');
+    const sortAsc = document.getElementById('sortAsc');
+    const sortDesc = document.getElementById('sortDesc');
 
-        function filterRows() {
-            const filter = searchInput.value.toLowerCase();
-            const status = statusFilter.value;
-            const rows = tableBody.querySelectorAll('tr');
+    function filterRows() {
+        const filter = searchInput.value.toLowerCase();
+        const status = statusFilter.value;
+        const rows = tableBody.querySelectorAll('tr');
 
-            rows.forEach(row => {
-                const doctor = row.querySelector('.appt-doctor').textContent.toLowerCase();
-                const service = row.querySelector('.appt-service').textContent.toLowerCase();
-                const spec = row.querySelector('.appt-spec').textContent.toLowerCase();
-                const rowStatus = row.querySelector('.appt-status').textContent.trim();
+        rows.forEach(row => {
+            const doctor = row.querySelector('.appt-doctor').textContent.toLowerCase();
+            const service = row.querySelector('.appt-service').textContent.toLowerCase();
+            const spec = row.querySelector('.appt-spec').textContent.toLowerCase();
+            const rowStatus = row.querySelector('.appt-status').textContent.trim();
 
-                const matchesSearch = doctor.includes(filter) || service.includes(filter) || spec.includes(filter);
-                const matchesStatus = (status === "All") || (rowStatus === status);
+            const matchesSearch =
+                doctor.includes(filter) ||
+                service.includes(filter) ||
+                spec.includes(filter);
 
-                row.style.display = (matchesSearch && matchesStatus) ? '' : 'none';
-            });
-        }
+            const matchesStatus =
+                status === "All" || rowStatus === status;
 
-        searchInput.addEventListener('keyup', filterRows);
-        statusFilter.addEventListener('change', filterRows);
+            row.style.display = (matchesSearch && matchesStatus) ? '' : 'none';
+        });
+    }
 
-        function sortTable(ascending = true) {
-            const rows = Array.from(tableBody.querySelectorAll('tr'));
+    searchInput.addEventListener('keyup', filterRows);
+    statusFilter.addEventListener('change', filterRows);
 
-            rows.sort((a, b) => {
-                const dateA = a.querySelector('.appt-date').textContent.trim();
-                const dateB = b.querySelector('.appt-date').textContent.trim();
+    function sortTable(ascending = true) {
+        const rows = Array.from(tableBody.querySelectorAll('tr'));
 
-                const timeA = a.querySelector('td:nth-child(2)').textContent.split('-')[0].trim();
-                const timeB = b.querySelector('td:nth-child(2)').textContent.split('-')[0].trim();
+        rows.sort((a, b) => {
+            const dateA = a.querySelector('.appt-date').textContent.trim();
+            const dateB = b.querySelector('.appt-date').textContent.trim();
 
-                const dateTimeA = new Date(`${dateA}T${timeA}:00`);
-                const dateTimeB = new Date(`${dateB}T${timeB}:00`);
+            const timeA = a.querySelector('td:nth-child(2)').textContent.split('-')[0].trim();
+            const timeB = b.querySelector('td:nth-child(2)').textContent.split('-')[0].trim();
 
-                return ascending ? dateTimeA - dateTimeB : dateTimeB - dateTimeA;
-            });
+            const dateTimeA = new Date(`${dateA}T${timeA}:00`);
+            const dateTimeB = new Date(`${dateB}T${timeB}:00`);
 
-            rows.forEach(row => tableBody.appendChild(row));
-        }
+            return ascending ? dateTimeA - dateTimeB : dateTimeB - dateTimeA;
+        });
 
-        sortAsc.addEventListener('click', () => sortTable(true));
-        sortDesc.addEventListener('click', () => sortTable(false));
-    });
+        rows.forEach(row => tableBody.appendChild(row));
+    }
+
+    sortAsc.addEventListener('click', () => sortTable(true));
+    sortDesc.addEventListener('click', () => sortTable(false));
+});
 </script>
 {% endblock %}

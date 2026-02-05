@@ -42,5 +42,9 @@ def create_app():
         ).count()
 
         return {"unseen_notifications": unseen_count}
+    
+    @app.context_processor
+    def inject_layout_flags():
+        return {"hide_navbar": False}
 
     return app

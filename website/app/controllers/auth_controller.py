@@ -38,7 +38,7 @@ def register():
 
         return redirect(url_for("auth.login"))
 
-    return render_template("auth/register.html", error=None, form={})
+    return render_template("auth/register.html", hide_navbar=True, error=None, form={})
 
 
 @auth_bp.route("/login", methods=["GET", "POST"])
@@ -59,7 +59,7 @@ def login():
             elif user.role == RoleEnum.DOCTOR:
                 return redirect(url_for("doctor.dashboard"))
 
-    return render_template("auth/login.html", error=error, form=request.form)
+    return render_template("auth/login.html", hide_navbar=True,error=error, form=request.form)
 
 @auth_bp.route("/logout")
 def logout():

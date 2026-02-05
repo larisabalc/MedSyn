@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from flask import Blueprint, render_template, redirect, url_for, session, request, flash
+from flask import Blueprint, render_template, redirect, send_from_directory, url_for, session, request, flash
 
 from sqlalchemy import or_
 from sqlalchemy.orm import joinedload
@@ -28,6 +28,19 @@ def dashboard():
     user = User.query.get(user_id)
 
     return render_template("doctor/dashboard.html", user=user)
+
+@doctor_bp.route('/video_call/<int:appointment_id>')
+def video_call(appointment_id):
+    user_id = session.get("user_id")
+    user = User.query.get(user_id)
+
+    patient_id = Appointment.query.get(appointment_id).patient_id
+    patient = Patient.query.get(patient_id).user.username
+
+    print(user.username)
+    print(patient)
+    
+    return redirect(f"http://localhost:8080/video_call.html?room={appointment_id}&doctor={user.username}&patient={patient}&role=doctor")
 
 # region Availability
 @doctor_bp.route("/availability/delete/<int:availability_id>", methods=["POST"])
@@ -222,6 +235,27 @@ def patients():
 # endregion
 
 # region Appointments
+@doctor_bp.route("/appointments/complete/<int:appointment_id>", methods=["POST"])
+def complete_appointment(appointment_id):
+    if session.get("role") != RoleEnum.DOCTOR:
+        return redirect(url_for("auth.login"))
+
+    appointment = Appointment.query.get_or_404(appointment_id)
+
+    if appointment.doctor_id != session.get("user_id"):
+        return "Unauthorized", 403
+
+    if appointment.status != "Booked":
+        flash("Only booked appointments can be completed.", "warning")
+        return redirect(url_for("doctor.appointments"))
+
+    appointment.status = "Completed"
+    db.session.commit()
+
+    flash("Appointment marked as completed.", "success")
+    return redirect(url_for("doctor.appointments"))
+
+
 @doctor_bp.route("/appointments/cancel/<int:appointment_id>", methods=["POST"])
 def cancel_appointment(appointment_id):
     user_id = session.get("user_id")
