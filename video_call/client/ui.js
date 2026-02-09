@@ -37,8 +37,8 @@ joinBtn.onclick = async () => {
     joinCard.style.display = "none"; 
     callUI.style.display = "block";
 
-    const localName = role === "doctor" ? doctorUsername : patientUsername;
-    const remoteName = role === "doctor" ? patientUsername : doctorUsername;
+    const localName = role === "doctor" ? `Dr. ${doctorUsername}` : patientUsername;
+    const remoteName = role === "doctor" ? patientUsername : `Dr. ${doctorUsername}`;
 
     const { video: localVideo, wrapper: localWrapper } = createVideoEl(`You: ${localName}`, true);
     localVideoEl = localVideo;
