@@ -10,82 +10,119 @@ let camEnabled = true;
 
 const rtcConfig = { iceServers: [{ urls: "stun:stun.l.google.com:19302" }] };
 
-export async function initWebRTC(r, localVideo, remoteVideo){
+export async function initWebRTC(r, localVideo, remoteVideo) {
     roomId = r;
     remoteVideoEl = remoteVideo;
 
-    localStream = await navigator.mediaDevices.getUserMedia({ video:true, audio:true });
+    // Always ensure a fresh peer connection
+    if (peer) {
+        peer.close();
+        peer = null;
+    }
+
+    // Open camera only if needed
+    if (!localStream) {
+        localStream = await navigator.mediaDevices.getUserMedia({
+            video: { facingMode: "user" },
+            audio: true
+        });
+    }
+
     localVideo.srcObject = localStream;
+    localVideo.muted = true; // required in Chrome
     await localVideo.play();
 
     peer = new RTCPeerConnection(rtcConfig);
-    localStream.getTracks().forEach(t=>peer.addTrack(t, localStream));
+
+    localStream.getTracks().forEach(track => {
+        peer.addTrack(track, localStream);
+    });
 
     peer.ontrack = e => {
         remoteStream = e.streams[0];
         remoteVideoEl.srcObject = remoteStream;
-        remoteVideoEl.play();
+        remoteVideoEl.play().catch(() => {});
 
         const peerStatus = document.getElementById("peerStatus");
-        if(peerStatus) peerStatus.style.display = "none";
+        if (peerStatus) peerStatus.style.display = "none";
     };
 
-    peer.onicecandidate = e => { if(e.candidate) sendIceCandidate(roomId, e.candidate); };
+    peer.onicecandidate = e => {
+        if (e.candidate) sendIceCandidate(roomId, e.candidate);
+    };
 
     peer.onconnectionstatechange = () => {
-        if(peer.connectionState === "disconnected" || peer.connectionState === "failed" || peer.connectionState === "closed"){
+        if (
+            peer.connectionState === "disconnected" ||
+            peer.connectionState === "failed" ||
+            peer.connectionState === "closed"
+        ) {
             clearRemoteVideo();
             const peerStatus = document.getElementById("peerStatus");
-            if(peerStatus) peerStatus.style.display = "block";
+            if (peerStatus) peerStatus.style.display = "block";
         }
     };
 
     onOffer(async offer => {
+        if (!peer) return;
         await peer.setRemoteDescription(offer);
         const answer = await peer.createAnswer();
         await peer.setLocalDescription(answer);
         sendAnswer(roomId, answer);
     });
 
-    onAnswer(async answer => { await peer.setRemoteDescription(answer); });
-    onIceCandidate(async candidate => { if(peer) await peer.addIceCandidate(candidate); });
+    onAnswer(async answer => {
+        if (!peer) return;
+        await peer.setRemoteDescription(answer);
+    });
+
+    onIceCandidate(async candidate => {
+        if (peer) await peer.addIceCandidate(candidate);
+    });
 }
 
-export async function createOffer(){
-    if(!peer) return;
+export async function createOffer() {
+    if (!peer) return;
     const offer = await peer.createOffer();
     await peer.setLocalDescription(offer);
     sendOffer(roomId, offer);
 }
 
-export function toggleMic(){
+export function toggleMic() {
     micEnabled = !micEnabled;
-    if(localStream) localStream.getAudioTracks().forEach(t=>t.enabled=micEnabled);
+    if (localStream) {
+        localStream.getAudioTracks().forEach(t => (t.enabled = micEnabled));
+    }
     return micEnabled;
 }
 
-export function toggleCamera(){
+export function toggleCamera() {
     camEnabled = !camEnabled;
-    if(localStream) localStream.getVideoTracks().forEach(t=>t.enabled=camEnabled);
+    if (localStream) {
+        localStream.getVideoTracks().forEach(t => (t.enabled = camEnabled));
+    }
     return camEnabled;
 }
 
-export function clearRemoteVideo(){
-    if(remoteVideoEl){
-        if(remoteVideoEl.srcObject){
-            remoteVideoEl.srcObject.getTracks().forEach(t=>t.stop());
+export function clearRemoteVideo() {
+    if (remoteVideoEl) {
+        if (remoteVideoEl.srcObject) {
+            remoteVideoEl.srcObject.getTracks().forEach(t => t.stop());
         }
         remoteVideoEl.srcObject = null;
     }
 }
 
-export function endCall(){
-    if(peer){ 
-        peer.close(); peer = null; 
+export function endCall() {
+    if (peer) {
+        peer.close();
+        peer = null;
     }
-    if(localStream){ 
-        localStream.getTracks().forEach(t=>t.stop()); 
-        localStream = null; 
+
+    if (localStream) {
+        localStream.getTracks().forEach(track => track.stop());
+        localStream = null;
     }
+
     clearRemoteVideo();
 }

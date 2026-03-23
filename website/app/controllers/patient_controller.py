@@ -1,6 +1,5 @@
 from datetime import datetime, date, timedelta
 import os
-import csv
 
 from flask import Blueprint, render_template, request, redirect, url_for, session, jsonify, flash
 
@@ -21,13 +20,13 @@ from ocr_service.medical_extractor import MedicalInfoExtractor
 from diagnosis_engine.diagnosis_service import DiagnosisService
 from diagnosis_engine.models.context_diagnosis_classifier import ContextDiagnosisClassifier
 from diagnosis_engine.models.no_context_diagnosis_classifier import NoContextDiagnosisClassifier
+from diagnosis_engine.agents.specialization_classifier import SpecializationClassifier
 
 patient_bp = Blueprint("patient", __name__, url_prefix="/patient")
 
 API_KEY = os.getenv("MISTRAL_API_KEY")
 UPLOAD_FOLDER = r"website/app/static/uploads"
 ALLOWED_EXTENSIONS = {"txt", "pdf", "docx", "png"}
-DIAGNOSIS_CSV_PATH = "data/raw/Doctor_Versus_Disease.csv"
 
 @patient_bp.route("/dashboard")
 def dashboard():
@@ -61,27 +60,30 @@ def video_call(appointment_id):
 
 # region AI_Diagnosis
 def get_suggested_doctors(diagnosis_result: str):
-    """Return a list of Doctor objects based on AI diagnosis using CSV mapping"""
+    """Return a list of Doctor objects based on AI specialization classification"""
     if not diagnosis_result:
         return []
+    
+    specializations = [
+        s.specialization_name.strip()
+        for s in Specialization.query.filter(
+            Specialization.specialization_name != "Unassigned"
+        ).all() ]
 
-    diagnosis_result_lower = diagnosis_result.lower()
-    matched_specializations = set()
+    if not specializations:
+        return []
 
-    with open(DIAGNOSIS_CSV_PATH, newline="", encoding="utf-8") as csvfile:
-        reader = csv.DictReader(csvfile)
-        for row in reader:
-            diag_name = row["diagnosis"].strip().lower()
-            spec_name = row["specialization"].strip()
-            if diag_name in diagnosis_result_lower:
-                matched_specializations.add(spec_name)
+    try:
+        classifier = SpecializationClassifier(api_key=API_KEY)
+        predicted_spec = classifier.classify(diagnosis_result)
 
-    if not matched_specializations:
+    except Exception as e:
+        print(f"[Specialization ERROR]: {e}")
         return []
 
     doctors = Doctor.query.join(User).filter(
         Doctor.specialization.has(
-            Specialization.specialization_name.in_(matched_specializations)
+            Specialization.specialization_name == predicted_spec
         )
     ).all()
 
@@ -451,7 +453,9 @@ def appointments():
         return redirect(url_for("auth.login"))
 
     user = User.query.get(user_id)
+    print(user.role)
     patient = user.patient_profile
+    print(patient)
 
     appointments_list = Appointment.query.filter_by(patient_id=patient.patient_id).all()
 
