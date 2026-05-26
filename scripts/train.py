@@ -2,21 +2,20 @@
 from diagnosis_engine.models.no_context_diagnosis_classifier import NoContextDiagnosisClassifier
 
 model = NoContextDiagnosisClassifier()
+model.load_model("C:/Users/larisabalc/Desktop/MedSyn/diagnosis_engine/trained_models/no_context")
 
 #model.load_local_dataset()
-model.prepare_dataset()
+# model.prepare_dataset()
 
-model.train(num_train_epochs=1)
+# model.train(num_train_epochs=1)
 
-model.evaluate(False)
+# model.evaluate(False)
 
-model.save_model()
+# model.save_model()
 
 sample_input = (
-    "The patient is a 28-year-old female. "
-    "The patient has high cholesterol. "
-    "Reported symptoms include itchy, red, inflamed skin, rash."
+    "Hoarseness, Vocal Changes, Vocal Fatigue"
 )
 
-prediction = model.generate_disese_name(sample_input)
+prediction = model.generate_disease_name(sample_input)
 print("Predicted diagnosis:", prediction)

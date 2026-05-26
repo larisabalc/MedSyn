@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-05-26T18:15:24.556532",
+  "total_samples": 2160,
+  "context_model": {
+    "exact_match": 0.9990740740740741,
+    "partial_match": 0.9990740740740741,
+    "top_k_accuracy": 0.999537037037037,
+    "semantic_similarity": 0.9995868838081757,
+    "avg_confidence": 0.9995231984702093,
+    "std_confidence": 0.018090873689779203,
+    "confidence_correct": 1.0,
+    "confidence_incorrect": 0.485054347826087,
+    "max_confidence": 1.0,
+    "min_confidence": 0.1875
+  },
+  "no_context_model": {
+    "exact_match": 0.7351851851851852,
+    "partial_match": 0.7421296296296296,
+    "top_k_accuracy": 0.7467592592592592,
+    "semantic_similarity": 0.8225533237995545,
+    "avg_confidence": 0.8162223318064074,
+    "std_confidence": 0.31754378215591395,
+    "confidence_correct": 1.0,
+    "confidence_incorrect": 0.306014399828391,
+    "max_confidence": 1.0,
+    "min_confidence": 0.06451612903225806
+  },
+  "improvements": {
+    "exact_match": {
+      "absolute": 0.2639,
+      "percentage": 35.89
+    },
+    "partial_match": {
+      "absolute": 0.2569,
+      "percentage": 34.62
+    },
+    "top_k_accuracy": {
+      "absolute": 0.2528,
+      "percentage": 33.85
+    },
+    "semantic_similarity": {
+      "absolute": 0.177,
+      "percentage": 21.52
+    },
+    "avg_confidence": {
+      "absolute": 0.1833,
+      "percentage": 22.46
+    },
+    "std_confidence": {
+      "absolute": -0.2995,
+      "percentage": -94.3
+    },
+    "confidence_correct": {
+      "absolute": 0.0,
+      "percentage": 0.0
+    },
+    "confidence_incorrect": {
+      "absolute": 0.179,
+      "percentage": 58.51
+    },
+    "max_confidence": {
+      "absolute": 0.0,
+      "percentage": 0.0
+    },
+    "min_confidence": {
+      "absolute": 0.123,
+      "percentage": 190.62
+    }
+  },
+  "head_to_head": {
+    "context_model_wins": 571,
+    "no_context_model_wins": 1,
+    "both_correct": 1587,
+    "both_wrong": 1
+  }
+}

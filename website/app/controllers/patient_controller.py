@@ -127,6 +127,8 @@ def ai_diagnosis():
     user = User.query.get(user_id)
     diagnosis_result = None
     recommended_doctors = []
+    bp_category = "unknown"
+    chol_category = "unknown"
 
     if request.method == "POST":
         model_type = request.form.get("model_type")
@@ -235,6 +237,7 @@ def ai_diagnosis():
                 service = DiagnosisService(strategy=no_context_strategy)
 
             diagnosis_result = service.predict(patient_input)
+            print(f"AI Diagnosis Result: {diagnosis_result}")
             recommended_doctors = get_suggested_doctors(diagnosis_result)
 
             medical_record = MedicalRecord(

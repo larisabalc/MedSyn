@@ -1,0 +1,72 @@
+====================================================================================================
+STATISTICAL ANALYSIS REPORT
+Proving Context Improves Medical Diagnosis Prediction
+====================================================================================================
+
+1. MCNEMAR'S TEST - ACCURACY COMPARISON
+----------------------------------------------------------------------------------------------------
+   Context Model Wins: 571
+   No-Context Model Wins: 1
+   McNemar Statistic: 568.0070
+   P-value: 0.000000
+   Significant at 0.05 level: True
+   Interpretation: Context model significantly outperforms no-context model (context wins: 571, no-context wins: 1)
+
+2. WILCOXON SIGNED-RANK TEST - CONFIDENCE COMPARISON
+----------------------------------------------------------------------------------------------------
+   Test Statistic: 0.0000
+   P-value: 0.000000
+   Significant at 0.05 level: True
+   Interpretation: Context model significantly outperforms no-context model
+
+3. CONFIDENCE INTERVAL ANALYSIS
+----------------------------------------------------------------------------------------------------
+   Mean Difference: 0.1833
+   95% CI: [0.1833, 0.1833]
+   Margin of Error: 0.0000
+   Interpretation: We are 95% confident that the true difference in performance is between 0.1833 and 0.1833
+
+4. EFFECT SIZE ANALYSIS
+----------------------------------------------------------------------------------------------------
+   Context Model Accuracy: 0.9991
+   No-Context Model Accuracy: 0.7352
+   Absolute Risk Difference: 0.2639
+   Relative Risk: 1.3589
+   Odds Ratio: 388.6532
+   Number Needed to Treat: 3.8
+   Interpretation: large absolute risk difference, moderate relative risk increase
+
+5. DISEASE-SPECIFIC ANALYSIS
+----------------------------------------------------------------------------------------------------
+   Total Diseases Analyzed: 392
+   Diseases Improved by Context: 108
+
+   Top 5 Diseases Improved by Context:
+      - Eczema:
+        Improvement: 100.0%
+        Context Accuracy: 100.00%
+        No-Context Accuracy: 0.00%
+      - Coronary Atherosclerosis:
+        Improvement: 100.0%
+        Context Accuracy: 100.00%
+        No-Context Accuracy: 0.00%
+      - Chronic Glaucoma:
+        Improvement: 100.0%
+        Context Accuracy: 100.00%
+        No-Context Accuracy: 0.00%
+      - Bladder Cancer:
+        Improvement: 100.0%
+        Context Accuracy: 100.00%
+        No-Context Accuracy: 0.00%
+      - Flat Feet:
+        Improvement: 100.0%
+        Context Accuracy: 100.00%
+        No-Context Accuracy: 0.00%
+
+6. CONCLUSION
+----------------------------------------------------------------------------------------------------
+✓ McNemar's test confirms context model significantly improves accuracy
+✓ Wilcoxon test confirms context model shows higher confidence scores
+✓ Context model outperforms in 571 cases
+✓ Effect size (Odds Ratio) of 388.65 indicates
+  substantial practical significance

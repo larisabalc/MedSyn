@@ -1,0 +1,2161 @@
+reference,context_prediction,no_context_prediction,context_correct,no_context_correct
+Eczema,Eczema,"Itchy, Red, Incontinenced Skin",True,False
+Coronary Atherosclerosis,Coronary Atherosclerosis,Hypertrophic Heart Failure,True,False
+Dry Skin,Dry Skin,Dry Skin,True,True
+Pemphigus,Pemphigus,Pemphigus,True,True
+Pulmonary Congestion,Pulmonary Congestion,Pulmonary Congestion,True,True
+Polycythemia Vera,Polycythemia Vera,Polycythemia Vera,True,True
+Chronic Glaucoma,Chronic Glaucoma,Acute Glaucoma,True,False
+Nose Disorder,Nose Disorder,Nose Disorder,True,True
+Cranial Nerve Palsy,Cranial Nerve Palsy,Cranial Nerve Palsy,True,True
+Type 2 Diabetes,Type 2 Diabetes,Type 2 Diabetes,True,True
+Spondylitis,Spondylitis,Spondylitis,True,True
+Injury to the Finger,Injury to the Finger,Injury to the Finger,True,True
+Edward Syndrome,Edward Syndrome,Edward Syndrome,True,True
+Bladder Cancer,Bladder Cancer,Urinary Kidney Cyst,True,False
+Ischemia of the Bowel,Ischemia of the Bowel,Ischemia of the Bowel,True,True
+Meniere Disease,Meniere Disease,Meniere Disease,True,True
+Asthma,Asthma,Asthma,True,True
+Pinguecula,Pinguecula,Pinguecula,True,True
+Hypertensive Heart Disease,Hypertensive Heart Disease,Hypertensive Heart Disease,True,True
+Flat Feet,Flat Feet,Foot and Foot Pain,True,False
+Von Hippel-Lindau Disease,Von Hippel-Lindau Disease,Von Hippel-Lindau Disease,True,True
+Hydrocele of the Testicle,Hydrocele of the Testicle,Plural Cyst,True,False
+Omphalitis,Omphalitis,Omphalitis,True,True
+Antimicrobial Drugs Poisoning,Antimicrobial Drugs Poisoning,Flu from the Acute Disorder,True,False
+Low-Tension Glaucoma,Low-Tension Glaucoma,Low-Tension Glaucoma,True,True
+Glucocorticoid Deficiency,Glucocorticoid Deficiency,Anemia,True,False
+Chorioretinitis,Chorioretinitis,Chorioretinitis,True,True
+Mucocele,Mucocele,Mucocele,True,True
+Narcolepsy,Narcolepsy,Narcolepsy,True,True
+Vulvodynia,Vulvodynia,Vulvodynia,True,True
+Hypercalcemia,Hypercalcemia,Hypercalcemia,True,True
+Cholesteatoma,Cholesteatoma,Otosclerosis,True,False
+Hypothyroidism,Hypothyroidism,Hypothyroidism,True,True
+Ethylene glycol poisoning-1,Ethylene glycol poisoning-1,Ethylene glycol poisoning-1,True,True
+Dental Caries,Dental Caries,Dental Caries,True,True
+Fracture of the Neck,Fracture of the Neck,Spondylitis,True,False
+Cat Scratch Disease,Cat Scratch Disease,Cat Scratch Disease,True,True
+Atrial Fibrillation,Atrial Fibrillation,Hypertrophic Heartbeat,True,False
+Complex Regional Pain Syndrome (CRPS),Complex Regional Pain Syndrome (CRPS),Complex Regional Pain Syndrome (CRPS),True,True
+Hemorrhoids,Hemorrhoids,Hemorrhoids,True,True
+Parkinson Disease,Parkinson Disease,Parkinson Disease,True,True
+Bell Palsy,Bell Palsy,Cellulitis,True,False
+Hashimoto Thyroiditis,Hashimoto Thyroiditis,Hashimoto Thyroiditis,True,True
+Opioid Use Disorder,Opioid Use Disorder,Opioid Use Disorder,True,True
+Drug Abuse (Methamphetamine),Drug Abuse (Methamphetamine),Acute Heart Disease,True,False
+Alopecia,Alopecia,Alopecia,True,True
+Injury to the Leg,Injury to the Leg,Injury to the Leg,True,True
+Endometriosis,Endometriosis,Endometriosis,True,True
+Mucocele,Mucocele,Mucocele,True,True
+Hyperosmotic Hyperketotic State,Hyperosmotic Hyperketotic State,Hyperosmotic Hyperketotic State,True,True
+Cranial Nerve Palsy,Cranial Nerve Palsy,Cranial Nerve Palsy,True,True
+Sciatica,Sciatica,Sciatica,True,True
+Kidney Failure,Kidney Failure,Kidney Failure,True,True
+Sjögren's syndrome,Sjögren's syndrome,Sjögren's syndrome,True,True
+Tuberous Sclerosis,Tuberous Sclerosis,Tuberous Sclerosis,True,True
+Fracture of the Rib,Fracture of the Rib,Fracture of the Rib,True,True
+Chronic Rheumatic Fever,Chronic Rheumatic Fever,Pneumonia,True,False
+Bulimia Nervosa,Bulimia Nervosa,Bulimia Nervosa,True,True
+Hemorrhoids,Hemorrhoids,Hemorrhoids,True,True
+Peritonsillar Abscess,Peritonsillar Abscess,Peritonsillar Abscess,True,True
+Tietze Syndrome,Tietze Syndrome,Carpal Tunnel Syndrome,True,False
+Ethylene glycol poisoning-2,Ethylene glycol poisoning-2,Ethylene glycol poisoning-2,True,True
+Parathyroid Adenoma,Parathyroid Adenoma,Parathyroid Adenoma,True,True
+Mucoepidermoid carcinoma,Mucoepidermoid carcinoma,Mucoepidermoid carcinoma,True,True
+Liver Cancer,Liver Cancer,Liver Cancer,True,True
+Asthma,Asthma,Asthma,True,True
+Placenta Previa,Placenta Previa,Placenta Previa,True,True
+Chronic Rheumatic Fever,Chronic Rheumatic Fever,Pneumonia,True,False
+Cyst of the Eyelid,Cyst of the Eyelid,Cyst of the Eyelid,True,True
+Empyema,Empyema,Pericarditis,True,False
+Ectopic Pregnancy,Ectopic Pregnancy,Ectopic Pregnancy,True,True
+Lateral Epicondylitis (Tennis Elbow),Lateral Epicondylitis (Tennis Elbow),Lateral Epicondylitis (Tennis Elbow),True,True
+Thoracic Aortic Aneurysm,Thoracic Aortic Aneurysm,Thoracic Aortic Aneurysm,True,True
+Esophageal Cancer,Esophageal Cancer,Esophageal Cancer,True,True
+Gout,Gout,Gout,True,True
+Pleomorphic adenoma,Warthin tumor,Warthin tumor,False,False
+Intracranial Hemorrhage,Intracranial Hemorrhage,Mumps,True,False
+Mucocele,Mucocele,Mucocele,True,True
+Low-Tension Glaucoma,Low-Tension Glaucoma,Low-Tension Glaucoma,True,True
+Chronic Headache,Chronic Headache,Chronic Headache,True,True
+Ludwig's angina,Ludwig's angina,Spondylosis,True,False
+Urticaria (Hives),Urticaria (Hives),Urticaria (Hives),True,True
+Chalazion,Chalazion,Chalazion,True,True
+Psoriasis,Psoriasis,Psoriasis,True,True
+Stress Incontinence,Stress Incontinence,Stress Incontinence,True,True
+Corneal Disorder,Corneal Disorder,Corneal Disorder,True,True
+Pregnancy-Related Back Pain,Pregnancy-Related Back Pain,Pregnancy-Related Back Pain,True,True
+Fracture of the Shoulder,Fracture of the Shoulder,Rotator Cuff Injury,True,False
+Polycystic Ovarian Syndrome,Polycystic Ovarian Syndrome,Polycystic Ovarian Syndrome,True,True
+Syringomyelia,Syringomyelia,Syringomyelia,True,True
+Mumps,Mumps,Mumps,True,True
+Von Hippel-Lindau Disease,Von Hippel-Lindau Disease,Von Hippel-Lindau Disease,True,True
+Nose Disorder,Nose Disorder,Nose Disorder,True,True
+Recurrent salivary stones,Recurrent salivary stones,Recurrent salivary stones,True,True
+Scarlet Fever,Scarlet Fever,Scarlet Fever,True,True
+Hypercholesterolemia,Hypercholesterolemia,Hypercholesterolemia,True,True
+Atrophic vaginitis,Atrophic vaginitis,Atrophic vaginitis,True,True
+Binge Eating Disorder,Binge Eating Disorder,Binge Eating Disorder,True,True
+Hallucinogen Use Disorder,Hallucinogen Use Disorder,Hallucinogen Use Disorder,True,True
+Endometriosis,Endometriosis,Pregnancy-Related Pilonidal Cyst,True,False
+Optic Neuritis,Optic Neuritis,Optic Neuritis,True,True
+Intestinal Malabsorption,Intestinal Malabsorption,Vitamin B12 Deficiency,True,False
+Threatened Pregnancy,Threatened Pregnancy,Threatened Pregnancy,True,True
+Mucocele,Mucocele,Mucocele,True,True
+Normal-Tension Glaucoma,Normal-Tension Glaucoma,Low-Tension Glaucoma,True,False
+Polycystic Kidney Disease,Polycystic Kidney Disease,Polycystic Kidney Disease,True,True
+Drug Abuse (Barbiturates),Drug Abuse (Barbiturates),"Sedative, Drug, or Intoxication",True,False
+Choledocholithiasis,Choledocholithiasis,Cholesteatoma,True,False
+Chronic Glaucoma,Chronic Glaucoma,Acute Glaucoma,True,False
+Chronic Inflammatory Demyelinating Polyneuropathy (CIDP),Chronic Inflammatory Demyelinating Polyneuropathy (CIDP),Cellulitis,True,False
+Temporomandibular Joint Disorder,Temporomandibular Joint Disorder,Temporomandibular Joint Disorder,True,True
+Pemphigus,Pemphigus,Pemphigus,True,True
+Hemophilia,Hemophilia,Hemophilia,True,True
+Fracture of the Arm,Fracture of the Arm,Fracture of the Arm,True,True
+Bell Palsy,Bell Palsy,Cellulitis,True,False
+Peyronie Disease,Peyronie Disease,Penis,True,False
+Pica,Pica,Non-Food Consumption,True,False
+Intestinal Malabsorption,Intestinal Malabsorption,Vitamin B12 Deficiency,True,False
+Orthorexia Nervosa,Orthorexia Nervosa,"Obsessive Focus on ""clean"" eating",True,False
+Ependymoma,Ependymoma,Ependymoma,True,True
+Drug Reaction,Drug Reaction,Rheumatoid Arthritis,True,False
+Dislocation of the Patella,Dislocation of the Patella,Dislocation of the Leg,True,False
+Pneumonia,Pneumonia,Pneumonia,True,True
+Carpal Tunnel Syndrome,Carpal Tunnel Syndrome,Carpal Tunnel Syndrome,True,True
+Labyrinthitis,Labyrinthitis,Labyrinthitis,True,True
+Pterygium,Pterygium,Pterygium,True,True
+Drug Reaction,Drug Reaction,Rheumatoid Arthritis,True,False
+Panic Attack,Panic Attack,Panic Attack,True,True
+Liver Cancer,Liver Cancer,Liver Cancer,True,True
+Eye alignment disorder,Eye alignment disorder,Eye alignment disorder,True,True
+Vocal cord polyp,Vocal cord polyp,Vocal cord polyp,True,True
+Type 1 Diabetes,Type 1 Diabetes,Hypertrophic urination,True,False
+Hypoglycemia,Hypoglycemia,Hypoglycemia,True,True
+Sjögren's syndrome,Sjögren's syndrome,Sjögren's syndrome,True,True
+Astigmatism,Astigmatism,Astigmatism,True,True
+Omphalitis,Omphalitis,Omphalitis,True,True
+Hepatic Encephalopathy,Hepatic Encephalopathy,Hepatic Encephalopathy,True,True
+Stimulant Use Disorder,Stimulant Use Disorder,Stimulant Use Disorder,True,True
+Vesicoureteral Reflux,Vesicoureteral Reflux,Vesicoureteral Reflux,True,True
+Drug Abuse (Cocaine),Drug Abuse (Cocaine),"Euphorie, Energie Deficit Disorder, etc.",True,False
+Acute Pancreatitis,Acute Pancreatitis,Acute Pancreatitis,True,True
+Von Willebrand Disease,Von Willebrand Disease,Von Willebrand Disease,True,True
+Food Allergy,Food Allergy,Rheumatoid Arthritis,True,False
+West Nile Virus,West Nile Virus,Pneumonia,True,False
+Fibromyalgia,Fibromyalgia,Musculoskeletal Pain,True,False
+Pain after an Operation,Pain after an Operation,Pain after an Operation,True,True
+Tietze Syndrome,Tietze Syndrome,Carpal Tunnel Syndrome,True,False
+Psoriasis,Psoriasis,Psoriasis,True,True
+Myasthenia Gravis,Myasthenia Gravis,Myasthenia Gravis,True,True
+Hypospadias,Hypospadias,Hypospadias,True,True
+Dislocation of the Patella,Dislocation of the Patella,Dislocation of the Leg,True,False
+Injury to the Finger,Injury to the Finger,Injury to the Finger,True,True
+Sciatica,Sciatica,Sciatica,True,True
+Esophageal Varices,Esophageal Varices,Esophageal Varices,True,True
+Otitis Media,Otitis Media,Otitis Media,True,True
+Scabies,Scabies,Scabies,True,True
+Abscess of the Lung,Abscess of the Lung,Abscess of the Lung,True,True
+Scabies,Scabies,Scabies,True,True
+Premenstrual Tension Syndrome,Premenstrual Tension Syndrome,Premenstrual Tension Syndrome,True,True
+Hypertrophic Obstructive Cardiomyopathy (HOCM),Hypertrophic Obstructive Cardiomyopathy (HOCM),Hypertrophic Obstructive Cardiomyopathy (HOCM),True,True
+Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,True,True
+Narcolepsy,Narcolepsy,Narcolepsy,True,True
+Achalasia,Achalasia,Achalasia,True,True
+Hypothyroidism,Hypothyroidism,Hypothyroidism,True,True
+Wharton's duct stones,Wharton's duct stones,Wharton's duct stones,True,True
+Acinic cell carcinoma,Acinic cell carcinoma,Musketis,True,False
+Abdominal Hernia,Abdominal Hernia,Abdominal Hernia,True,True
+Hyperemesis Gravidarum,Hyperemesis Gravidarum,Halbblutblut,True,False
+Fracture of the Patella,Fracture of the Patella,Fracture of the Patella,True,True
+Labyrinthitis,Labyrinthitis,Labyrinthitis,True,True
+Chorioretinitis,Chorioretinitis,Chorioretinitis,True,True
+Stimulant Use Disorder,Stimulant Use Disorder,Stimulant Use Disorder,True,True
+Exfoliation Glaucoma,Exfoliation Glaucoma,Exfoliation Glaucoma,True,True
+Diabetic retinopathy,Diabetic retinopathy,Diabetic retinopathy,True,True
+Vitreous Hemorrhage,Vitreous Hemorrhage,Vitreous Hemorrhage,True,True
+Hypocalcemia,Hypocalcemia,Lima,True,False
+Hyperemesis Gravidarum,Hyperemesis Gravidarum,Halbblutblut,True,False
+Pleomorphic adenoma,Pleomorphic adenoma,Warthin tumor,True,False
+Pelvic Organ Prolapse,Pelvic Organ Prolapse,Pregnancy-Related Body,True,False
+West Nile Virus,West Nile Virus,Pneumonia,True,False
+Fracture of the Rib,Fracture of the Rib,Fracture of the Rib,True,True
+Pregnancy-Related Back Pain,Pregnancy-Related Back Pain,Pregnancy-Related Back Pain,True,True
+Vasculitis,Vasculitis,Vasculitis,True,True
+Congenital rubella,Congenital rubella,Congenital rubella,True,True
+Acute Sinusitis,Acute Sinusitis,Acute Sinusitis,True,True
+Chancroid,Chancroid,Chancroid,True,True
+Pemphigus,Pemphigus,Pemphigus,True,True
+Chronic Kidney Disease,Chronic Kidney Disease,Chronic Kidney Disease,True,True
+Meniere Disease,Meniere Disease,Meniere Disease,True,True
+Preeclampsia,Preeclampsia,Preeclampsia,True,True
+Alcohol Intoxication,Alcohol Intoxication,Alcohol Intoxication,True,True
+Asthma,Asthma,Asthma,True,True
+Type 1 Diabetes,Type 1 Diabetes,Hypertrophic urination,True,False
+Spondylitis,Spondylitis,Spondylitis,True,True
+Esophageal Cancer,Esophageal Cancer,Esophageal Cancer,True,True
+Syphilis,Syphilis,Syphilis,True,True
+Protein Deficiency,Protein Deficiency,Protein Deficiency,True,True
+Kidney Failure,Kidney Failure,Kidney Failure,True,True
+Syphilis,Syphilis,Syphilis,True,True
+Kidney Stone,Kidney Stone,Spondylitis,True,False
+Urethral Valves,Urethral Valves,Uterine Reflux,True,False
+Intertrigo,Intertrigo,Infection of the Skin,True,False
+Chronic Fatigue Syndrome,Chronic Fatigue Syndrome,Pregnancy-Related Sleep Disorder,True,False
+Anemia of Chronic Disease,Anemia of Chronic Disease,Anemia of Chronic Disease,True,True
+Viral Warts,Viral Warts,Viral Warts,True,True
+Pleomorphic adenoma,Pleomorphic adenoma,Warthin tumor,True,False
+Encephalitis,Encephalitis,Pneumonia,True,False
+Urethral Valves,Urethral Valves,Uterine Reflux,True,False
+Goiter,Goiter,Goiter,True,True
+Anxiety,Anxiety,Anxiety,True,True
+Choledocholithiasis,Choledocholithiasis,Cholesteatoma,True,False
+Pilonidal Cyst,Pilonidal Cyst,Pilonidal Cyst,True,True
+Bladder Disorder,Bladder Disorder,Bladder Disorder,True,True
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Anemia,Anemia,Anemia,True,True
+Injury to the Leg,Injury to the Leg,Injury to the Leg,True,True
+Pterygium,Pterygium,Pterygium,True,True
+Parathyroid Adenoma,Parathyroid Adenoma,Parathyroid Adenoma,True,True
+Round Ligament Pain,Round Ligament Pain,Infection of the Lower Bauchspea,True,False
+Peyronie Disease,Peyronie Disease,Penis,True,False
+Empyema,Empyema,Pericarditis,True,False
+Hydrocephalus,Hydrocephalus,Hydrocephalus,True,True
+Endometrial Cancer,Endometrial Cancer,Endometrial Cancer,True,True
+Chronic Glaucoma,Chronic Glaucoma,Acute Glaucoma,True,False
+Normal-Tension Glaucoma,Normal-Tension Glaucoma,Low-Tension Glaucoma,True,False
+Peritonsillar Abscess,Peritonsillar Abscess,Peritonsillar Abscess,True,True
+Psoriasis,Psoriasis,Psoriasis,True,True
+Gestational Diabetes,Gestational Diabetes,Gestational Diabetes,True,True
+Pericarditis,Pericarditis,Pericarditis,True,True
+Endometriosis,Endometriosis,Endometriosis,True,True
+Pilonidal Cyst,Pilonidal Cyst,Pilonidal Cyst,True,True
+Stress Incontinence,Stress Incontinence,Stress Incontinence,True,True
+Osteochondrosis,Osteochondrosis,Osteochondrosis,True,True
+Rotator Cuff Injury,Rotator Cuff Injury,Rotator Cuff Injury,True,True
+Optic Neuritis,Optic Neuritis,Optic Neuritis,True,True
+Binge Eating Disorder,Binge Eating Disorder,Binge Eating Disorder,True,True
+Secondary Glaucoma,Secondary Glaucoma,The Cause of the Cause,True,False
+Chronic Knee Pain,Chronic Knee Pain,Chronic Knee Pain,True,True
+Pulmonic Valve Disease,Pulmonic Valve Disease,Pulmonic Valve Disease,True,True
+Scleroderma,Scleroderma,Scleroderma,True,True
+Pinguecula,Pinguecula,Pinguecula,True,True
+Magnesium Deficiency,Magnesium Deficiency,Muscle Thrombocytopenia,True,False
+Vitamin B12 Deficiency,Vitamin B12 Deficiency,Vitamin B12 Deficiency,True,True
+Intracranial Hemorrhage,Intracranial Hemorrhage,Mumps,True,False
+Endophthalmitis,Endophthalmitis,Endophthalmitis,True,True
+Drug Abuse (Cocaine),Drug Abuse (Cocaine),"Euphorie, Energie Deficit Disorder, etc.",True,False
+Opioid Use Disorder,Opioid Use Disorder,Opioid Use Disorder,True,True
+Warthin tumor,Warthin tumor,Warthin tumor,True,True
+Tietze Syndrome,Tietze Syndrome,Carpal Tunnel Syndrome,True,False
+Threatened Pregnancy,Threatened Pregnancy,Threatened Pregnancy,True,True
+Bell Palsy,Bell Palsy,Cellulitis,True,False
+Gestational Hypertension,Gestational Hypertension,Preeclampsia,True,False
+Hypergammaglobulinemia,Hypergammaglobulinemia,Hypergammaglobulinemia,True,True
+Peritonitis,Peritonitis,Spondylitis,True,False
+Chronic Migraine,Chronic Migraine,Chronic Migraine,True,True
+Attention Deficit Hyperactivity Disorder (ADHD),Attention Deficit Hyperactivity Disorder (ADHD),Attention Deficit Hyperactivity Disorder (ADHD),True,True
+Otosclerosis,Otosclerosis,Otosclerosis,True,True
+Dislocation of the Elbow,Dislocation of the Elbow,Dislocation of the Elbow,True,True
+Pregnancy-Induced Hypertension,Pregnancy-Induced Hypertension,Pregnancy-Induced Hypertension,True,True
+Ocular Hypertension,Ocular Hypertension,Ocular Hypertension,True,True
+Gastroparesis,Gastroparesis,Anemia,True,False
+Ethylene glycol poisoning-2,Ethylene glycol poisoning-2,Ethylene glycol poisoning-2,True,True
+Wharton's duct stones,Wharton's duct stones,Wharton's duct stones,True,True
+Antimicrobial Drugs Poisoning,Antimicrobial Drugs Poisoning,Flu from the Acute Disorder,True,False
+Hypoglycemia,Hypoglycemia,Hypoglycemia,True,True
+Orthorexia Nervosa,Orthorexia Nervosa,"Obsessive Focus on ""clean"" eating",True,False
+Lung Contusion,Lung Contusion,Lung Contusion,True,True
+Chalazion,Chalazion,Chalazion,True,True
+Myopia,Myopia,Myopia,True,True
+Magnesium Deficiency,Magnesium Deficiency,Muscle Thrombocytopenia,True,False
+Oral Leukoplakia,Oral Leukoplakia,Oral Leukoplakia,True,True
+Placenta Previa,Placenta Previa,Placenta Previa,True,True
+Nose Disorder,Nose Disorder,Nose Disorder,True,True
+Thrombophlebitis,Thrombophlebitis,Vein Decoloration,True,False
+Abscess of the Lung,Abscess of the Lung,Abscess of the Lung,True,True
+Hypospadias,Hypospadias,Hypospadias,True,True
+Protein Deficiency,Protein Deficiency,Protein Deficiency,True,True
+Astigmatism,Astigmatism,Astigmatism,True,True
+Eye alignment disorder,Eye alignment disorder,Eye alignment disorder,True,True
+Chronic Headache,Chronic Headache,Chronic Headache,True,True
+Rotator Cuff Injury,Rotator Cuff Injury,Rotator Cuff Injury,True,True
+Vesicoureteral Reflux,Vesicoureteral Reflux,Vesicoureteral Reflux,True,True
+Mucocele,Mucocele,Mucocele,True,True
+Lymphoma,Lymphoma,Lymphoma,True,True
+Insulin Overdose,Insulin Overdose,Insulin Overdose,True,True
+Herpangina,Herpangina,Herpangina,True,True
+Poisoning due to Antidepressants,Poisoning due to Antidepressants,Poisoning due to Antidepressants,True,True
+Kidney Failure,Kidney Failure,Kidney Failure,True,True
+Eye alignment disorder,Eye alignment disorder,Eye alignment disorder,True,True
+Pneumonia,Pneumonia,Pneumonia,True,True
+Balanitis,Balanitis,Balanitis,True,True
+Testicular Cancer,Testicular Cancer,Testicular Cancer,True,True
+Leishmaniasis,Leishmaniasis,Pneumonia,True,False
+Pyloric stenosis,Pyloric stenosis,Pyloric stenosis,True,True
+Polycystic Ovarian Syndrome,Polycystic Ovarian Syndrome,Polycystic Ovarian Syndrome,True,True
+Warthin tumor,Warthin tumor,Warthin tumor,True,True
+Attention Deficit Hyperactivity Disorder (ADHD),Attention Deficit Hyperactivity Disorder (ADHD),Attention Deficit Hyperactivity Disorder (ADHD),True,True
+Ectopic Pregnancy,Ectopic Pregnancy,Ectopic Pregnancy,True,True
+Kidney Stone,Kidney Stone,Spondylitis,True,False
+Complex Regional Pain Syndrome (CRPS),Complex Regional Pain Syndrome (CRPS),Haute Temperature Change,True,False
+Spondylosis,Spondylosis,Spondylosis,True,True
+Abscess,Abscess,Abscess,True,True
+Acute Glaucoma,Acute Glaucoma,Acute Glaucoma,True,True
+Fibromyalgia,Fibromyalgia,Musculoskeletal Pain,True,False
+Asthma,Asthma,Asthma,True,True
+Parkinson Disease,Parkinson Disease,Parkinson Disease,True,True
+Mucocele,Mucocele,Mucocele,True,True
+Vaginal Cyst,Vaginal Cyst,Vaginal Cyst,True,True
+Benzodiazepine Use Disorder,Benzodiazepine Use Disorder,Benzodiazepine Use Disorder,True,True
+Parkinson Disease,Parkinson Disease,Parkinson Disease,True,True
+Acute Bronchospasm,Acute Bronchospasm,Emphysema,True,False
+Nonalcoholic Liver Disease (NASH),Nonalcoholic Liver Disease (NASH),Lead Poisoning,True,False
+Chronic Glaucoma,Chronic Glaucoma,Acute Glaucoma,True,False
+Protein Deficiency,Protein Deficiency,Protein Deficiency,True,True
+Benign Kidney Cyst,Benign Kidney Cyst,Benign Kidney Cyst,True,True
+Myofascial Pain Syndrome,Myofascial Pain Syndrome,Acute Muscle Cancer,True,False
+Pulmonic Valve Disease,Pulmonic Valve Disease,Pulmonic Valve Disease,True,True
+Conversion Disorder,Conversion Disorder,Such symptoms,True,False
+Crushing Injury,Crushing Injury,Crushing Injury,True,True
+Low-Tension Glaucoma,Low-Tension Glaucoma,Low-Tension Glaucoma,True,True
+Hyperopia,Hyperopia,Hyperopia,True,True
+Achalasia,Achalasia,Achalasia,True,True
+Myofascial Pain Syndrome,Myofascial Pain Syndrome,Acute Muscle Cancer,True,False
+Myoclonus,Myoclonus,Myoclonus,True,True
+Coagulation (Bleeding) Disorder,Coagulation (Bleeding) Disorder,Coagulation (Bleeding) Disorder,True,True
+Angle-Closure Glaucoma,Angle-Closure Glaucoma,Angle-Closure Glaucoma,True,True
+Injury to the Finger,Injury to the Finger,Injury to the Finger,True,True
+Stroke,Stroke,Stroke,True,True
+Hyperopia,Hyperopia,Hyperopia,True,True
+Hemophilia,Hemophilia,Hemophilia,True,True
+Chronic Inflammatory Demyelinating Polyneuropathy (CIDP),Chronic Inflammatory Demyelinating Polyneuropathy (CIDP),Cellulitis,True,False
+Nonalcoholic Liver Disease (NASH),Nonalcoholic Liver Disease (NASH),Lead Poisoning,True,False
+Esophageal Varices,Esophageal Varices,Esophageal Varices,True,True
+Complex Regional Pain Syndrome,Complex Regional Pain Syndrome,Complex Regional Pain Syndrome,True,True
+Chagas Disease,Chagas Disease,Chagas Disease,True,True
+Mittelschmerz,Mittelschmerz,Mittelschmerz,True,True
+Osteoporosis,Osteoporosis,Osteoporosis,True,True
+Chronic Kidney Disease,Chronic Kidney Disease,Chronic Kidney Disease,True,True
+Hemorrhoids,Hemorrhoids,Hemorrhoids,True,True
+Anemia due to Malignancy,Anemia due to Malignancy,Anemia due to Malignancy,True,True
+Hyperkalemia,Hyperkalemia,Hyperkalemia,True,True
+Stroke,Stroke,Stroke,True,True
+Dengue Fever,Dengue Fever,Dengue Fever,True,True
+Dental Caries,Dental Caries,Dental Caries,True,True
+Injury to the Leg,Injury to the Leg,Injury to the Leg,True,True
+Marijuana Abuse,Marijuana Abuse,Marijuana Abuse,True,True
+Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,True,True
+Ovarian Torsion,Ovarian Torsion,Acute Pancreatitis,True,False
+Emphysema,Emphysema,Emphysema,True,True
+Impulse Control Disorder,Impulse Control Disorder,Impulse Control Disorder,True,True
+Abdominal Injury,Abdominal Injury,Diverticulosis,True,False
+Scabies,Scabies,Scabies,True,True
+Hydrocephalus,Hydrocephalus,Hydrocephalus,True,True
+Tuberous Sclerosis,Tuberous Sclerosis,Tuberous Sclerosis,True,True
+Magnesium Deficiency,Magnesium Deficiency,Muscle Thrombocytopenia,True,False
+Urinary Stones (Kidney Stones),Urinary Stones (Kidney Stones),Urinary Urinary Urinary Urinary Urinary Urinary Ur,True,False
+Psoriasis,Psoriasis,Psoriasis,True,True
+Syringomyelia,Syringomyelia,Syringomyelia,True,True
+Empyema,Empyema,Pericarditis,True,False
+Corneal Abrasion,Corneal Abrasion,Corneal Abrasion,True,True
+Antihypertensives Poisoning,Antihypertensives Poisoning,Hypoglycemia,True,False
+Congenital rubella,Congenital rubella,Congenital rubella,True,True
+Induced Abortion,Induced Abortion,Induced Abortion,True,True
+Bladder Disorder,Bladder Disorder,Bladder Disorder,True,True
+Hashimoto Thyroiditis,Hashimoto Thyroiditis,Hashimoto Thyroiditis,True,True
+Pemphigus,Pemphigus,Pemphigus,True,True
+Restless Leg Syndrome,Restless Leg Syndrome,Restless Leg Syndrome,True,True
+Balanitis,Balanitis,Balanitis,True,True
+Hepatitis due to a Toxin,Hepatitis due to a Toxin,Poisoning due to Antidepressants,True,False
+Sciatica,Sciatica,Sciatica,True,True
+Hypercalcemia,Hypercalcemia,Hypercalcemia,True,True
+Scurvy,Scurvy,Scurvy,True,True
+Adrenal Cancer,Adrenal Cancer,Acute Spine Disease,True,False
+Orbital Cellulitis,Orbital Cellulitis,Orbital Cellulitis,True,True
+Hemophilia,Hemophilia,Hemophilia,True,True
+Rotator Cuff Injury,Rotator Cuff Injury,Rotator Cuff Injury,True,True
+Pituitary Adenoma,Pituitary Adenoma,Pituitary Adenoma,True,True
+Mononucleosis,Mononucleosis,Mononucleosis,True,True
+Anemia due to Chronic Kidney Disease,Anemia due to Chronic Kidney Disease,Anemia due to Chronic Kidney Disease,True,True
+Omphalitis,Omphalitis,Omphalitis,True,True
+Bone Cancer,Bone Cancer,Osteoarthritis,True,False
+Viral Warts,Viral Warts,Viral Warts,True,True
+Hypoglycemia,Hypoglycemia,Hypoglycemia,True,True
+Hyperkalemia,Hyperkalemia,Hyperkalemia,True,True
+Chronic Migraine,Chronic Migraine,Chronic Migraine,True,True
+Chronic Migraine,Chronic Migraine,Chronic Migraine,True,True
+Pituitary Adenoma,Pituitary Adenoma,Pituitary Adenoma,True,True
+Cellulitis,Cellulitis,Cellulitis,True,True
+Myoclonus,Myoclonus,Myoclonus,True,True
+Induced Abortion,Induced Abortion,Induced Abortion,True,True
+Complex Regional Pain Syndrome (CRPS),Complex Regional Pain Syndrome (CRPS),Complex Regional Pain Syndrome (CRPS),True,True
+Fetal Alcohol Syndrome,Fetal Alcohol Syndrome,Fetal Alcohol Syndrome,True,True
+Hiatal Hernia,Hiatal Hernia,Anemia,True,False
+Priapism,Priapism,Priapism,True,True
+Pulmonary Congestion,Pulmonary Congestion,Pulmonary Congestion,True,True
+Influenza (Flu),Influenza (Flu),Influenza (Flu),True,True
+Type 1 Diabetes,Type 1 Diabetes,Hypertrophic urination,True,False
+Pituitary Disorder,Pituitary Disorder,Acute Cancer,True,False
+Stress Incontinence,Stress Incontinence,Stress Incontinence,True,True
+Atrophic vaginitis,Atrophic vaginitis,Atrophic vaginitis,True,True
+Osteoarthritis,Osteoarthritis,Osteoarthritis,True,True
+Turner syndrome,Turner syndrome,Gonadal Dystrophy,True,False
+Fibromyalgia,Fibromyalgia,Musculoskeletal Pain,True,False
+Carbon Monoxide Poisoning,Carbon Monoxide Poisoning,Polycythemia Vera,True,False
+Chronic Rheumatic Fever,Chronic Rheumatic Fever,Pneumonia,True,False
+Neuralgia,Neuralgia,Neuralgia,True,True
+Insulin Overdose,Insulin Overdose,Insulin Overdose,True,True
+Acute Pancreatitis,Acute Pancreatitis,Acute Pancreatitis,True,True
+Chronic Rheumatic Fever,Chronic Rheumatic Fever,Pneumonia,True,False
+Tuberous Sclerosis,Tuberous Sclerosis,Tuberous Sclerosis,True,True
+Insulin Overdose,Insulin Overdose,Insulin Overdose,True,True
+Lead Poisoning,Lead Poisoning,Lead Poisoning,True,True
+Gestational Cholestasis,Gestational Cholestasis,Gestational Cholestasis,True,True
+Benzodiazepine Use Disorder,Benzodiazepine Use Disorder,Benzodiazepine Use Disorder,True,True
+Otitis Media,Otitis Media,Otitis Media,True,True
+Bladder Cancer,Bladder Cancer,Urinary Kidney Cyst,True,False
+Abscess of Nose,Abscess of Nose,Abscess of Nose,True,True
+Fracture of the Arm,Fracture of the Arm,Fracture of the Arm,True,True
+Panic disorder,Panic disorder,Hypoglycemia,True,False
+Tietze Syndrome,Tietze Syndrome,Carpal Tunnel Syndrome,True,False
+Autism,Autism,Autism,True,True
+Acute Sinusitis,Acute Sinusitis,Acute Sinusitis,True,True
+Myelodysplastic Syndrome,Myelodysplastic Syndrome,Myelodysplastic Syndrome,True,True
+Osteochondrosis,Osteochondrosis,Osteochondrosis,True,True
+Leukemia,Leukemia,Hemorrhage,True,False
+Thoracic Aortic Aneurysm,Thoracic Aortic Aneurysm,Thoracic Aortic Aneurysm,True,True
+Hirschsprung Disease,Hirschsprung Disease,Congenital constipation,True,False
+Neuropathic Pain,Neuropathic Pain,Incontinence,True,False
+Pericarditis,Pericarditis,Pericarditis,True,True
+Gonorrhea,Gonorrhea,Gonorrhea,True,True
+Eczema,Eczema,"Itchy, Red, Incontinenced Skin",True,False
+Pulmonary Congestion,Pulmonary Congestion,Pulmonary Congestion,True,True
+Fat Embolism,Fat Embolism,Fat Embolism,True,True
+Orthorexia Nervosa,Orthorexia Nervosa,"Obsessive Focus on ""clean"" eating",True,False
+Dermatitis due to Sun Exposure,Dermatitis due to Sun Exposure,Dermatitis due to Sun Exposure,True,True
+Urge Incontinence,Urge Incontinence,Urge Incontinence,True,True
+Cyst of the Eyelid,Cyst of the Eyelid,Cyst of the Eyelid,True,True
+Idiopathic Absence of Menstruation,Idiopathic Absence of Menstruation,Idiopathic Absence of Menstruation,True,True
+Urinary Stones (Kidney Stones),Urinary Stones (Kidney Stones),Urinary Urinary Urinary Urinary Urinary Urinary Ur,True,False
+Priapism,Priapism,Priapism,True,True
+Meniere Disease,Meniere Disease,Meniere Disease,True,True
+Huntington Disease,Huntington Disease,Huntington Disease,True,True
+Injury to the Finger,Injury to the Finger,Injury to the Finger,True,True
+Corneal Abrasion,Corneal Abrasion,Corneal Abrasion,True,True
+Carbon Monoxide Poisoning,Carbon Monoxide Poisoning,Polycythemia Vera,True,False
+Kidney Stone,Kidney Stone,Spondylitis,True,False
+Avoidant/Restrictive Food Intake Disorder (ARFID),Avoidant/Restrictive Food Intake Disorder (ARFID),Avoidant/Restrictive Food Intake Disorder (ARFID),True,True
+Parotid stones,Parotid stones,Wharton's duct stones,True,False
+Bronchitis,Bronchitis,Bronchitis,True,True
+Fracture of the Rib,Fracture of the Rib,Fracture of the Rib,True,True
+Hypertrophic Obstructive Cardiomyopathy (HOCM),Hypertrophic Obstructive Cardiomyopathy (HOCM),Hypertrophic Obstructive Cardiomyopathy (HOCM),True,True
+Seborrheic Dermatitis,Seborrheic Dermatitis,Seborrheic Dermatitis,True,True
+Round Ligament Pain,Round Ligament Pain,Infection of the Lower Bauchspea,True,False
+Head and Neck Cancer,Head and Neck Cancer,Head and Neck Cancer,True,True
+Myofascial Pain Syndrome,Myofascial Pain Syndrome,Acute Muscle Cancer,True,False
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Stenosis of the Tear Duct,Stenosis of the Tear Duct,Stenosis of the Tear Duct,True,True
+Anemia due to Malignancy,Anemia due to Malignancy,Anemia due to Malignancy,True,True
+Atrial Fibrillation,Atrial Fibrillation,Hypertrophic Heartbeat,True,False
+Panic disorder,Panic disorder,Hypoglycemia,True,False
+Binge Eating Disorder,Binge Eating Disorder,Binge Eating Disorder,True,True
+Stenosis of the Tear Duct,Stenosis of the Tear Duct,Stenosis of the Tear Duct,True,True
+Conjunctivitis due to Allergy,Conjunctivitis due to Allergy,Conjunctivitis due to Allergy,True,True
+Fungal Infection of the Skin,Fungal Infection of the Skin,Pneumonia,True,False
+Actinic Keratosis,Actinic Keratosis,Actinic Keratosis,True,True
+Choledocholithiasis,Choledocholithiasis,Cholesteatoma,True,False
+Cholesteatoma,Cholesteatoma,Otosclerosis,True,False
+Complex Regional Pain Syndrome (CRPS),Complex Regional Pain Syndrome (CRPS),Haute Temperature Change,True,False
+Dislocation of the Ankle,Dislocation of the Ankle,Dislocation of the Ankle,True,True
+Rheumatoid Arthritis,Rheumatoid Arthritis,Rheumatoid Arthritis,True,True
+Fibromyalgia,Fibromyalgia,Musculoskeletal Pain,True,False
+Panic disorder,Panic disorder,Hypoglycemia,True,False
+Fracture,Fracture,Injury to the Leg,True,False
+Bone Spur of the Calcaneus,Bone Spur of the Calcaneus,Bone Spur of the Calcaneus,True,True
+Otosclerosis,Otosclerosis,Otosclerosis,True,True
+Acute Pancreatitis,Acute Pancreatitis,Acute Pancreatitis,True,True
+Hiatal Hernia,Hiatal Hernia,Anemia,True,False
+Sjögren's syndrome,Sjögren's syndrome,Sjögren's syndrome,True,True
+Glucocorticoid Deficiency,Glucocorticoid Deficiency,Anemia,True,False
+Abdominal Injury,Abdominal Injury,Diverticulosis,True,False
+West Nile Virus,West Nile Virus,Pneumonia,True,False
+Osteoporosis,Osteoporosis,Osteoporosis,True,True
+Ethylene glycol poisoning-3,Ethylene glycol poisoning-3,Ethylene glycol poisoning-3,True,True
+Chronic Kidney Disease,Chronic Kidney Disease,Chronic Kidney Disease,True,True
+Hypercholesterolemia,Hypercholesterolemia,Hypercholesterolemia,True,True
+Rabies,Rabies,Rabies,True,True
+Bladder Disorder,Bladder Disorder,Bladder Disorder,True,True
+Testicular Cancer,Testicular Cancer,Testicular Cancer,True,True
+Acute Kidney Injury,Acute Kidney Injury,Acute Kidney Injury,True,True
+Intertrigo,Intertrigo,Infection of the Skin,True,False
+Headache after lumbar puncture,Headache after lumbar puncture,Headache after lumbar puncture,True,True
+Pharyngitis,Pharyngitis,Mononucleosis,True,False
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Round Ligament Pain,Round Ligament Pain,Infection of the Lower Bauchspea,True,False
+Low-Tension Glaucoma,Low-Tension Glaucoma,Low-Tension Glaucoma,True,True
+Eczema,Eczema,"Itchy, Red, Incontinenced Skin",True,False
+Anemia due to Chronic Kidney Disease,Anemia due to Chronic Kidney Disease,Anemia due to Chronic Kidney Disease,True,True
+Intracranial Abscess,Intracranial Abscess,Pneumonia,True,False
+Pterygium,Pterygium,Pterygium,True,True
+Conjunctivitis due to Allergy,Conjunctivitis due to Allergy,Conjunctivitis due to Allergy,True,True
+Pain after an Operation,Pain after an Operation,Pain after an Operation,True,True
+Esophageal Cancer,Esophageal Cancer,Esophageal Cancer,True,True
+Binge Eating Disorder,Binge Eating Disorder,Binge Eating Disorder,True,True
+Fibromyalgia,Fibromyalgia,Musculoskeletal Pain,True,False
+Temporomandibular Joint Disorder,Temporomandibular Joint Disorder,Temporomandibular Joint Disorder,True,True
+Pain after an Operation,Pain after an Operation,Pain after an Operation,True,True
+Pinguecula,Pinguecula,Pinguecula,True,True
+Fracture of the Rib,Fracture of the Rib,Fracture of the Rib,True,True
+Type 1 Diabetes,Type 1 Diabetes,Hypertrophic urination,True,False
+Juvenile Rheumatoid Arthritis,Juvenile Rheumatoid Arthritis,Rheumatoid Arthritis,True,False
+Chronic Glaucoma,Chronic Glaucoma,Acute Glaucoma,True,False
+Marijuana Abuse,Marijuana Abuse,Marijuana Abuse,True,True
+Lymphedema,Lymphedema,Lymphedema,True,True
+Hypergammaglobulinemia,Hypergammaglobulinemia,Hypergammaglobulinemia,True,True
+Pregnancy-Induced Hypertension,Pregnancy-Induced Hypertension,Pregnancy-Induced Hypertension,True,True
+Hepatitis due to a Toxin,Hepatitis due to a Toxin,Poisoning due to Antidepressants,True,False
+Cystic Fibrosis,Cystic Fibrosis,Cystic Fibrosis,True,True
+Pulmonary Eosinophilia,Pulmonary Eosinophilia,Pulmonary Eosinophilia,True,True
+Chronic Knee Pain,Chronic Knee Pain,Chronic Knee Pain,True,True
+Indigestion,Indigestion,Acute Pancreatitis,True,False
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Panic Attack,Panic Attack,Panic Attack,True,True
+Ludwig's angina,Ludwig's angina,Spondylosis,True,False
+Poisoning due to Analgesics,Poisoning due to Analgesics,Fluorideal Infection (GERD),True,False
+Cirrhosis,Cirrhosis,Cirrhosis,True,True
+Bone Spur of the Calcaneus,Bone Spur of the Calcaneus,Bone Spur of the Calcaneus,True,True
+Neuropathic Pain,Neuropathic Pain,Incontinence,True,False
+Cirrhosis,Cirrhosis,Cirrhosis,True,True
+Rumination Disorder,Rumination Disorder,Re-electronics of the Food Act,True,False
+Corneal Abrasion,Corneal Abrasion,Corneal Abrasion,True,True
+Asthma,Asthma,Asthma,True,True
+Anemia due to Malignancy,Anemia due to Malignancy,Anemia due to Malignancy,True,True
+Heart Block,Heart Block,Hypertrophic Heart Disease,True,False
+Sedatives Poisoning,Sedatives Poisoning,Sedatives Poisoning,True,True
+Goiter,Goiter,Goiter,True,True
+Hirsutism,Hirsutism,Hirsutism,True,True
+Otosclerosis,Otosclerosis,Otosclerosis,True,True
+Exfoliation Glaucoma,Exfoliation Glaucoma,Exfoliation Glaucoma,True,True
+Narcolepsy,Narcolepsy,Narcolepsy,True,True
+Low-Tension Glaucoma,Low-Tension Glaucoma,Low-Tension Glaucoma,True,True
+Osteoporosis,Osteoporosis,Osteoporosis,True,True
+Retinal Detachment,Retinal Detachment,Retinal Detachment,True,True
+Hepatitis due to a Toxin,Hepatitis due to a Toxin,Poisoning due to Antidepressants,True,False
+Von Willebrand Disease,Von Willebrand Disease,Von Willebrand Disease,True,True
+Rheumatoid Arthritis,Rheumatoid Arthritis,Rheumatoid Arthritis,True,True
+Sialolithiasis,Sialolithiasis,Sialolithiasis,True,True
+Marijuana Abuse,Marijuana Abuse,Marijuana Abuse,True,True
+Subdural hemorrhage,Subdural hemorrhage,Pericarditis,True,False
+Diabetic retinopathy,Diabetic retinopathy,Diabetic retinopathy,True,True
+Pulmonary Congestion,Pulmonary Congestion,Pulmonary Congestion,True,True
+Spondylosis,Spondylosis,Spondylosis,True,True
+Cryptococcosis,Cryptococcosis,Cryptococcosis,True,True
+Conversion Disorder,Conversion Disorder,Such symptoms,True,False
+Open Wound from Surgical Incision,Open Wound from Surgical Incision,Open Wound from Surgical Incision,True,True
+Abscess,Abscess,Abscess,True,True
+Fracture of the Patella,Fracture of the Patella,Fracture of the Patella,True,True
+Stroke,Stroke,Stroke,True,True
+Angle-Closure Glaucoma,Angle-Closure Glaucoma,Angle-Closure Glaucoma,True,True
+Endometrial Cancer,Endometrial Cancer,Endometrial Cancer,True,True
+Gestational Hypertension,Gestational Hypertension,Preeclampsia,True,False
+Cryptorchidism,Cryptorchidism,Cryptorchidism,True,True
+Hallucinogen Use Disorder,Hallucinogen Use Disorder,Hallucinogen Use Disorder,True,True
+Attention Deficit Hyperactivity Disorder (ADHD),Attention Deficit Hyperactivity Disorder (ADHD),Attention Deficit Hyperactivity Disorder (ADHD),True,True
+Hypertensive Heart Disease,Hypertensive Heart Disease,Hypertensive Heart Disease,True,True
+Ocular Hypertension,Ocular Hypertension,Ocular Hypertension,True,True
+Asthma,Asthma,Asthma,True,True
+Rumination Disorder,Rumination Disorder,Re-electronics of the Food Act,True,False
+Oral Leukoplakia,Oral Leukoplakia,Oral Leukoplakia,True,True
+Mastoiditis,Mastoiditis,Mastoiditis,True,True
+Migraine,Migraine,Migraine,True,True
+Hyperemesis Gravidarum,Hyperemesis Gravidarum,Halbblutblut,True,False
+Poisoning due to Antidepressants,Poisoning due to Antidepressants,Poisoning due to Antidepressants,True,True
+Hyperhidrosis,Hyperhidrosis,"Outside of the temperature regulation, excessive sweating",True,False
+Secondary Glaucoma,Secondary Glaucoma,The Cause of the Cause,True,False
+Ethylene glycol poisoning-3,Ethylene glycol poisoning-3,Ethylene glycol poisoning-3,True,True
+Lupus,Lupus,Lupus,True,True
+Normal-Tension Glaucoma,Normal-Tension Glaucoma,Low-Tension Glaucoma,True,False
+Submandibular stones,Submandibular stones,Wharton's duct stones,True,False
+Pinguecula,Pinguecula,Pinguecula,True,True
+Meniere Disease,Meniere Disease,Meniere Disease,True,True
+Mastoiditis,Mastoiditis,Mastoiditis,True,True
+Hypospadias,Hypospadias,Hypospadias,True,True
+Aplastic Anemia,Aplastic Anemia,Aplastic Anemia,True,True
+Pinworm Infection,Pinworm Infection,Pinworm Infection,True,True
+Sciatica,Sciatica,Sciatica,True,True
+Cat Scratch Disease,Cat Scratch Disease,Cat Scratch Disease,True,True
+Lead Poisoning,Lead Poisoning,Lead Poisoning,True,True
+Psoriasis,Psoriasis,Psoriasis,True,True
+Uterine Fibroids,Uterine Fibroids,Uterine Fibroids,True,True
+Fetal Alcohol Syndrome,Fetal Alcohol Syndrome,Fetal Alcohol Syndrome,True,True
+Cornea Infection,Cornea Infection,Cornea Infection,True,True
+Edward Syndrome,Edward Syndrome,Edward Syndrome,True,True
+Fracture of the Neck,Fracture of the Neck,Spondylitis,True,False
+Tension Headache,Tension Headache,Spondylitis,True,False
+Pericarditis,Pericarditis,Pericarditis,True,True
+Abscess of Nose,Abscess of Nose,Abscess of Nose,True,True
+Gastrointestinal Hemorrhage,Gastrointestinal Hemorrhage,Esophageal Cancer,True,False
+Vasculitis,Vasculitis,Vasculitis,True,True
+Vitreous Hemorrhage,Vitreous Hemorrhage,Vitreous Hemorrhage,True,True
+Induced Abortion,Induced Abortion,Induced Abortion,True,True
+Anemia due to Chronic Kidney Disease,Anemia due to Chronic Kidney Disease,Anemia due to Chronic Kidney Disease,True,True
+Gum Disease,Gum Disease,Scurvy,True,False
+Binge Eating Disorder,Binge Eating Disorder,Binge Eating Disorder,True,True
+Flat Feet,Flat Feet,Foot and Foot Pain,True,False
+Dislocation of the Patella,Dislocation of the Patella,Dislocation of the Leg,True,False
+Otosclerosis,Otosclerosis,Otosclerosis,True,True
+Viral Warts,Viral Warts,Viral Warts,True,True
+Abdominal Injury,Abdominal Injury,Diverticulosis,True,False
+Parasitic Infections,Parasitic Infections,Parasitic Infections,True,True
+Cholesteatoma,Cholesteatoma,Otosclerosis,True,False
+Astigmatism,Astigmatism,Astigmatism,True,True
+Ependymoma,Ependymoma,Ependymoma,True,True
+Anemia due to Malignancy,Anemia due to Malignancy,Anemia due to Malignancy,True,True
+Wilson Disease,Wilson Disease,Wilson Disease,True,True
+Obesity,Obesity,Obesity,True,True
+Vitreous Hemorrhage,Vitreous Hemorrhage,Vitreous Hemorrhage,True,True
+Angle-Closure Glaucoma,Angle-Closure Glaucoma,Angle-Closure Glaucoma,True,True
+Hemolytic Anemia,Hemolytic Anemia,Anemia due to Malignancy,True,False
+Peritonsillar Abscess,Peritonsillar Abscess,Peritonsillar Abscess,True,True
+Dislocation of the Patella,Dislocation of the Patella,Dislocation of the Leg,True,False
+Indigestion,Indigestion,Acute Pancreatitis,True,False
+Gastroparesis,Gastroparesis,Anemia,True,False
+Exfoliation Glaucoma,Exfoliation Glaucoma,Exfoliation Glaucoma,True,True
+Transient ischemic attack,Transient ischemic attack,Transient ischemic attack,True,True
+Abdominal Injury,Abdominal Injury,Diverticulosis,True,False
+Pituitary Disorder,Pituitary Disorder,Acute Cancer,True,False
+Ludwig's angina,Ludwig's angina,Spondylosis,True,False
+Bone Spur of the Calcaneus,Bone Spur of the Calcaneus,Bone Spur of the Calcaneus,True,True
+Myasthenia Gravis,Myasthenia Gravis,Myasthenia Gravis,True,True
+Extrapyramidal Effect of Drugs,Extrapyramidal Effect of Drugs,Extrapyramidal Effect of Drugs,True,True
+Liver Cancer,Liver Cancer,Liver Cancer,True,True
+Bell Palsy,Bell Palsy,Cellulitis,True,False
+Asthma,Asthma,Asthma,True,True
+Peritonitis,Peritonitis,Spondylitis,True,False
+Mitral Valve Disease,Mitral Valve Disease,Mitral Valve Disease,True,True
+Pigmentary Glaucoma,Pigmentary Glaucoma,Pigmentary Glaucoma,True,True
+Neonatal Jaundice,Neonatal Jaundice,Psoriasis,True,False
+Submandibular stones,Submandibular stones,Wharton's duct stones,True,False
+Other Specified Feeding or Eating Disorder (OSFED),Other Specified Feeding or Eating Disorder (OSFED),Other Eating Disorder (OSFED),True,False
+Chronic Inflammatory Demyelinating Polyneuropathy (CIDP),Chronic Inflammatory Demyelinating Polyneuropathy (CIDP),Cellulitis,True,False
+Neuropathic Pain,Neuropathic Pain,Incontinence,True,False
+Parotid stones,Parotid stones,Wharton's duct stones,True,False
+Mucoepidermoid carcinoma,Mucoepidermoid carcinoma,Mucoepidermoid carcinoma,True,True
+Otitis Media,Otitis Media,Otitis Media,True,True
+Idiopathic Nonmenstrual Bleeding,Idiopathic Nonmenstrual Bleeding,Idiopathic Nonmenstrual Bleeding,True,True
+Bipolar Disorder,Bipolar Disorder,Bipolar Disorder,True,True
+Scurvy,Scurvy,Scurvy,True,True
+Emphysema,Emphysema,Emphysema,True,True
+Chronic Fatigue Syndrome,Chronic Fatigue Syndrome,Pregnancy-Related Sleep Disorder,True,False
+Parotid stones,Parotid stones,Wharton's duct stones,True,False
+Polycythemia Vera,Polycythemia Vera,Polycythemia Vera,True,True
+Mucocele,Mucocele,Mucocele,True,True
+Fibromyalgia,Fibromyalgia,Musculoskeletal Pain,True,False
+Labyrinthitis,Labyrinthitis,Labyrinthitis,True,True
+Gastroparesis,Gastroparesis,Anemia,True,False
+Open-Angle Glaucoma,Open-Angle Glaucoma,Open-Angle Glaucoma,True,True
+Conductive Hearing Loss,Conductive Hearing Loss,Conductive Hearing Loss,True,True
+Rheumatoid Arthritis,Rheumatoid Arthritis,Rheumatoid Arthritis,True,True
+Myofascial Pain Syndrome,Myofascial Pain Syndrome,Acute Muscle Cancer,True,False
+Insect Bites,Insect Bites,Insect Bites,True,True
+Alcohol Intoxication,Alcohol Intoxication,Alcohol Intoxication,True,True
+Oral Leukoplakia,Oral Leukoplakia,Oral Leukoplakia,True,True
+Breast Cancer,Breast Cancer,Breast Cancer,True,True
+Foreign Body in the Throat,Foreign Body in the Throat,Foreign Body in the Throat,True,True
+Hypercalcemia,Hypercalcemia,Hypercalcemia,True,True
+Lymphoma,Lymphoma,Lymphoma,True,True
+Ectopic Pregnancy,Ectopic Pregnancy,Ectopic Pregnancy,True,True
+Pseudohypoparathyroidism,Pseudohypoparathyroidism,Pseudohypoparathyroidism,True,True
+Premenstrual Tension Syndrome,Premenstrual Tension Syndrome,Premenstrual Tension Syndrome,True,True
+Ethylene glycol poisoning-1,Ethylene glycol poisoning-1,Ethylene glycol poisoning-1,True,True
+Turner syndrome,Turner syndrome,Gonadal Dystrophy,True,False
+Syringomyelia,Syringomyelia,Syringomyelia,True,True
+Obesity,Obesity,Obesity,True,True
+Ethylene glycol poisoning-2,Ethylene glycol poisoning-2,Ethylene glycol poisoning-2,True,True
+Acute Sinusitis,Acute Sinusitis,Acute Sinusitis,True,True
+Intestinal Malabsorption,Intestinal Malabsorption,Vitamin B12 Deficiency,True,False
+Stroke,Stroke,Stroke,True,True
+Drug Abuse (Methamphetamine),Drug Abuse (Methamphetamine),Acute Heart Disease,True,False
+Parotid stones,Parotid stones,Wharton's duct stones,True,False
+Induced Abortion,Induced Abortion,Induced Abortion,True,True
+Fat Embolism,Fat Embolism,Fat Embolism,True,True
+Attention Deficit Hyperactivity Disorder (ADHD),Attention Deficit Hyperactivity Disorder (ADHD),Attention Deficit Hyperactivity Disorder (ADHD),True,True
+Cat Scratch Disease,Cat Scratch Disease,Cat Scratch Disease,True,True
+Avoidant/Restrictive Food Intake Disorder (ARFID),Avoidant/Restrictive Food Intake Disorder (ARFID),Avoidant/Restrictive Food Intake Disorder (ARFID),True,True
+Pyloric stenosis,Pyloric stenosis,Pyloric stenosis,True,True
+Thrombophlebitis,Thrombophlebitis,Vein Decoloration,True,False
+Hypothyroidism,Hypothyroidism,Hypothyroidism,True,True
+Hypocalcemia,Hypocalcemia,Lima,True,False
+Drug Abuse (Barbiturates),Drug Abuse (Barbiturates),"Sedative, Drug, or Intoxication",True,False
+Neuralgia,Neuralgia,Neuralgia,True,True
+Liver Cancer,Liver Cancer,Liver Cancer,True,True
+Leukemia,Leukemia,Hemorrhage,True,False
+Secondary Glaucoma,Secondary Glaucoma,The Cause of the Cause,True,False
+Neuromyelitis Optica,Neuromyelitis Optica,Neuromyelitis optica,True,True
+Gout,Gout,Gout,True,True
+Hydronephrosis,Hydronephrosis,Torticollis,True,False
+Rabies,Rabies,Rabies,True,True
+Bronchitis,Bronchitis,Bronchitis,True,True
+Antihypertensives Poisoning,Antihypertensives Poisoning,Hypoglycemia,True,False
+Poisoning due to Analgesics,Poisoning due to Analgesics,Fluorideal Infection (GERD),True,False
+Edward Syndrome,Edward Syndrome,Edward Syndrome,True,True
+Alopecia,Alopecia,Alopecia,True,True
+Fetal Alcohol Syndrome,Fetal Alcohol Syndrome,Fetal Alcohol Syndrome,True,True
+Hallucinogen Use Disorder,Hallucinogen Use Disorder,Hallucinogen Use Disorder,True,True
+Urticaria (Hives),Urticaria (Hives),Urticaria (Hives),True,True
+Pemphigus,Pemphigus,Pemphigus,True,True
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Rabies,Rabies,Rabies,True,True
+Atrophic vaginitis,Atrophic vaginitis,Atrophic vaginitis,True,True
+Open Wound from Surgical Incision,Open Wound from Surgical Incision,Open Wound from Surgical Incision,True,True
+Omphalitis,Omphalitis,Omphalitis,True,True
+Bronchitis,Bronchitis,Bronchitis,True,True
+Polycystic Kidney Disease,Polycystic Kidney Disease,Polycystic Kidney Disease,True,True
+Osteoarthritis,Arthritis,Osteoarthritis,False,True
+Mittelschmerz,Mittelschmerz,Mittelschmerz,True,True
+Thrombophlebitis,Thrombophlebitis,Vein Decoloration,True,False
+Osteoporosis,Osteoporosis,Osteoporosis,True,True
+Vitamin A Deficiency,Vitamin A Deficiency,Vitamin A Deficiency,True,True
+Hepatitis due to a Toxin,Hepatitis due to a Toxin,Poisoning due to Antidepressants,True,False
+Cold Sore,Cold Sore,Cold Sore,True,True
+Anemia of Chronic Disease,Anemia of Chronic Disease,Anemia of Chronic Disease,True,True
+Achalasia,Achalasia,Achalasia,True,True
+Rheumatoid Arthritis,Rheumatoid Arthritis,Rheumatoid Arthritis,True,True
+Stress Incontinence,Stress Incontinence,Stress Incontinence,True,True
+Parotid stones,Parotid stones,Wharton's duct stones,True,False
+Scleritis,Scleritis,Scleritis,True,True
+Gum Disease,Gum Disease,Scurvy,True,False
+Muscle Spasm,Muscle Spasm,Muscle Spasm,True,True
+Anemia of Chronic Disease,Anemia of Chronic Disease,Anemia of Chronic Disease,True,True
+Anal Fissure,Anal Fissure,Anal Fissure,True,True
+Coronary Atherosclerosis,Coronary Atherosclerosis,Hypertrophic Heart Failure,True,False
+Macular Degeneration,Macular Degeneration,Blindness,True,False
+Sciatica,Sciatica,Sciatica,True,True
+Rheumatoid Arthritis,Rheumatoid Arthritis,Rheumatoid Arthritis,True,True
+Conjunctivitis due to Allergy,Conjunctivitis due to Allergy,Conjunctivitis due to Allergy,True,True
+Chronic Kidney Disease,Chronic Kidney Disease,Chronic Kidney Disease,True,True
+Tuberous Sclerosis,Tuberous Sclerosis,Tuberous Sclerosis,True,True
+Sedatives Poisoning,Sedatives Poisoning,Sedatives Poisoning,True,True
+Fungal Infection of the Skin,Fungal Infection of the Skin,Pneumonia,True,False
+Dry Skin,Dry Skin,Dry Skin,True,True
+Normal Pressure Hydrocephalus,Normal Pressure Hydrocephalus,Normal Pressure Hydrocephalus,True,True
+Astigmatism,Astigmatism,Astigmatism,True,True
+Meniere Disease,Meniere Disease,Meniere Disease,True,True
+Lung Contusion,Lung Contusion,Lung Contusion,True,True
+Tuberous Sclerosis,Tuberous Sclerosis,Tuberous Sclerosis,True,True
+Vitamin A Deficiency,Vitamin A Deficiency,Vitamin A Deficiency,True,True
+Osteoarthritis,Osteoarthritis,Osteoarthritis,True,True
+Gout,Gout,Gout,True,True
+Leukemia,Leukemia,Hemorrhage,True,False
+Round Ligament Pain,Round Ligament Pain,Infection of the Lower Bauchspea,True,False
+Huntington Disease,Huntington Disease,Huntington Disease,True,True
+Hemorrhoids,Hemorrhoids,Hemorrhoids,True,True
+Chronic Inflammatory Demyelinating Polyneuropathy (CIDP),Chronic Inflammatory Demyelinating Polyneuropathy (CIDP),Cellulitis,True,False
+Amyloidosis,Amyloidosis,Amyloidosis,True,True
+Volvulus,Volvulus,Volvulus,True,True
+Type 1 Diabetes,Type 1 Diabetes,Hypertrophic urination,True,False
+Urticaria (Hives),Urticaria (Hives),Urticaria (Hives),True,True
+Hypocalcemia,Hypocalcemia,Lima,True,False
+Pseudohypoparathyroidism,Pseudohypoparathyroidism,Pseudohypoparathyroidism,True,True
+Dislocation of the Ankle,Dislocation of the Ankle,Dislocation of the Ankle,True,True
+Open-Angle Glaucoma,Open-Angle Glaucoma,Open-Angle Glaucoma,True,True
+Scleroderma,Scleroderma,Scleroderma,True,True
+Rotator Cuff Injury,Rotator Cuff Injury,Rotator Cuff Injury,True,True
+Hypertensive Heart Disease,Hypertensive Heart Disease,Hypertensive Heart Disease,True,True
+Chronic Kidney Disease,Chronic Kidney Disease,Chronic Kidney Disease,True,True
+Benign Kidney Cyst,Benign Kidney Cyst,Benign Kidney Cyst,True,True
+Pain after an Operation,Pain after an Operation,Pain after an Operation,True,True
+Leishmaniasis,Leishmaniasis,Pneumonia,True,False
+Sjögren's syndrome,Sjögren's syndrome,Sjögren's syndrome,True,True
+Adenoid cystic carcinoma,Adenoid cystic carcinoma,Musketis,True,False
+Achalasia,Achalasia,Achalasia,True,True
+Nonalcoholic Liver Disease (NASH),Nonalcoholic Liver Disease (NASH),Lead Poisoning,True,False
+Complex Regional Pain Syndrome,Complex Regional Pain Syndrome,Complex Regional Pain Syndrome,True,True
+Alcohol Intoxication,Alcohol Intoxication,Alcohol Intoxication,True,True
+Lupus,Lupus,Lupus,True,True
+Edward Syndrome,Edward Syndrome,Edward Syndrome,True,True
+Nonalcoholic Liver Disease (NASH),Nonalcoholic Liver Disease (NASH),Lead Poisoning,True,False
+Gout,Gout,Gout,True,True
+Migraine,Migraine,Migraine,True,True
+Otosclerosis,Otosclerosis,Otosclerosis,True,True
+Ludwig's angina,Ludwig's angina,Spondylosis,True,False
+Chalazion,Chalazion,Chalazion,True,True
+Vaginal Yeast Infection,Vaginal Yeast Infection,Vaginal Yeast Infection,True,True
+Vitreous Hemorrhage,Vitreous Hemorrhage,Vitreous Hemorrhage,True,True
+Gonorrhea,Gonorrhea,Gonorrhea,True,True
+Peritonitis,Peritonitis,Spondylitis,True,False
+Diabetic retinopathy,Diabetic retinopathy,Diabetic retinopathy,True,True
+Fungal Infection of the Skin,Fungal Infection of the Skin,Pneumonia,True,False
+Vaginal Yeast Infection,Vaginal Yeast Infection,Vaginal Yeast Infection,True,True
+Threatened Pregnancy,Threatened Pregnancy,Threatened Pregnancy,True,True
+Pulmonary Fibrosis,Pulmonary Fibrosis,Pulmonary Congestion,True,False
+Otitis Media,Otitis Media,Otitis Media,True,True
+Hydrocephalus,Hydrocephalus,Hydrocephalus,True,True
+Conductive Hearing Loss,Conductive Hearing Loss,Conductive Hearing Loss,True,True
+Parkinson Disease,Parkinson Disease,Parkinson Disease,True,True
+Empyema,Empyema,Pericarditis,True,False
+Vocal cord polyp,Vocal cord polyp,Vocal cord polyp,True,True
+Foreign Body in the Gastrointestinal Tract,Foreign Body in the Gastrointestinal Tract,Foreign Body in the Gastrointestinal Tract,True,True
+Myopia,Myopia,Myopia,True,True
+Mumps,Mumps,Mumps,True,True
+Dysthymic Disorder,Dysthymic Disorder,Dysthymic Disorder,True,True
+Hyperkalemia,Hyperkalemia,Hyperkalemia,True,True
+Alcohol Use Disorder,Alcohol Use Disorder,Alcohol Use Disorder,True,True
+Asthma,Asthma,Asthma,True,True
+Hiatal Hernia,Hiatal Hernia,Anemia,True,False
+Other Specified Feeding or Eating Disorder (OSFED),Other Specified Feeding or Eating Disorder (OSFED),Other Eating Disorder (OSFED),True,False
+Foreign Body in the Throat,Foreign Body in the Throat,Foreign Body in the Throat,True,True
+Narcolepsy,Narcolepsy,Narcolepsy,True,True
+Arthritis,Arthritis,Osteoarthritis,True,False
+Pharyngitis,Pharyngitis,Mononucleosis,True,False
+Tension Headache,Tension Headache,Spondylitis,True,False
+Breast Cancer,Breast Cancer,Breast Cancer,True,True
+Acute Pancreatitis,Acute Pancreatitis,Acute Pancreatitis,True,True
+Spondylosis,Spondylosis,Spondylosis,True,True
+Open Wound from Surgical Incision,Open Wound from Surgical Incision,Open Wound from Surgical Incision,True,True
+Myositis,Myositis,Myositis,True,True
+Cornea Infection,Cornea Infection,Cornea Infection,True,True
+Herpangina,Herpangina,Herpangina,True,True
+Emphysema,Emphysema,Emphysema,True,True
+Hydrocele of the Testicle,Hydrocele of the Testicle,Plural Cyst,True,False
+Osteoarthritis,Osteoarthritis,Osteoarthritis,True,True
+Dengue Fever,Dengue Fever,Dengue Fever,True,True
+Thyroid Disease,Thyroid Disease,Thyroid Disease,True,True
+Fat Embolism,Fat Embolism,Fat Embolism,True,True
+Carpal Tunnel Syndrome,Carpal Tunnel Syndrome,Carpal Tunnel Syndrome,True,True
+Hypocalcemia,Hypocalcemia,Lima,True,False
+Recurrent salivary stones,Recurrent salivary stones,Recurrent salivary stones,True,True
+Marijuana Abuse,Marijuana Abuse,Marijuana Abuse,True,True
+Psoriasis,Psoriasis,Psoriasis,True,True
+Anorexia Nervosa,Anorexia Nervosa,Anorexia Nervosa,True,True
+Adrenal Cancer,Adrenal Cancer,Acute Spine Disease,True,False
+Warthin tumor,Warthin tumor,Warthin tumor,True,True
+Congenital rubella,Congenital rubella,Congenital rubella,True,True
+Atelectasis,Atelectasis,Acute Atmospheric Atmospheric Atrophy,True,False
+Huntington Disease,Huntington Disease,Huntington Disease,True,True
+Cellulitis,Cellulitis,Cellulitis,True,True
+Temporomandibular Joint Disorder,Temporomandibular Joint Disorder,Temporomandibular Joint Disorder,True,True
+Pulmonary Eosinophilia,Pulmonary Eosinophilia,Pulmonary Eosinophilia,True,True
+Vitamin B12 Deficiency,Vitamin B12 Deficiency,Vitamin B12 Deficiency,True,True
+Head and Neck Cancer,Head and Neck Cancer,Head and Neck Cancer,True,True
+Vesicoureteral Reflux,Vesicoureteral Reflux,Vesicoureteral Reflux,True,True
+Coronary Atherosclerosis,Coronary Atherosclerosis,Hypertrophic Heart Failure,True,False
+Opioid Use Disorder,Opioid Use Disorder,Opioid Use Disorder,True,True
+Muscular Dystrophy,Muscular Dystrophy,Muscular Dystrophy,True,True
+Retinal Detachment,Retinal Detachment,Retinal Detachment,True,True
+Thrombophlebitis,Thrombophlebitis,Vein Decoloration,True,False
+Edward Syndrome,Edward Syndrome,Edward Syndrome,True,True
+Bulimia Nervosa,Bulimia Nervosa,Bulimia Nervosa,True,True
+Hemorrhoids,Hemorrhoids,Hemorrhoids,True,True
+Impulse Control Disorder,Impulse Control Disorder,Impulse Control Disorder,True,True
+Orbital Cellulitis,Orbital Cellulitis,Orbital Cellulitis,True,True
+Dysthymic Disorder,Dysthymic Disorder,Dysthymic Disorder,True,True
+Foreign Body in the Gastrointestinal Tract,Foreign Body in the Gastrointestinal Tract,Foreign Body in the Gastrointestinal Tract,True,True
+Corneal Abrasion,Corneal Abrasion,Corneal Abrasion,True,True
+Eczema,Eczema,"Itchy, Red, Incontinenced Skin",True,False
+Anal Fissure,Anal Fissure,Anal Fissure,True,True
+Urticaria (Hives),Urticaria (Hives),Urticaria (Hives),True,True
+Sciatica,Sciatica,Sciatica,True,True
+Influenza (Flu),Influenza (Flu),Influenza (Flu),True,True
+Food Allergy,Food Allergy,Rheumatoid Arthritis,True,False
+Mastoiditis,Mastoiditis,Mastoiditis,True,True
+Carbon Monoxide Poisoning,Carbon Monoxide Poisoning,Polycythemia Vera,True,False
+Conductive Hearing Loss,Conductive Hearing Loss,Conductive Hearing Loss,True,True
+Atelectasis,Atelectasis,Acute Atmospheric Atmospheric Atrophy,True,False
+Acute Kidney Injury,Acute Kidney Injury,Acute Kidney Injury,True,True
+Antimicrobial Drugs Poisoning,Antimicrobial Drugs Poisoning,Flu from the Acute Disorder,True,False
+Gestational Cholestasis,Gestational Cholestasis,Gestational Cholestasis,True,True
+Chagas Disease,Chagas Disease,Chagas Disease,True,True
+Goiter,Goiter,Goiter,True,True
+Primary Insomnia,Primary Insomnia,Primary Insomnia,True,True
+Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),True,True
+Orthorexia Nervosa,Orthorexia Nervosa,"Obsessive Focus on ""clean"" eating",True,False
+Glucocorticoid Deficiency,Glucocorticoid Deficiency,Anemia,True,False
+Hashimoto Thyroiditis,Hashimoto Thyroiditis,Hashimoto Thyroiditis,True,True
+Type 1 Diabetes,Type 1 Diabetes,Hypertrophic urination,True,False
+Lupus,Lupus,Lupus,True,True
+Spondylitis,Spondylitis,Spondylitis,True,True
+Indigestion,Indigestion,Acute Pancreatitis,True,False
+Congenital Glaucoma,Congenital Glaucoma,Acute Glaucoma,True,False
+Asthma,Asthma,Asthma,True,True
+Sciatica,Sciatica,Sciatica,True,True
+Testicular Cancer,Testicular Cancer,Testicular Cancer,True,True
+Vasculitis,Vasculitis,Vasculitis,True,True
+Dermatitis due to Sun Exposure,Dermatitis due to Sun Exposure,Acute Sunburn Syndrome,True,False
+Panic disorder,Panic disorder,Hypoglycemia,True,False
+Myopia,Myopia,Myopia,True,True
+Gestational Hypertension,Gestational Hypertension,Preeclampsia,True,False
+Carpal Tunnel Syndrome,Carpal Tunnel Syndrome,Carpal Tunnel Syndrome,True,True
+Bipolar Disorder,Bipolar Disorder,Bipolar Disorder,True,True
+Lateral Epicondylitis (Tennis Elbow),Lateral Epicondylitis (Tennis Elbow),Lateral Epicondylitis (Tennis Elbow),True,True
+Mumps,Mumps,Mumps,True,True
+Eczema,Eczema,"Itchy, Red, Incontinenced Skin",True,False
+Meniere Disease,Meniere Disease,Meniere Disease,True,True
+Endometrial Cancer,Endometrial Cancer,Endometrial Cancer,True,True
+Open Wound from Surgical Incision,Open Wound from Surgical Incision,Open Wound from Surgical Incision,True,True
+Chorioretinitis,Chorioretinitis,Chorioretinitis,True,True
+Conversion Disorder,Conversion Disorder,Such symptoms,True,False
+Amyloidosis,Amyloidosis,Amyloidosis,True,True
+Hemarthrosis,Hemarthrosis,Bursitis,True,False
+Anxiety,Anxiety,Anxiety,True,True
+Chancroid,Chancroid,Chancroid,True,True
+Dislocation of the Patella,Dislocation of the Patella,Dislocation of the Leg,True,False
+Urethral Valves,Urethral Valves,Uterine Reflux,True,False
+Food Allergy,Food Allergy,Rheumatoid Arthritis,True,False
+Intestinal Malabsorption,Intestinal Malabsorption,Vitamin B12 Deficiency,True,False
+Congenital Glaucoma,Congenital Glaucoma,Acute Glaucoma,True,False
+Crushing Injury,Crushing Injury,Crushing Injury,True,True
+Gestational Diabetes,Gestational Diabetes,Gestational Diabetes,True,True
+Dislocation of the Elbow,Dislocation of the Elbow,Dislocation of the Elbow,True,True
+Insect Bites,Insect Bites,Insect Bites,True,True
+Bone Cancer,Bone Cancer,Osteoarthritis,True,False
+Dislocation of the Elbow,Dislocation of the Elbow,Dislocation of the Elbow,True,True
+Lymphoma,Lymphoma,Lymphoma,True,True
+Ocular Hypertension,Ocular Hypertension,Ocular Hypertension,True,True
+Panic Attack,Panic Attack,Panic Attack,True,True
+Cryptorchidism,Cryptorchidism,Cryptorchidism,True,True
+Cranial Nerve Palsy,Cranial Nerve Palsy,Cranial Nerve Palsy,True,True
+Wilson Disease,Wilson Disease,Wilson Disease,True,True
+Influenza (Flu),Influenza (Flu),Influenza (Flu),True,True
+Hypothyroidism,Hypothyroidism,Hypothyroidism,True,True
+Ependymoma,Ependymoma,Ependymoma,True,True
+Parasitic Infections,Parasitic Infections,Parasitic Infections,True,True
+Drug Abuse (Cocaine),Drug Abuse (Cocaine),"Euphorie, Energie Deficit Disorder, etc.",True,False
+Preeclampsia,Preeclampsia,Preeclampsia,True,True
+Bursitis,Bursitis,Bursitis,True,True
+Sedatives Poisoning,Sedatives Poisoning,Sedatives Poisoning,True,True
+Cannabis Use Disorder,Cannabis Use Disorder,Cannabis Use Disorder,True,True
+Bronchitis,Bronchitis,Bronchitis,True,True
+Asthma,Asthma,Asthma,True,True
+Torticollis,Torticollis,Torticollis,True,True
+Dental Caries,Dental Caries,Dental Caries,True,True
+Lupus,Lupus,Lupus,True,True
+Cannabis Use Disorder,Cannabis Use Disorder,Cannabis Use Disorder,True,True
+Dermatitis due to Sun Exposure,Dermatitis due to Sun Exposure,Dermatitis due to Sun Exposure,True,True
+Pituitary Adenoma,Pituitary Adenoma,Pituitary Adenoma,True,True
+Pyloric stenosis,Pyloric stenosis,Pyloric stenosis,True,True
+Osteoporosis,Osteoporosis,Osteoporosis,True,True
+Polymyalgia Rheumatica,Polymyalgia Rheumatica,Polymyalgia Rheumatica,True,True
+Antihypertensives Poisoning,Antihypertensives Poisoning,Hypoglycemia,True,False
+Scabies,Scabies,Scabies,True,True
+Turner syndrome,Turner syndrome,Gonadal Dystrophy,True,False
+Polycystic Kidney Disease,Polycystic Kidney Disease,Polycystic Kidney Disease,True,True
+Acute Pancreatitis,Acute Pancreatitis,Acute Pancreatitis,True,True
+Vitamin B12 Deficiency,Vitamin B12 Deficiency,Vitamin B12 Deficiency,True,True
+Head and Neck Cancer,Head and Neck Cancer,Head and Neck Cancer,True,True
+Bell Palsy,Bell Palsy,Cellulitis,True,False
+Complex Regional Pain Syndrome (CRPS),Complex Regional Pain Syndrome (CRPS),Complex Regional Pain Syndrome (CRPS),True,True
+Chancroid,Chancroid,Chancroid,True,True
+Mumps,Mumps,Mumps,True,True
+Muscular Dystrophy,Muscular Dystrophy,Muscular Dystrophy,True,True
+Myofascial Pain Syndrome,Myofascial Pain Syndrome,Acute Muscle Cancer,True,False
+Fracture of the Patella,Fracture of the Patella,Fracture of the Patella,True,True
+Oral Leukoplakia,Oral Leukoplakia,Oral Leukoplakia,True,True
+Coronary Atherosclerosis,Coronary Atherosclerosis,Hypertrophic Heart Failure,True,False
+Cirrhosis,Cirrhosis,Cirrhosis,True,True
+Extrapyramidal Effect of Drugs,Extrapyramidal Effect of Drugs,Extrapyramidal Effect of Drugs,True,True
+Pulmonary Eosinophilia,Pulmonary Eosinophilia,Pulmonary Eosinophilia,True,True
+Dengue Fever,Dengue Fever,Dengue Fever,True,True
+Premature Ventricular Contractions (PVCs),Premature Ventricular Contractions (PVCs),Premature Ventricular Contractions (PVCs),True,True
+Scarlet Fever,Scarlet Fever,Scarlet Fever,True,True
+Eye alignment disorder,Eye alignment disorder,Eye alignment disorder,True,True
+Lymphedema,Lymphedema,Lymphedema,True,True
+Narcolepsy,Narcolepsy,Narcolepsy,True,True
+Crushing Injury,Crushing Injury,Crushing Injury,True,True
+Congenital Glaucoma,Congenital Glaucoma,Acute Glaucoma,True,False
+Fibromyalgia,Fibromyalgia,Musculoskeletal Pain,True,False
+Hypergammaglobulinemia,Hypergammaglobulinemia,Hypergammaglobulinemia,True,True
+Vaginal Yeast Infection,Vaginal Yeast Infection,Vaginal Yeast Infection,True,True
+Gastroesophageal Reflux Disease (GERD),Gastroesophageal Reflux Disease (GERD),Gastroesophageal Reflux Disease (GERD),True,True
+Acute Kidney Injury,Acute Kidney Injury,Acute Kidney Injury,True,True
+Exfoliation Glaucoma,Exfoliation Glaucoma,Exfoliation Glaucoma,True,True
+Alcohol Use Disorder,Alcohol Use Disorder,Alcohol Use Disorder,True,True
+Stroke,Stroke,Stroke,True,True
+Intracranial Abscess,Intracranial Abscess,Pneumonia,True,False
+Bulimia Nervosa,Bulimia Nervosa,Bulimia Nervosa,True,True
+Type 1 Diabetes,Type 1 Diabetes,Hypertrophic urination,True,False
+Gonorrhea,Gonorrhea,Gonorrhea,True,True
+Dengue Fever,Dengue Fever,Dengue Fever,True,True
+Migraine,Migraine,Migraine,True,True
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Colonic Polyp,Colonic Polyp,Colonic Polyp,True,True
+Stroke,Stroke,Stroke,True,True
+Mononucleosis,Mononucleosis,Mononucleosis,True,True
+Osteoarthritis,Osteoarthritis,Osteoarthritis,True,True
+Gum Disease,Gum Disease,Scurvy,True,False
+Vitamin A Deficiency,Vitamin A Deficiency,Vitamin A Deficiency,True,True
+Fracture of the Patella,Fracture of the Patella,Fracture of the Patella,True,True
+Cyst of the Eyelid,Cyst of the Eyelid,Cyst of the Eyelid,True,True
+Protein Deficiency,Protein Deficiency,Protein Deficiency,True,True
+Varicose Veins,Varicose Veins,Varicose Veins,True,True
+Atrial Fibrillation,Atrial Fibrillation,Hypertrophic Heartbeat,True,False
+Cryptorchidism,Cryptorchidism,Cryptorchidism,True,True
+Vulvodynia,Vulvodynia,Vulvodynia,True,True
+Drug Reaction,Drug Reaction,Rheumatoid Arthritis,True,False
+Injury to the Finger,Injury to the Finger,Injury to the Finger,True,True
+Ethylene glycol poisoning-1,Ethylene glycol poisoning-1,Ethylene glycol poisoning-1,True,True
+Cryptorchidism,Cryptorchidism,Cryptorchidism,True,True
+Endometriosis,Endometriosis,Pregnancy-Related Pilonidal Cyst,True,False
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Drug Abuse (Barbiturates),Drug Abuse (Barbiturates),"Sedative, Drug, or Intoxication",True,False
+Complex Regional Pain Syndrome,Complex Regional Pain Syndrome,Complex Regional Pain Syndrome,True,True
+Polycystic Ovarian Syndrome,Polycystic Ovarian Syndrome,Polycystic Ovarian Syndrome,True,True
+Ectopic Pregnancy,Ectopic Pregnancy,Ectopic Pregnancy,True,True
+Ocular Hypertension,Ocular Hypertension,Ocular Hypertension,True,True
+Temporomandibular Joint Disorder,Temporomandibular Joint Disorder,Temporomandibular Joint Disorder,True,True
+Urinary Stones (Kidney Stones),Urinary Stones (Kidney Stones),Urinary Urinary Urinary Urinary Urinary Urinary Ur,True,False
+Cellulitis,Cellulitis,Cellulitis,True,True
+Hyperosmotic Hyperketotic State,Hyperosmotic Hyperketotic State,Hyperosmotic Hyperketotic State,True,True
+Pica,Pica,Non-Food Consumption,True,False
+Idiopathic Absence of Menstruation,Idiopathic Absence of Menstruation,Idiopathic Absence of Menstruation,True,True
+Acute Glaucoma,Acute Glaucoma,Acute Glaucoma,True,True
+Restless Leg Syndrome,Restless Leg Syndrome,Restless Leg Syndrome,True,True
+Coagulation (Bleeding) Disorder,Coagulation (Bleeding) Disorder,Coagulation (Bleeding) Disorder,True,True
+Mucoepidermoid carcinoma,Mucoepidermoid carcinoma,Mucoepidermoid carcinoma,True,True
+Hyperopia,Hyperopia,Hyperopia,True,True
+Acute Otitis Media,Acute Otitis Media,Acute Otitis Media,True,True
+Complex Regional Pain Syndrome,Complex Regional Pain Syndrome,Complex Regional Pain Syndrome,True,True
+Pituitary Disorder,Pituitary Disorder,Acute Cancer,True,False
+Intracranial Hemorrhage,Intracranial Hemorrhage,Mumps,True,False
+Open-Angle Glaucoma,Open-Angle Glaucoma,Open-Angle Glaucoma,True,True
+Neuropathic Pain,Neuropathic Pain,Incontinence,True,False
+Dermatitis due to Sun Exposure,Dermatitis due to Sun Exposure,Acute Sunburn Syndrome,True,False
+Meniere Disease,Meniere Disease,Meniere Disease,True,True
+Sjögren's syndrome,Sjögren's syndrome,Sjögren's syndrome,True,True
+Vulvodynia,Vulvodynia,Vulvodynia,True,True
+Postpartum Depression,Postpartum Depression,Obesity,True,False
+Diabetic Kidney Disease,Diabetic Kidney Disease,Hypertensive Diabetes,True,False
+Avoidant/Restrictive Food Intake Disorder (ARFID),Avoidant/Restrictive Food Intake Disorder (ARFID),Avoidant/Restrictive Food Intake Disorder (ARFID),True,True
+Ischemia of the Bowel,Ischemia of the Bowel,Ischemia of the Bowel,True,True
+Leukemia,Leukemia,Hemorrhage,True,False
+Presbycusis,Presbycusis,Presbycusis,True,True
+Concussion,Concussion,Migraine,True,False
+Carbon Monoxide Poisoning,Carbon Monoxide Poisoning,Polycythemia Vera,True,False
+Tuberous Sclerosis,Tuberous Sclerosis,Tuberous Sclerosis,True,True
+Bursitis,Bursitis,Bursitis,True,True
+Myelodysplastic Syndrome,Myelodysplastic Syndrome,Myelodysplastic Syndrome,True,True
+Myositis,Myositis,Myositis,True,True
+Coagulation (Bleeding) Disorder,Coagulation (Bleeding) Disorder,Coagulation (Bleeding) Disorder,True,True
+Dry Skin,Dry Skin,Dry Skin,True,True
+Chronic Kidney Disease,Chronic Kidney Disease,Chronic Kidney Disease,True,True
+Hypospadias,Hypospadias,Hypospadias,True,True
+Priapism,Priapism,Priapism,True,True
+Anorexia Nervosa,Anorexia Nervosa,Anorexia Nervosa,True,True
+Drug Withdrawal,Drug Withdrawal,Drug Withdrawal,True,True
+Uterine Fibroids,Uterine Fibroids,Uterine Fibroids,True,True
+Hyperosmotic Hyperketotic State,Hyperosmotic Hyperketotic State,Hyperosmotic Hyperketotic State,True,True
+Scleritis,Scleritis,Scleritis,True,True
+Concussion,Concussion,Migraine,True,False
+Kidney Stone,Kidney Stone,Spondylitis,True,False
+Diverticulosis,Diverticulosis,Diverticulosis,True,True
+Pituitary Disorder,Pituitary Disorder,Acute Cancer,True,False
+Hashimoto Thyroiditis,Hashimoto Thyroiditis,Hashimoto Thyroiditis,True,True
+Temporomandibular Joint Disorder,Temporomandibular Joint Disorder,Temporomandibular Joint Disorder,True,True
+Urge Incontinence,Urge Incontinence,Urge Incontinence,True,True
+Scleritis,Scleritis,Scleritis,True,True
+Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),True,True
+Drug Withdrawal,Drug Withdrawal,Drug Withdrawal,True,True
+Lung Contusion,Lung Contusion,Lung Contusion,True,True
+Dislocation of the Ankle,Dislocation of the Ankle,Dislocation of the Ankle,True,True
+Normal Pressure Hydrocephalus,Normal Pressure Hydrocephalus,Normal Pressure Hydrocephalus,True,True
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Orbital Cellulitis,Orbital Cellulitis,Orbital Cellulitis,True,True
+Pharyngitis,Pharyngitis,Mononucleosis,True,False
+Abdominal Hernia,Abdominal Hernia,Abdominal Hernia,True,True
+Alcohol Use Disorder,Alcohol Use Disorder,Alcohol Use Disorder,True,True
+Pseudohypoparathyroidism,Pseudohypoparathyroidism,Pseudohypoparathyroidism,True,True
+Parkinson Disease,Parkinson Disease,Parkinson Disease,True,True
+Herpangina,Herpangina,Herpangina,True,True
+Normal-Tension Glaucoma,Normal-Tension Glaucoma,Low-Tension Glaucoma,True,False
+Injury to Internal Organ,Injury to Internal Organ,Osteoarthritis,True,False
+Bipolar Disorder,Bipolar Disorder,Bipolar Disorder,True,True
+Premature Ventricular Contractions (PVCs),Premature Ventricular Contractions (PVCs),Premature Ventricular Contractions (PVCs),True,True
+Headache after lumbar puncture,Headache after lumbar puncture,Headache after lumbar puncture,True,True
+Gastroparesis,Gastroparesis,Anemia,True,False
+Impulse Control Disorder,Impulse Control Disorder,Impulse Control Disorder,True,True
+Insulin Overdose,Insulin Overdose,Insulin Overdose,True,True
+Myoclonus,Myoclonus,Myoclonus,True,True
+Liver Cancer,Liver Cancer,Liver Cancer,True,True
+Asthma,Asthma,Asthma,True,True
+Atrophic vaginitis,Atrophic vaginitis,Atrophic vaginitis,True,True
+Mumps,Mumps,Mumps,True,True
+Primary Insomnia,Primary Insomnia,Primary Insomnia,True,True
+Arthritis,Arthritis,Osteoarthritis,True,False
+Parathyroid Adenoma,Parathyroid Adenoma,Parathyroid Adenoma,True,True
+Subdural hemorrhage,Subdural hemorrhage,Pericarditis,True,False
+Stroke,Stroke,Stroke,True,True
+Chronic Fatigue Syndrome,Chronic Fatigue Syndrome,Pregnancy-Related Sleep Disorder,True,False
+Tietze Syndrome,Tietze Syndrome,Carpal Tunnel Syndrome,True,False
+Pregnancy-Related Back Pain,Pregnancy-Related Back Pain,Pregnancy-Related Back Pain,True,True
+Diverticulosis,Diverticulosis,Diverticulosis,True,True
+Congenital rubella,Congenital rubella,Congenital rubella,True,True
+Rumination Disorder,Rumination Disorder,Re-electronics of the Food Act,True,False
+Peritonitis,Peritonitis,Spondylitis,True,False
+Pelvic Organ Prolapse,Pelvic Organ Prolapse,Pregnancy-Related Body,True,False
+Hydronephrosis,Hydronephrosis,Torticollis,True,False
+Optic Neuritis,Optic Neuritis,Optic Neuritis,True,True
+Presbycusis,Presbycusis,Presbycusis,True,True
+Dry Skin,Dry Skin,Dry Skin,True,True
+Priapism,Priapism,Priapism,True,True
+Premenstrual Tension Syndrome,Premenstrual Tension Syndrome,Premenstrual Tension Syndrome,True,True
+Postpartum Depression,Postpartum Depression,Obesity,True,False
+Dental Caries,Dental Caries,Dental Caries,True,True
+Bone Cancer,Bone Cancer,Osteoarthritis,True,False
+Balanitis,Balanitis,Balanitis,True,True
+Acute Kidney Injury,Acute Kidney Injury,Acute Kidney Injury,True,True
+Complex Regional Pain Syndrome (CRPS),Complex Regional Pain Syndrome (CRPS),Complex Regional Pain Syndrome (CRPS),True,True
+Actinic Keratosis,Actinic Keratosis,Actinic Keratosis,True,True
+Acute Sinusitis,Acute Sinusitis,Acute Sinusitis,True,True
+Mucocele,Mucocele,Mucocele,True,True
+Pyelonephritis,Pyelonephritis,Pyelonephritis,True,True
+Tuberous Sclerosis,Tuberous Sclerosis,Tuberous Sclerosis,True,True
+Pneumonia,Pneumonia,Pneumonia,True,True
+Bronchitis,Bronchitis,Bronchitis,True,True
+Turner syndrome,Turner syndrome,Gonadal Dystrophy,True,False
+Bladder Cancer,Bladder Cancer,Urinary Kidney Cyst,True,False
+Huntington Disease,Huntington Disease,Huntington Disease,True,True
+Testicular Cancer,Testicular Cancer,Testicular Cancer,True,True
+Complex Regional Pain Syndrome (CRPS),Complex Regional Pain Syndrome (CRPS),Haute Temperature Change,True,False
+Pulmonary Eosinophilia,Pulmonary Eosinophilia,Pulmonary Eosinophilia,True,True
+Influenza (Flu),Influenza (Flu),Influenza (Flu),True,True
+Submandibular stones,Submandibular stones,Wharton's duct stones,True,False
+Esophageal Varices,Esophageal Varices,Esophageal Varices,True,True
+Pulmonic Valve Disease,Pulmonic Valve Disease,Pulmonic Valve Disease,True,True
+Overflow Incontinence,Overflow Incontinence,Overflow Incontinence,True,True
+Hypocalcemia,Hypocalcemia,Lima,True,False
+Other Specified Feeding or Eating Disorder (OSFED),Other Specified Feeding or Eating Disorder (OSFED),Other Eating Disorder (OSFED),True,False
+Secondary Glaucoma,Secondary Glaucoma,The Cause of the Cause,True,False
+Hyperhidrosis,Hyperhidrosis,"Outside of the temperature regulation, excessive sweating",True,False
+Poisoning due to Analgesics,Poisoning due to Analgesics,Fluorideal Infection (GERD),True,False
+Peyronie Disease,Peyronie Disease,Penis,True,False
+Neuromyelitis Optica,Neuromyelitis Optica,Neuromyelitis optica,True,True
+Bursitis,Bursitis,Bursitis,True,True
+Fracture of the Rib,Fracture of the Rib,Fracture of the Rib,True,True
+Congenital Glaucoma,Congenital Glaucoma,Acute Glaucoma,True,False
+Head and Neck Cancer,Head and Neck Cancer,Head and Neck Cancer,True,True
+Asthma,Asthma,Asthma,True,True
+Female Infertility of Unknown Cause,Female Infertility of Unknown Cause,Non-Profit Conceivability,True,False
+Turner syndrome,Turner syndrome,Gonadal Dystrophy,True,False
+Sialolithiasis,Sialolithiasis,Sialolithiasis,True,True
+Seborrheic Dermatitis,Seborrheic Dermatitis,Seborrheic Dermatitis,True,True
+Ependymoma,Ependymoma,Ependymoma,True,True
+Pericarditis,Pericarditis,Pericarditis,True,True
+Osteochondrosis,Osteochondrosis,Osteochondrosis,True,True
+Herpangina,Herpangina,Herpangina,True,True
+Bronchitis,Bronchitis,Bronchitis,True,True
+Angle-Closure Glaucoma,Angle-Closure Glaucoma,Angle-Closure Glaucoma,True,True
+Hemophilia,Hemophilia,Hemophilia,True,True
+Alcohol Intoxication,Alcohol Intoxication,Alcohol Intoxication,True,True
+Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,True,True
+Diabetic retinopathy,Diabetic retinopathy,Diabetic retinopathy,True,True
+Type 1 Diabetes,Type 1 Diabetes,Hypertrophic urination,True,False
+Abscess of the Lung,Abscess of the Lung,Abscess of the Lung,True,True
+Choledocholithiasis,Choledocholithiasis,Cholesteatoma,True,False
+Pyloric stenosis,Pyloric stenosis,Pyloric stenosis,True,True
+Pulmonary Eosinophilia,Pulmonary Eosinophilia,Pulmonary Eosinophilia,True,True
+Coagulation (Bleeding) Disorder,Coagulation (Bleeding) Disorder,Coagulation (Bleeding) Disorder,True,True
+Aplastic Anemia,Aplastic Anemia,Aplastic Anemia,True,True
+Congenital Glaucoma,Congenital Glaucoma,Acute Glaucoma,True,False
+Premature Ventricular Contractions (PVCs),Premature Ventricular Contractions (PVCs),Premature Ventricular Contractions (PVCs),True,True
+Dermatitis due to Sun Exposure,Dermatitis due to Sun Exposure,Dermatitis due to Sun Exposure,True,True
+Lung Contusion,Lung Contusion,Lung Contusion,True,True
+Poisoning due to Antidepressants,Poisoning due to Antidepressants,Poisoning due to Antidepressants,True,True
+Ethylene glycol poisoning-3,Ethylene glycol poisoning-3,Ethylene glycol poisoning-3,True,True
+Fetal Alcohol Syndrome,Fetal Alcohol Syndrome,Fetal Alcohol Syndrome,True,True
+Hypothyroidism,Hypothyroidism,Hypothyroidism,True,True
+Varicose Veins,Varicose Veins,Varicose Veins,True,True
+Otitis Media,Otitis Media,Otitis Media,True,True
+Parkinson Disease,Parkinson Disease,Parkinson Disease,True,True
+Benzodiazepine Use Disorder,Benzodiazepine Use Disorder,Benzodiazepine Use Disorder,True,True
+Eczema,Eczema,"Itchy, Red, Incontinenced Skin",True,False
+Syringomyelia,Syringomyelia,Syringomyelia,True,True
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Influenza (Flu),Influenza (Flu),Influenza (Flu),True,True
+Intertrigo,Intertrigo,Infection of the Skin,True,False
+Subdural hemorrhage,Subdural hemorrhage,Pericarditis,True,False
+Adenoid cystic carcinoma,Adenoid cystic carcinoma,Musketis,True,False
+Scleroderma,Scleroderma,Scleroderma,True,True
+Thoracic Aortic Aneurysm,Thoracic Aortic Aneurysm,Thoracic Aortic Aneurysm,True,True
+Mucoepidermoid carcinoma,Mucoepidermoid carcinoma,Mucoepidermoid carcinoma,True,True
+Female Infertility of Unknown Cause,Female Infertility of Unknown Cause,Non-Profit Conceivability,True,False
+Hepatic Encephalopathy,Hepatic Encephalopathy,Hepatic Encephalopathy,True,True
+Bladder Cancer,Bladder Cancer,Urinary Kidney Cyst,True,False
+Threatened Pregnancy,Threatened Pregnancy,Threatened Pregnancy,True,True
+Macular Degeneration,Macular Degeneration,Blindness,True,False
+Herpangina,Herpangina,Herpangina,True,True
+Hypergammaglobulinemia,Hypergammaglobulinemia,Hypergammaglobulinemia,True,True
+Pulmonary Fibrosis,Pulmonary Fibrosis,Pulmonary Congestion,True,False
+Recurrent salivary stones,Recurrent salivary stones,Recurrent salivary stones,True,True
+Postpartum Depression,Postpartum Depression,Obesity,True,False
+Atrial Fibrillation,Atrial Fibrillation,Hypertrophic Heartbeat,True,False
+Open-Angle Glaucoma,Open-Angle Glaucoma,Open-Angle Glaucoma,True,True
+Chalazion,Chalazion,Chalazion,True,True
+Balanitis,Balanitis,Balanitis,True,True
+Complex Regional Pain Syndrome (CRPS),Complex Regional Pain Syndrome (CRPS),Complex Regional Pain Syndrome (CRPS),True,True
+Thrombophlebitis,Thrombophlebitis,Vein Decoloration,True,False
+Osteoporosis,Osteoporosis,Osteoporosis,True,True
+Von Hippel-Lindau Disease,Von Hippel-Lindau Disease,Von Hippel-Lindau Disease,True,True
+Chronic Sinusitis,Chronic Sinusitis,Chronic Sinusitis,True,True
+Hydrocele of the Testicle,Hydrocele of the Testicle,Plural Cyst,True,False
+Adenoid cystic carcinoma,Adenoid cystic carcinoma,Musketis,True,False
+Premenstrual Tension Syndrome,Premenstrual Tension Syndrome,Premenstrual Tension Syndrome,True,True
+Acute Bronchospasm,Acute Bronchospasm,Emphysema,True,False
+Cornea Infection,Cornea Infection,Cornea Infection,True,True
+Retinal Detachment,Retinal Detachment,Retinal Detachment,True,True
+Lymphoma,Lymphoma,Lymphoma,True,True
+Tuberous Sclerosis,Tuberous Sclerosis,Tuberous Sclerosis,True,True
+Mumps,Mumps,Mumps,True,True
+Cirrhosis,Cirrhosis,Cirrhosis,True,True
+Tuberous Sclerosis,Tuberous Sclerosis,Tuberous Sclerosis,True,True
+Orbital Cellulitis,Orbital Cellulitis,Orbital Cellulitis,True,True
+Ocular Hypertension,Ocular Hypertension,Ocular Hypertension,True,True
+Cold Sore,Cold Sore,Cold Sore,True,True
+Fracture of the Shoulder,Fracture of the Shoulder,Rotator Cuff Injury,True,False
+Syringomyelia,Syringomyelia,Syringomyelia,True,True
+Round Ligament Pain,Round Ligament Pain,Infection of the Lower Bauchspea,True,False
+Mittelschmerz,Mittelschmerz,Mittelschmerz,True,True
+Chronic Headache,Chronic Headache,Chronic Headache,True,True
+Cystic Fibrosis,Cystic Fibrosis,Cystic Fibrosis,True,True
+Chagas Disease,Chagas Disease,Chagas Disease,True,True
+Bulimia Nervosa,Bulimia Nervosa,Bulimia Nervosa,True,True
+Hypertensive Heart Disease,Hypertensive Heart Disease,Hypertensive Heart Disease,True,True
+Pulmonary Fibrosis,Pulmonary Fibrosis,Pulmonary Congestion,True,False
+Polycystic Kidney Disease,Polycystic Kidney Disease,Polycystic Kidney Disease,True,True
+Bipolar Disorder,Bipolar Disorder,Bipolar Disorder,True,True
+Drug Abuse (Methamphetamine),Drug Abuse (Methamphetamine),Acute Heart Disease,True,False
+Breast Cancer,Breast Cancer,Breast Cancer,True,True
+West Nile Virus,West Nile Virus,Pneumonia,True,False
+Coronary Atherosclerosis,Coronary Atherosclerosis,Hypertrophic Heart Failure,True,False
+Bulimia Nervosa,Bulimia Nervosa,Bulimia Nervosa,True,True
+Pneumonia,Pneumonia,Pneumonia,True,True
+Migraine,Migraine,Migraine,True,True
+Pituitary Disorder,Pituitary Disorder,Acute Cancer,True,False
+Ectopic Pregnancy,Ectopic Pregnancy,Ectopic Pregnancy,True,True
+Corneal Disorder,Corneal Disorder,Corneal Disorder,True,True
+Asthma,Asthma,Asthma,True,True
+Stimulant Use Disorder,Stimulant Use Disorder,Stimulant Use Disorder,True,True
+Abscess,Abscess,Abscess,True,True
+Hypertrophic Obstructive Cardiomyopathy (HOCM),Hypertrophic Obstructive Cardiomyopathy (HOCM),Hypertrophic Obstructive Cardiomyopathy (HOCM),True,True
+Von Hippel-Lindau Disease,Von Hippel-Lindau Disease,Von Hippel-Lindau Disease,True,True
+Liver Cancer,Liver Cancer,Liver Cancer,True,True
+Acute Otitis Media,Acute Otitis Media,Acute Otitis Media,True,True
+Gastroesophageal Reflux Disease (GERD),Gastroesophageal Reflux Disease (GERD),Gastroesophageal Reflux Disease (GERD),True,True
+Pigmentary Glaucoma,Pigmentary Glaucoma,Pigmentary Glaucoma,True,True
+Type 1 Diabetes,Type 1 Diabetes,Hypertrophic urination,True,False
+Lateral Epicondylitis (Tennis Elbow),Lateral Epicondylitis (Tennis Elbow),Lateral Epicondylitis (Tennis Elbow),True,True
+Panic disorder,Panic disorder,Hypoglycemia,True,False
+Ocular Hypertension,Ocular Hypertension,Ocular Hypertension,True,True
+Idiopathic Absence of Menstruation,Idiopathic Absence of Menstruation,Idiopathic Absence of Menstruation,True,True
+Warthin tumor,Warthin tumor,Warthin tumor,True,True
+Eye alignment disorder,Eye alignment disorder,Eye alignment disorder,True,True
+Chronic Otitis Media,Chronic Otitis Media,Chronic Otitis Media,True,True
+Atrial Fibrillation,Atrial Fibrillation,Hypertrophic Heartbeat,True,False
+Bone Cancer,Bone Cancer,Osteoarthritis,True,False
+Juvenile Rheumatoid Arthritis,Juvenile Rheumatoid Arthritis,Rheumatoid Arthritis,True,False
+Plantar Fasciitis,Plantar Fasciitis,Fermentary Fermentary Injury,True,False
+Dysthymic Disorder,Dysthymic Disorder,Dysthymic Disorder,True,True
+Orbital Cellulitis,Orbital Cellulitis,Orbital Cellulitis,True,True
+Muscular Dystrophy,Muscular Dystrophy,Muscular Dystrophy,True,True
+Pilonidal Cyst,Pilonidal Cyst,Pilonidal Cyst,True,True
+Atelectasis,Atelectasis,Acute Atmospheric Atmospheric Atrophy,True,False
+Pleomorphic adenoma,Pleomorphic adenoma,Warthin tumor,True,False
+Cannabis Use Disorder,Cannabis Use Disorder,Cannabis Use Disorder,True,True
+Intracranial Hemorrhage,Intracranial Hemorrhage,Mumps,True,False
+Choledocholithiasis,Choledocholithiasis,Cholesteatoma,True,False
+Alopecia,Alopecia,Alopecia,True,True
+Restless Leg Syndrome,Restless Leg Syndrome,Restless Leg Syndrome,True,True
+Gastrointestinal Hemorrhage,Gastrointestinal Hemorrhage,Esophageal Cancer,True,False
+Hypoglycemia,Hypoglycemia,Hypoglycemia,True,True
+Foreign Body in the Throat,Foreign Body in the Throat,Foreign Body in the Throat,True,True
+Fibromyalgia,Fibromyalgia,Musculoskeletal Pain,True,False
+Stenosis of the Tear Duct,Stenosis of the Tear Duct,Stenosis of the Tear Duct,True,True
+Pneumonia,Pneumonia,Pneumonia,True,True
+Coronary Atherosclerosis,Coronary Atherosclerosis,Hypertrophic Heart Failure,True,False
+Gastrointestinal Hemorrhage,Gastrointestinal Hemorrhage,Esophageal Cancer,True,False
+Polycystic Ovarian Syndrome,Polycystic Ovarian Syndrome,Polycystic Ovarian Syndrome,True,True
+Wharton's duct stones,Wharton's duct stones,Wharton's duct stones,True,True
+Syndrome of Inappropriate Secretion of ADH (SIADH),Syndrome of Inappropriate Secretion of ADH (SIADH),Syndrome of Inappropriate Secretion of ADH (SIADH),True,True
+Anorexia Nervosa,Anorexia Nervosa,Anorexia Nervosa,True,True
+Type 2 Diabetes,Type 2 Diabetes,Type 2 Diabetes,True,True
+Gout,Gout,Gout,True,True
+Poisoning due to Antidepressants,Poisoning due to Antidepressants,Poisoning due to Antidepressants,True,True
+Hirsutism,Hirsutism,Hirsutism,True,True
+Parathyroid Adenoma,Parathyroid Adenoma,Parathyroid Adenoma,True,True
+Ocular Hypertension,Ocular Hypertension,Ocular Hypertension,True,True
+Rheumatoid Arthritis,Rheumatoid Arthritis,Rheumatoid Arthritis,True,True
+Bone Cancer,Bone Cancer,Osteoarthritis,True,False
+Fracture,Fracture,Injury to the Leg,True,False
+Asthma,Asthma,Asthma,True,True
+Subdural hemorrhage,Subdural hemorrhage,Pericarditis,True,False
+Psoriasis,Psoriasis,Psoriasis,True,True
+Bone Cancer,Bone Cancer,Osteoarthritis,True,False
+Fat Embolism,Fat Embolism,Fat Embolism,True,True
+Ethylene glycol poisoning-1,Ethylene glycol poisoning-1,Ethylene glycol poisoning-1,True,True
+Meniere Disease,Meniere Disease,Meniere Disease,True,True
+Female Infertility of Unknown Cause,Female Infertility of Unknown Cause,Non-Profit Conceivability,True,False
+Actinic Keratosis,Actinic Keratosis,Actinic Keratosis,True,True
+Rheumatoid Arthritis,Rheumatoid Arthritis,Rheumatoid Arthritis,True,True
+Asthma,Asthma,Asthma,True,True
+Syphilis,Syphilis,Syphilis,True,True
+Peritonsillar Abscess,Peritonsillar Abscess,Peritonsillar Abscess,True,True
+Thoracic Aortic Aneurysm,Thoracic Aortic Aneurysm,Thoracic Aortic Aneurysm,True,True
+Corneal Abrasion,Corneal Abrasion,Corneal Abrasion,True,True
+Concussion,Concussion,Migraine,True,False
+Vocal cord polyp,Vocal cord polyp,Vocal cord polyp,True,True
+Acinic cell carcinoma,Acinic cell carcinoma,Musketis,True,False
+Pregnancy-Induced Hypertension,Pregnancy-Induced Hypertension,Pregnancy-Induced Hypertension,True,True
+Chagas Disease,Chagas Disease,Chagas Disease,True,True
+Protein Deficiency,Protein Deficiency,Protein Deficiency,True,True
+Seborrheic Dermatitis,Seborrheic Dermatitis,Seborrheic Dermatitis,True,True
+Eczema,Eczema,"Itchy, Red, Incontinenced Skin",True,False
+Astigmatism,Astigmatism,Astigmatism,True,True
+Endophthalmitis,Endophthalmitis,Endophthalmitis,True,True
+Adrenal Cancer,Adrenal Cancer,Acute Spine Disease,True,False
+Gum Disease,Gum Disease,Scurvy,True,False
+Chronic Migraine,Chronic Migraine,Chronic Migraine,True,True
+Hypothyroidism,Hypothyroidism,Hypothyroidism,True,True
+Peritonitis,Peritonitis,Spondylitis,True,False
+Urge Incontinence,Urge Incontinence,Urge Incontinence,True,True
+Anxiety,Anxiety,Anxiety,True,True
+West Nile Virus,West Nile Virus,Pneumonia,True,False
+Pulmonic Valve Disease,Pulmonic Valve Disease,Pulmonic Valve Disease,True,True
+Fracture of the Arm,Fracture of the Arm,Fracture of the Arm,True,True
+Pilonidal Cyst,Pilonidal Cyst,Pilonidal Cyst,True,True
+Polycystic Ovarian Syndrome,Polycystic Ovarian Syndrome,Polycystic Ovarian Syndrome,True,True
+Cryptococcosis,Cryptococcosis,Cryptococcosis,True,True
+Oral Leukoplakia,Oral Leukoplakia,Oral Leukoplakia,True,True
+Pica,Pica,Non-Food Consumption,True,False
+Warthin tumor,Warthin tumor,Warthin tumor,True,True
+Hypercholesterolemia,Hypercholesterolemia,Hypercholesterolemia,True,True
+Submandibular stones,Submandibular stones,Wharton's duct stones,True,False
+Mitral Valve Disease,Mitral Valve Disease,Mitral Valve Disease,True,True
+Acute Kidney Injury,Acute Kidney Injury,Acute Kidney Injury,True,True
+Polycystic Ovarian Syndrome,Polycystic Ovarian Syndrome,Polycystic Ovarian Syndrome,True,True
+Poisoning due to Analgesics,Poisoning due to Analgesics,Fluorideal Infection (GERD),True,False
+Spondylitis,Spondylitis,Spondylitis,True,True
+Acinic cell carcinoma,Acinic cell carcinoma,Musketis,True,False
+Cat Scratch Disease,Cat Scratch Disease,Cat Scratch Disease,True,True
+Type 2 Diabetes,Type 2 Diabetes,Type 2 Diabetes,True,True
+Asthma,Asthma,Asthma,True,True
+Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),True,True
+Aplastic Anemia,Aplastic Anemia,Aplastic Anemia,True,True
+Stroke,Stroke,Stroke,True,True
+Pregnancy-Induced Hypertension,Pregnancy-Induced Hypertension,Pregnancy-Induced Hypertension,True,True
+Hypertrophic Obstructive Cardiomyopathy (HOCM),Hypertrophic Obstructive Cardiomyopathy (HOCM),Hypertrophic Obstructive Cardiomyopathy (HOCM),True,True
+Stenosis of the Tear Duct,Stenosis of the Tear Duct,Stenosis of the Tear Duct,True,True
+Fracture of the Neck,Fracture of the Neck,Spondylitis,True,False
+Influenza (Flu),Influenza (Flu),Influenza (Flu),True,True
+Intertrigo,Intertrigo,Infection of the Skin,True,False
+Hyperopia,Hyperopia,Hyperopia,True,True
+Sedatives Poisoning,Sedatives Poisoning,Sedatives Poisoning,True,True
+Antihypertensives Poisoning,Antihypertensives Poisoning,Hypoglycemia,True,False
+Chagas Disease,Chagas Disease,Chagas Disease,True,True
+Conjunctivitis due to Allergy,Conjunctivitis due to Allergy,Conjunctivitis due to Allergy,True,True
+Pituitary Adenoma,Pituitary Adenoma,Pituitary Adenoma,True,True
+Cat Scratch Disease,Cat Scratch Disease,Cat Scratch Disease,True,True
+Gastroesophageal Reflux Disease (GERD),Gastroesophageal Reflux Disease (GERD),Gastroesophageal Reflux Disease (GERD),True,True
+Indigestion,Indigestion,Acute Pancreatitis,True,False
+Seborrheic Dermatitis,Seborrheic Dermatitis,Seborrheic Dermatitis,True,True
+Bell Palsy,Bell Palsy,Cellulitis,True,False
+Edward Syndrome,Edward Syndrome,Edward Syndrome,True,True
+Diabetic Kidney Disease,Diabetic Kidney Disease,Hypertensive Diabetes,True,False
+Pyelonephritis,Pyelonephritis,Pyelonephritis,True,True
+Cornea Infection,Cornea Infection,Cornea Infection,True,True
+Myopia,Myopia,Myopia,True,True
+Mittelschmerz,Mittelschmerz,Mittelschmerz,True,True
+Pneumonia,Pneumonia,Pneumonia,True,True
+Idiopathic Nonmenstrual Bleeding,Idiopathic Nonmenstrual Bleeding,Idiopathic Nonmenstrual Bleeding,True,True
+Intestinal Malabsorption,Intestinal Malabsorption,Vitamin B12 Deficiency,True,False
+Neonatal Jaundice,Neonatal Jaundice,Psoriasis,True,False
+Dermatitis due to Sun Exposure,Dermatitis due to Sun Exposure,Dermatitis due to Sun Exposure,True,True
+Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),True,True
+Leishmaniasis,Leishmaniasis,Pneumonia,True,False
+Infection of Open Wound,Infection of Open Wound,Infection of Open Wound,True,True
+Breast Cancer,Breast Cancer,Breast Cancer,True,True
+Pterygium,Pterygium,Pterygium,True,True
+Pyloric stenosis,Pyloric stenosis,Pyloric stenosis,True,True
+Mumps,Mumps,Mumps,True,True
+Carbon Monoxide Poisoning,Carbon Monoxide Poisoning,Polycythemia Vera,True,False
+Avoidant/Restrictive Food Intake Disorder (ARFID),Avoidant/Restrictive Food Intake Disorder (ARFID),Avoidant/Restrictive Food Intake Disorder (ARFID),True,True
+Pelvic Organ Prolapse,Pelvic Organ Prolapse,Pregnancy-Related Body,True,False
+Chronic Otitis Media,Chronic Otitis Media,Chronic Otitis Media,True,True
+Dry Skin,Dry Skin,Dry Skin,True,True
+Nose Disorder,Nose Disorder,Nose Disorder,True,True
+Insulin Overdose,Insulin Overdose,Insulin Overdose,True,True
+Fungal Infection of the Skin,Fungal Infection of the Skin,Pneumonia,True,False
+Dysthymic Disorder,Dysthymic Disorder,Dysthymic Disorder,True,True
+Abscess of Nose,Abscess of Nose,Abscess of Nose,True,True
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Pregnancy-Induced Hypertension,Pregnancy-Induced Hypertension,Pregnancy-Induced Hypertension,True,True
+Mastoiditis,Mastoiditis,Mastoiditis,True,True
+Osteochondrosis,Osteochondrosis,Osteochondrosis,True,True
+Colonic Polyp,Colonic Polyp,Colonic Polyp,True,True
+Pica,Pica,Non-Food Consumption,True,False
+Anemia of Chronic Disease,Anemia of Chronic Disease,Anemia of Chronic Disease,True,True
+Attention Deficit Hyperactivity Disorder (ADHD),Attention Deficit Hyperactivity Disorder (ADHD),Attention Deficit Hyperactivity Disorder (ADHD),True,True
+Tietze Syndrome,Tietze Syndrome,Carpal Tunnel Syndrome,True,False
+Hemarthrosis,Hemarthrosis,Bursitis,True,False
+Testicular Cancer,Testicular Cancer,Testicular Cancer,True,True
+Hyperemesis Gravidarum,Hyperemesis Gravidarum,Halbblutblut,True,False
+Abscess of Nose,Abscess of Nose,Abscess of Nose,True,True
+Hemarthrosis,Hemarthrosis,Bursitis,True,False
+Acute Bronchospasm,Acute Bronchospasm,Emphysema,True,False
+Lice,Lice,Lice,True,True
+Varicose Veins,Varicose Veins,Varicose Veins,True,True
+Endophthalmitis,Endophthalmitis,Endophthalmitis,True,True
+Migraine,Migraine,Migraine,True,True
+Bone Spur of the Calcaneus,Bone Spur of the Calcaneus,Bone Spur of the Calcaneus,True,True
+Foreign Body in the Gastrointestinal Tract,Foreign Body in the Gastrointestinal Tract,Foreign Body in the Gastrointestinal Tract,True,True
+Cirrhosis,Cirrhosis,Cirrhosis,True,True
+Hydrocele of the Testicle,Hydrocele of the Testicle,Plural Cyst,True,False
+Gout,Gout,Gout,True,True
+Ovarian Torsion,Ovarian Torsion,Acute Pancreatitis,True,False
+Wilson Disease,Wilson Disease,Wilson Disease,True,True
+Gonorrhea,Gonorrhea,Gonorrhea,True,True
+Migraine,Migraine,Migraine,True,True
+Hirschsprung Disease,Hirschsprung Disease,Congenital constipation,True,False
+Bipolar Disorder,Bipolar Disorder,Bipolar Disorder,True,True
+Avoidant/Restrictive Food Intake Disorder (ARFID),Avoidant/Restrictive Food Intake Disorder (ARFID),Avoidant/Restrictive Food Intake Disorder (ARFID),True,True
+Coronary Atherosclerosis,Coronary Atherosclerosis,Hypertrophic Heart Failure,True,False
+Muscle Spasm,Muscle Spasm,Muscle Spasm,True,True
+Anorexia Nervosa,Anorexia Nervosa,Anorexia Nervosa,True,True
+Vulvodynia,Vulvodynia,Vulvodynia,True,True
+Esophageal Cancer,Esophageal Cancer,Esophageal Cancer,True,True
+Endophthalmitis,Endophthalmitis,Endophthalmitis,True,True
+Fracture of the Shoulder,Fracture of the Shoulder,Rotator Cuff Injury,True,False
+Amyloidosis,Amyloidosis,Amyloidosis,True,True
+Endometriosis,Endometriosis,Endometriosis,True,True
+Muscle Spasm,Muscle Spasm,Muscle Spasm,True,True
+Diabetic Kidney Disease,Diabetic Kidney Disease,Hypertensive Diabetes,True,False
+Pinworm Infection,Pinworm Infection,Pinworm Infection,True,True
+Muscular Dystrophy,Muscular Dystrophy,Muscular Dystrophy,True,True
+Muscle Spasm,Muscle Spasm,Muscle Spasm,True,True
+Mitral Valve Disease,Mitral Valve Disease,Mitral Valve Disease,True,True
+Esophageal Varices,Esophageal Varices,Esophageal Varices,True,True
+Diabetic Kidney Disease,Diabetic Kidney Disease,Hypertensive Diabetes,True,False
+Food Allergy,Food Allergy,Rheumatoid Arthritis,True,False
+Drug Abuse (Cocaine),Drug Abuse (Cocaine),"Euphorie, Energie Deficit Disorder, etc.",True,False
+Injury to Internal Organ,Injury to Internal Organ,Osteoarthritis,True,False
+Flat Feet,Flat Feet,Foot and Foot Pain,True,False
+Coagulation (Bleeding) Disorder,Coagulation (Bleeding) Disorder,Coagulation (Bleeding) Disorder,True,True
+Lymphoma,Lymphoma,Lymphoma,True,True
+Hypospadias,Hypospadias,Hypospadias,True,True
+Asthma,Asthma,Asthma,True,True
+Acute Glaucoma,Acute Glaucoma,Acute Glaucoma,True,True
+Tuberous Sclerosis,Tuberous Sclerosis,Tuberous Sclerosis,True,True
+Conjunctivitis due to Allergy,Conjunctivitis due to Allergy,Conjunctivitis due to Allergy,True,True
+Spondylitis,Spondylitis,Spondylitis,True,True
+Hyperosmotic Hyperketotic State,Hyperosmotic Hyperketotic State,Hyperosmotic Hyperketotic State,True,True
+Asthma,Asthma,Asthma,True,True
+Thyroid Disease,Thyroid Disease,Thyroid Disease,True,True
+Chronic Otitis Media,Chronic Otitis Media,Chronic Otitis Media,True,True
+Conversion Disorder,Conversion Disorder,Such symptoms,True,False
+Alopecia,Alopecia,Alopecia,True,True
+Presbycusis,Presbycusis,Presbycusis,True,True
+Labyrinthitis,Labyrinthitis,Labyrinthitis,True,True
+Endometrial Cancer,Endometrial Cancer,Endometrial Cancer,True,True
+Hydronephrosis,Hydronephrosis,Torticollis,True,False
+Varicose Veins,Varicose Veins,Varicose Veins,True,True
+Migraine,Migraine,Migraine,True,True
+Ocular Hypertension,Ocular Hypertension,Ocular Hypertension,True,True
+Pica,Pica,Non-Food Consumption,True,False
+Neuralgia,Neuralgia,Neuralgia,True,True
+Gastrointestinal Hemorrhage,Gastrointestinal Hemorrhage,Esophageal Cancer,True,False
+Magnesium Deficiency,Magnesium Deficiency,Muscle Thrombocytopenia,True,False
+Neonatal Jaundice,Neonatal Jaundice,Psoriasis,True,False
+Dermatitis due to Sun Exposure,Dermatitis due to Sun Exposure,Acute Sunburn Syndrome,True,False
+Pregnancy-Related Back Pain,Pregnancy-Related Back Pain,Pregnancy-Related Back Pain,True,True
+Overflow Incontinence,Overflow Incontinence,Overflow Incontinence,True,True
+Polycythemia Vera,Polycythemia Vera,Polycythemia Vera,True,True
+Cyst of the Eyelid,Cyst of the Eyelid,Cyst of the Eyelid,True,True
+Hallucinogen Use Disorder,Hallucinogen Use Disorder,Hallucinogen Use Disorder,True,True
+Turner syndrome,Turner syndrome,Gonadal Dystrophy,True,False
+Hirschsprung Disease,Hirschsprung Disease,Congenital constipation,True,False
+Meniere Disease,Meniere Disease,Meniere Disease,True,True
+Lung Contusion,Lung Contusion,Lung Contusion,True,True
+Osteoarthritis,Osteoarthritis,Osteoarthritis,True,True
+Vocal cord polyp,Vocal cord polyp,Vocal cord polyp,True,True
+Hirsutism,Hirsutism,Hirsutism,True,True
+Heart Block,Heart Block,Hypertrophic Heart Disease,True,False
+Hydrocephalus,Hydrocephalus,Hydrocephalus,True,True
+Crushing Injury,Crushing Injury,Crushing Injury,True,True
+Contact Dermatitis,Contact Dermatitis,Corticosis,True,False
+Panic Attack,Panic Attack,Panic Attack,True,True
+Lymphedema,Lymphedema,Lymphedema,True,True
+Pulmonary Fibrosis,Pulmonary Fibrosis,Pulmonary Congestion,True,False
+Esophageal Varices,Esophageal Varices,Esophageal Varices,True,True
+Fracture of the Shoulder,Fracture of the Shoulder,Rotator Cuff Injury,True,False
+Gestational Cholestasis,Gestational Cholestasis,Gestational Cholestasis,True,True
+Sciatica,Sciatica,Sciatica,True,True
+Anemia due to Malignancy,Anemia due to Malignancy,Anemia due to Malignancy,True,True
+Scarlet Fever,Scarlet Fever,Scarlet Fever,True,True
+Pigmentary Glaucoma,Pigmentary Glaucoma,Pigmentary Glaucoma,True,True
+Optic Neuritis,Optic Neuritis,Optic Neuritis,True,True
+Hypercalcemia,Hypercalcemia,Hypercalcemia,True,True
+Pneumonia,Pneumonia,Pneumonia,True,True
+Diverticulosis,Diverticulosis,Diverticulosis,True,True
+Macular Degeneration,Macular Degeneration,Blindness,True,False
+Juvenile Rheumatoid Arthritis,Juvenile Rheumatoid Arthritis,Rheumatoid Arthritis,True,False
+Hypothyroidism,Hypothyroidism,Hypothyroidism,True,True
+Rabies,Rabies,Rabies,True,True
+Vocal cord polyp,Vocal cord polyp,Vocal cord polyp,True,True
+Gonorrhea,Gonorrhea,Gonorrhea,True,True
+Benign Kidney Cyst,Benign Kidney Cyst,Benign Kidney Cyst,True,True
+Injury to Internal Organ,Injury to Internal Organ,Osteoarthritis,True,False
+Vitamin A Deficiency,Vitamin A Deficiency,Vitamin A Deficiency,True,True
+Neuromyelitis Optica,Neuromyelitis Optica,Neuromyelitis optica,True,True
+Carpal Tunnel Syndrome,Carpal Tunnel Syndrome,Carpal Tunnel Syndrome,True,True
+Primary Insomnia,Primary Insomnia,Primary Insomnia,True,True
+Plantar Fasciitis,Plantar Fasciitis,Fermentary Fermentary Injury,True,False
+Bipolar Disorder,Bipolar Disorder,Bipolar Disorder,True,True
+Acute Pancreatitis,Acute Pancreatitis,Acute Pancreatitis,True,True
+Abdominal Hernia,Abdominal Hernia,Abdominal Hernia,True,True
+"Sedative, Hypnotic, or Anxiolytic Use Disorder","Sedative, Hypnotic, or Anxiolytic Use Disorder","Sedative, Hypnotic, or Anxiolytic Use Disorder",True,True
+Pleomorphic adenoma,Pleomorphic adenoma,Warthin tumor,True,False
+Foreign Body in the Gastrointestinal Tract,Foreign Body in the Gastrointestinal Tract,Foreign Body in the Gastrointestinal Tract,True,True
+Type 1 Diabetes,Type 1 Diabetes,Hypertrophic urination,True,False
+Balanitis,Balanitis,Balanitis,True,True
+Lymphedema,Lymphedema,Lymphedema,True,True
+Fracture of the Neck,Fracture of the Neck,Spondylitis,True,False
+Type 2 Diabetes,Type 2 Diabetes,Type 2 Diabetes,True,True
+Encephalitis,Encephalitis,Pneumonia,True,False
+Conversion Disorder,Conversion Disorder,Such symptoms,True,False
+Hirsutism,Hirsutism,Hirsutism,True,True
+Myasthenia Gravis,Myasthenia Gravis,Myasthenia Gravis,True,True
+Coronary Atherosclerosis,Coronary Atherosclerosis,Hypertrophic Heart Failure,True,False
+Gastroparesis,Gastroparesis,Anemia,True,False
+Ischemia of the Bowel,Ischemia of the Bowel,Ischemia of the Bowel,True,True
+Acute Bronchospasm,Acute Bronchospasm,Emphysema,True,False
+Acute Glaucoma,Acute Glaucoma,Acute Glaucoma,True,True
+Chronic Rheumatic Fever,Chronic Rheumatic Fever,Pneumonia,True,False
+Osteoarthritis,Osteoarthritis,Osteoarthritis,True,True
+Magnesium Deficiency,Magnesium Deficiency,Muscle Thrombocytopenia,True,False
+Hypothyroidism,Hypothyroidism,Hypothyroidism,True,True
+Gastroesophageal Reflux Disease (GERD),Gastroesophageal Reflux Disease (GERD),Gastroesophageal Reflux Disease (GERD),True,True
+Breast Cancer,Breast Cancer,Breast Cancer,True,True
+Cystic Fibrosis,Cystic Fibrosis,Cystic Fibrosis,True,True
+Aplastic Anemia,Aplastic Anemia,Aplastic Anemia,True,True
+Colonic Polyp,Colonic Polyp,Colonic Polyp,True,True
+Pilonidal Cyst,Pilonidal Cyst,Pilonidal Cyst,True,True
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Hyperosmotic Hyperketotic State,Hyperosmotic Hyperketotic State,Hyperosmotic Hyperketotic State,True,True
+Infection of Open Wound,Infection of Open Wound,Infection of Open Wound,True,True
+Tension Headache,Tension Headache,Spondylitis,True,False
+Foreign Body in the Gastrointestinal Tract,Foreign Body in the Gastrointestinal Tract,Foreign Body in the Gastrointestinal Tract,True,True
+Hypertrophic Obstructive Cardiomyopathy (HOCM),Hypertrophic Obstructive Cardiomyopathy (HOCM),Hypertrophic Obstructive Cardiomyopathy (HOCM),True,True
+Gestational Hypertension,Gestational Hypertension,Preeclampsia,True,False
+Sialolithiasis,Sialolithiasis,Sialolithiasis,True,True
+Hypothyroidism,Hypothyroidism,Hypothyroidism,True,True
+Viral Warts,Viral Warts,Viral Warts,True,True
+Gestational Diabetes,Gestational Diabetes,Gestational Diabetes,True,True
+Transient ischemic attack,Transient ischemic attack,Transient ischemic attack,True,True
+Cryptorchidism,Cryptorchidism,Cryptorchidism,True,True
+Chronic Inflammatory Demyelinating Polyneuropathy (CIDP),Chronic Inflammatory Demyelinating Polyneuropathy (CIDP),Cellulitis,True,False
+Abscess of the Lung,Abscess of the Lung,Abscess of the Lung,True,True
+Vitamin A Deficiency,Vitamin A Deficiency,Vitamin A Deficiency,True,True
+Fracture of the Patella,Fracture of the Patella,Fracture of the Patella,True,True
+Parathyroid Adenoma,Parathyroid Adenoma,Parathyroid Adenoma,True,True
+Asthma,Asthma,Asthma,True,True
+Fibromyalgia,Fibromyalgia,Musculoskeletal Pain,True,False
+Hepatic Encephalopathy,Hepatic Encephalopathy,Hepatic Encephalopathy,True,True
+Von Willebrand Disease,Von Willebrand Disease,Von Willebrand Disease,True,True
+Diabetic Kidney Disease,Diabetic Kidney Disease,Hypertensive Diabetes,True,False
+Headache after lumbar puncture,Headache after lumbar puncture,Headache after lumbar puncture,True,True
+Recurrent salivary stones,Recurrent salivary stones,Recurrent salivary stones,True,True
+Hydrocephalus,Hydrocephalus,Hydrocephalus,True,True
+Drug Abuse (Methamphetamine),Drug Abuse (Methamphetamine),Acute Heart Disease,True,False
+Bone Cancer,Bone Cancer,Osteoarthritis,True,False
+Kidney Failure,Kidney Failure,Kidney Failure,True,True
+Postpartum Depression,Postpartum Depression,Obesity,True,False
+Lupus,Lupus,Lupus,True,True
+Kidney Stone,Kidney Stone,Spondylitis,True,False
+Vasculitis,Vasculitis,Vasculitis,True,True
+Cystic Fibrosis,Cystic Fibrosis,Cystic Fibrosis,True,True
+Goiter,Goiter,Goiter,True,True
+Endophthalmitis,Endophthalmitis,Endophthalmitis,True,True
+Ethylene glycol poisoning-3,Ethylene glycol poisoning-3,Ethylene glycol poisoning-3,True,True
+Pulmonic Valve Disease,Pulmonic Valve Disease,Pulmonic Valve Disease,True,True
+Preeclampsia,Preeclampsia,Preeclampsia,True,True
+Scurvy,Scurvy,Scurvy,True,True
+Pituitary Adenoma,Pituitary Adenoma,Pituitary Adenoma,True,True
+Cryptococcosis,Cryptococcosis,Cryptococcosis,True,True
+Endometriosis,Endometriosis,Pregnancy-Related Pilonidal Cyst,True,False
+Dysthymic Disorder,Dysthymic Disorder,Dysthymic Disorder,True,True
+Corneal Disorder,Corneal Disorder,Corneal Disorder,True,True
+Optic Neuritis,Optic Neuritis,Optic Neuritis,True,True
+Torticollis,Torticollis,Torticollis,True,True
+Fibromyalgia,Fibromyalgia,Musculoskeletal Pain,True,False
+Plantar Fasciitis,Plantar Fasciitis,Fermentary Fermentary Injury,True,False
+Macular Degeneration,Macular Degeneration,Blindness,True,False
+Pneumonia,Pneumonia,Pneumonia,True,True
+Neonatal Jaundice,Neonatal Jaundice,Psoriasis,True,False
+Drug Withdrawal,Drug Withdrawal,Drug Withdrawal,True,True
+Acute Sinusitis,Acute Sinusitis,Acute Sinusitis,True,True
+Osteoporosis,Osteoporosis,Osteoporosis,True,True
+Chronic Fatigue Syndrome,Chronic Fatigue Syndrome,Pregnancy-Related Sleep Disorder,True,False
+Influenza (Flu),Influenza (Flu),Influenza (Flu),True,True
+Vulvodynia,Vulvodynia,Vulvodynia,True,True
+Restless Leg Syndrome,Restless Leg Syndrome,Restless Leg Syndrome,True,True
+Influenza (Flu),Influenza (Flu),Influenza (Flu),True,True
+Tuberous Sclerosis,Tuberous Sclerosis,Tuberous Sclerosis,True,True
+Poisoning due to Antidepressants,Poisoning due to Antidepressants,Poisoning due to Antidepressants,True,True
+Fracture of the Neck,Fracture of the Neck,Spondylitis,True,False
+Influenza (Flu),Influenza (Flu),Influenza (Flu),True,True
+Abdominal Hernia,Abdominal Hernia,Abdominal Hernia,True,True
+Sciatica,Sciatica,Sciatica,True,True
+Syndrome of Inappropriate Secretion of ADH (SIADH),Syndrome of Inappropriate Secretion of ADH (SIADH),Syndrome of Inappropriate Secretion of ADH (SIADH),True,True
+Mitral Valve Disease,Mitral Valve Disease,Mitral Valve Disease,True,True
+Asthma,Asthma,Asthma,True,True
+Transient ischemic attack,Transient ischemic attack,Transient ischemic attack,True,True
+Wharton's duct stones,Wharton's duct stones,Wharton's duct stones,True,True
+Sciatica,Sciatica,Sciatica,True,True
+Myasthenia Gravis,Myasthenia Gravis,Myasthenia Gravis,True,True
+Stress Incontinence,Stress Incontinence,Stress Incontinence,True,True
+Impulse Control Disorder,Impulse Control Disorder,Impulse Control Disorder,True,True
+Vesicoureteral Reflux,Vesicoureteral Reflux,Vesicoureteral Reflux,True,True
+Chronic Sinusitis,Chronic Sinusitis,Chronic Sinusitis,True,True
+Abscess of Nose,Abscess of Nose,Abscess of Nose,True,True
+Chalazion,Chalazion,Chalazion,True,True
+Cyst of the Eyelid,Cyst of the Eyelid,Cyst of the Eyelid,True,True
+Endometrial Cancer,Endometrial Cancer,Endometrial Cancer,True,True
+Insect Bites,Insect Bites,Insect Bites,True,True
+Idiopathic Nonmenstrual Bleeding,Idiopathic Nonmenstrual Bleeding,Idiopathic Nonmenstrual Bleeding,True,True
+Infection of Open Wound,Infection of Open Wound,Infection of Open Wound,True,True
+Thyroid Disease,Thyroid Disease,Thyroid Disease,True,True
+Stroke,Stroke,Stroke,True,True
+Female Infertility of Unknown Cause,Female Infertility of Unknown Cause,Non-Profit Conceivability,True,False
+Urge Incontinence,Urge Incontinence,Urge Incontinence,True,True
+Osteochondrosis,Osteochondrosis,Osteochondrosis,True,True
+Pigmentary Glaucoma,Pigmentary Glaucoma,Pigmentary Glaucoma,True,True
+Insect Bites,Insect Bites,Insect Bites,True,True
+Amyloidosis,Amyloidosis,Amyloidosis,True,True
+Liver Cancer,Liver Cancer,Liver Cancer,True,True
+Myelodysplastic Syndrome,Myelodysplastic Syndrome,Myelodysplastic Syndrome,True,True
+Mononucleosis,Mononucleosis,Mononucleosis,True,True
+Obesity,Obesity,Obesity,True,True
+Volvulus,Volvulus,Volvulus,True,True
+Cholesteatoma,Cholesteatoma,Otosclerosis,True,False
+Cryptococcosis,Cryptococcosis,Cryptococcosis,True,True
+Anemia due to Chronic Kidney Disease,Anemia due to Chronic Kidney Disease,Anemia due to Chronic Kidney Disease,True,True
+Hydrocele of the Testicle,Hydrocele of the Testicle,Plural Cyst,True,False
+Polycythemia Vera,Polycythemia Vera,Polycythemia Vera,True,True
+Hiatal Hernia,Hiatal Hernia,Anemia,True,False
+Atelectasis,Atelectasis,Acute Atmospheric Atmospheric Atrophy,True,False
+Influenza (Flu),Influenza (Flu),Influenza (Flu),True,True
+Anorexia Nervosa,Anorexia Nervosa,Anorexia Nervosa,True,True
+Syndrome of Inappropriate Secretion of ADH (SIADH),Syndrome of Inappropriate Secretion of ADH (SIADH),Syndrome of Inappropriate Secretion of ADH (SIADH),True,True
+Chagas Disease,Chagas Disease,Chagas Disease,True,True
+Chronic Knee Pain,Chronic Knee Pain,Chronic Knee Pain,True,True
+Normal Pressure Hydrocephalus,Normal Pressure Hydrocephalus,Normal Pressure Hydrocephalus,True,True
+Exfoliation Glaucoma,Exfoliation Glaucoma,Exfoliation Glaucoma,True,True
+Chronic Migraine,Chronic Migraine,Chronic Migraine,True,True
+Anemia,Anemia,Anemia,True,True
+Headache after lumbar puncture,Headache after lumbar puncture,Headache after lumbar puncture,True,True
+Neuromyelitis Optica,Neuromyelitis Optica,Neuromyelitis optica,True,True
+Huntington Disease,Huntington Disease,Huntington Disease,True,True
+Chronic Sinusitis,Chronic Sinusitis,Chronic Sinusitis,True,True
+Myositis,Myositis,Myositis,True,True
+Lice,Lice,Lice,True,True
+Spondylosis,Spondylosis,Spondylosis,True,True
+Priapism,Priapism,Priapism,True,True
+Hypoglycemia,Hypoglycemia,Hypoglycemia,True,True
+Panic Attack,Panic Attack,Panic Attack,True,True
+Complex Regional Pain Syndrome (CRPS),Complex Regional Pain Syndrome (CRPS),Haute Temperature Change,True,False
+Leishmaniasis,Leishmaniasis,Pneumonia,True,False
+Ovarian Torsion,Ovarian Torsion,Acute Pancreatitis,True,False
+Sedatives Poisoning,Sedatives Poisoning,Sedatives Poisoning,True,True
+Bladder Disorder,Bladder Disorder,Bladder Disorder,True,True
+Omphalitis,Omphalitis,Omphalitis,True,True
+Edward Syndrome,Edward Syndrome,Edward Syndrome,True,True
+Plantar Fasciitis,Plantar Fasciitis,Fermentary Fermentary Injury,True,False
+Intracranial Hemorrhage,Intracranial Hemorrhage,Mumps,True,False
+Type 2 Diabetes,Type 2 Diabetes,Type 2 Diabetes,True,True
+Pulmonary Congestion,Pulmonary Congestion,Pulmonary Congestion,True,True
+Abdominal Injury,Abdominal Injury,Diverticulosis,True,False
+Conjunctivitis due to Allergy,Conjunctivitis due to Allergy,Conjunctivitis due to Allergy,True,True
+Vaginal Yeast Infection,Vaginal Yeast Infection,Vaginal Yeast Infection,True,True
+Hydronephrosis,Hydronephrosis,Torticollis,True,False
+Hepatic Encephalopathy,Hepatic Encephalopathy,Hepatic Encephalopathy,True,True
+Stroke,Stroke,Stroke,True,True
+Pterygium,Pterygium,Pterygium,True,True
+Placenta Previa,Placenta Previa,Placenta Previa,True,True
+Ependymoma,Ependymoma,Ependymoma,True,True
+Diabetic retinopathy,Diabetic retinopathy,Diabetic retinopathy,True,True
+Chronic Otitis Media,Chronic Otitis Media,Chronic Otitis Media,True,True
+Hyperkalemia,Hyperkalemia,Hyperkalemia,True,True
+Peyronie Disease,Peyronie Disease,Penis,True,False
+Acute Otitis Media,Acute Otitis Media,Acute Otitis Media,True,True
+Gestational Cholestasis,Gestational Cholestasis,Gestational Cholestasis,True,True
+Opioid Use Disorder,Opioid Use Disorder,Opioid Use Disorder,True,True
+Hemolytic Anemia,Hemolytic Anemia,Anemia due to Malignancy,True,False
+Autism,Autism,Autism,True,True
+Myositis,Myositis,Myositis,True,True
+Fat Embolism,Fat Embolism,Fat Embolism,True,True
+Polymyalgia Rheumatica,Polymyalgia Rheumatica,Polymyalgia Rheumatica,True,True
+Juvenile Rheumatoid Arthritis,Juvenile Rheumatoid Arthritis,Rheumatoid Arthritis,True,False
+Osteoporosis,Osteoporosis,Osteoporosis,True,True
+Thyroid Disease,Thyroid Disease,Thyroid Disease,True,True
+Achalasia,Achalasia,Achalasia,True,True
+Hashimoto Thyroiditis,Hashimoto Thyroiditis,Hashimoto Thyroiditis,True,True
+Dislocation of the Ankle,Dislocation of the Ankle,Dislocation of the Ankle,True,True
+Hepatitis due to a Toxin,Hepatitis due to a Toxin,Poisoning due to Antidepressants,True,False
+Dislocation of the Elbow,Dislocation of the Elbow,Dislocation of the Elbow,True,True
+Asthma,Asthma,Asthma,True,True
+"Sedative, Hypnotic, or Anxiolytic Use Disorder","Sedative, Hypnotic, or Anxiolytic Use Disorder","Sedative, Hypnotic, or Anxiolytic Use Disorder",True,True
+Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),True,True
+Hypertensive Heart Disease,Hypertensive Heart Disease,Hypertensive Heart Disease,True,True
+Parasitic Infections,Parasitic Infections,Parasitic Infections,True,True
+Stimulant Use Disorder,Stimulant Use Disorder,Stimulant Use Disorder,True,True
+Binge Eating Disorder,Binge Eating Disorder,Binge Eating Disorder,True,True
+Submandibular stones,Submandibular stones,Wharton's duct stones,True,False
+"Sedative, Hypnotic, or Anxiolytic Use Disorder","Sedative, Hypnotic, or Anxiolytic Use Disorder","Sedative, Hypnotic, or Anxiolytic Use Disorder",True,True
+Complex Regional Pain Syndrome,Complex Regional Pain Syndrome,Complex Regional Pain Syndrome,True,True
+Presbycusis,Presbycusis,Presbycusis,True,True
+Bone Spur of the Calcaneus,Bone Spur of the Calcaneus,Bone Spur of the Calcaneus,True,True
+Panic disorder,Panic disorder,Hypoglycemia,True,False
+Gum Disease,Gum Disease,Scurvy,True,False
+Pelvic Organ Prolapse,Pelvic Organ Prolapse,Pregnancy-Related Body,True,False
+Chronic Kidney Disease,Chronic Kidney Disease,Chronic Kidney Disease,True,True
+Heart Block,Heart Block,Hypertrophic Heart Disease,True,False
+Indigestion,Indigestion,Acute Pancreatitis,True,False
+Diverticulosis,Diverticulosis,Diverticulosis,True,True
+Extrapyramidal Effect of Drugs,Extrapyramidal Effect of Drugs,Extrapyramidal Effect of Drugs,True,True
+Influenza (Flu),Influenza (Flu),Influenza (Flu),True,True
+Urinary Stones (Kidney Stones),Urinary Stones (Kidney Stones),Urinary Urinary Urinary Urinary Urinary Urinary Ur,True,False
+Chorioretinitis,Chorioretinitis,Chorioretinitis,True,True
+Stroke,Stroke,Stroke,True,True
+Hyperkalemia,Hyperkalemia,Hyperkalemia,True,True
+Sialolithiasis,Sialolithiasis,Sialolithiasis,True,True
+Normal Pressure Hydrocephalus,Normal Pressure Hydrocephalus,Normal Pressure Hydrocephalus,True,True
+Induced Abortion,Induced Abortion,Induced Abortion,True,True
+Gestational Diabetes,Gestational Diabetes,Gestational Diabetes,True,True
+Chorioretinitis,Chorioretinitis,Chorioretinitis,True,True
+Idiopathic Absence of Menstruation,Idiopathic Absence of Menstruation,Idiopathic Absence of Menstruation,True,True
+Spondylosis,Spondylosis,Spondylosis,True,True
+Uterine Fibroids,Uterine Fibroids,Uterine Fibroids,True,True
+Volvulus,Volvulus,Volvulus,True,True
+Abscess,Abscess,Abscess,True,True
+Intracranial Abscess,Intracranial Abscess,Pneumonia,True,False
+Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,True,True
+Open-Angle Glaucoma,Open-Angle Glaucoma,Open-Angle Glaucoma,True,True
+Migraine,Migraine,Migraine,True,True
+Hirschsprung Disease,Hirschsprung Disease,Congenital constipation,True,False
+Hydronephrosis,Hydronephrosis,Torticollis,True,False
+Fetal Alcohol Syndrome,Fetal Alcohol Syndrome,Fetal Alcohol Syndrome,True,True
+Drug Withdrawal,Drug Withdrawal,Drug Withdrawal,True,True
+Overflow Incontinence,Overflow Incontinence,Overflow Incontinence,True,True
+Pneumonia,Pneumonia,Pneumonia,True,True
+Polycythemia Vera,Polycythemia Vera,Polycythemia Vera,True,True
+Corneal Disorder,Corneal Disorder,Corneal Disorder,True,True
+Dislocation of the Elbow,Dislocation of the Elbow,Dislocation of the Elbow,True,True
+Open Wound from Surgical Incision,Open Wound from Surgical Incision,Open Wound from Surgical Incision,True,True
+Peyronie Disease,Peyronie Disease,Penis,True,False
+Acute Bronchospasm,Acute Bronchospasm,Emphysema,True,False
+Anemia,Anemia,Anemia,True,True
+Endometriosis,Endometriosis,Endometriosis,True,True
+Hallucinogen Use Disorder,Hallucinogen Use Disorder,Hallucinogen Use Disorder,True,True
+Transient ischemic attack,Transient ischemic attack,Transient ischemic attack,True,True
+Gestational Cholestasis,Gestational Cholestasis,Gestational Cholestasis,True,True
+Normal-Tension Glaucoma,Normal-Tension Glaucoma,Low-Tension Glaucoma,True,False
+Adrenal Cancer,Adrenal Cancer,Acute Spine Disease,True,False
+Uterine Fibroids,Uterine Fibroids,Uterine Fibroids,True,True
+Hypothyroidism,Hypothyroidism,Hypothyroidism,True,True
+Pericarditis,Pericarditis,Pericarditis,True,True
+Arthritis,Arthritis,Osteoarthritis,True,False
+Neonatal Jaundice,Neonatal Jaundice,Psoriasis,True,False
+Atelectasis,Atelectasis,Acute Atmospheric Atmospheric Atrophy,True,False
+Rotator Cuff Injury,Rotator Cuff Injury,Rotator Cuff Injury,True,True
+Tietze Syndrome,Tietze Syndrome,Carpal Tunnel Syndrome,True,False
+Cirrhosis,Cirrhosis,Cirrhosis,True,True
+Marijuana Abuse,Marijuana Abuse,Marijuana Abuse,True,True
+Syphilis,Syphilis,Syphilis,True,True
+Parasitic Infections,Parasitic Infections,Parasitic Infections,True,True
+Scleroderma,Scleroderma,Scleroderma,True,True
+Benign Kidney Cyst,Benign Kidney Cyst,Benign Kidney Cyst,True,True
+Acinic cell carcinoma,Acinic cell carcinoma,Musketis,True,False
+Scurvy,Scurvy,Scurvy,True,True
+Extrapyramidal Effect of Drugs,Extrapyramidal Effect of Drugs,Extrapyramidal Effect of Drugs,True,True
+Esophageal Cancer,Esophageal Cancer,Esophageal Cancer,True,True
+Chronic Sinusitis,Chronic Sinusitis,Chronic Sinusitis,True,True
+Placenta Previa,Placenta Previa,Placenta Previa,True,True
+Stroke,Stroke,Stroke,True,True
+Autism,Autism,Autism,True,True
+Vitamin B12 Deficiency,Vitamin B12 Deficiency,Vitamin B12 Deficiency,True,True
+Overflow Incontinence,Overflow Incontinence,Overflow Incontinence,True,True
+Infection of Open Wound,Infection of Open Wound,Infection of Open Wound,True,True
+Chagas Disease,Chagas Disease,Chagas Disease,True,True
+Alcohol Use Disorder,Alcohol Use Disorder,Alcohol Use Disorder,True,True
+Idiopathic Nonmenstrual Bleeding,Idiopathic Nonmenstrual Bleeding,Idiopathic Nonmenstrual Bleeding,True,True
+Flat Feet,Flat Feet,Foot and Foot Pain,True,False
+Ischemia of the Bowel,Ischemia of the Bowel,Ischemia of the Bowel,True,True
+Ischemia of the Bowel,Ischemia of the Bowel,Ischemia of the Bowel,True,True
+Hemophilia,Hemophilia,Hemophilia,True,True
+Bronchitis,Bronchitis,Bronchitis,True,True
+Osteoporosis,Osteoporosis,Osteoporosis,True,True
+Myelodysplastic Syndrome,Myelodysplastic Syndrome,Myelodysplastic Syndrome,True,True
+Syndrome of Inappropriate Secretion of ADH (SIADH),Syndrome of Inappropriate Secretion of ADH (SIADH),Syndrome of Inappropriate Secretion of ADH (SIADH),True,True
+Osteoporosis,Osteoporosis,Osteoporosis,True,True
+Cranial Nerve Palsy,Cranial Nerve Palsy,Cranial Nerve Palsy,True,True
+Concussion,Concussion,Migraine,True,False
+Mucocele,Mucocele,Mucocele,True,True
+Ethylene glycol poisoning-3,Ethylene glycol poisoning-3,Ethylene glycol poisoning-3,True,True
+Anal Fissure,Anal Fissure,Anal Fissure,True,True
+Chronic Kidney Disease,Chronic Kidney Disease,Chronic Kidney Disease,True,True
+Ovarian Torsion,Ovarian Torsion,Acute Pancreatitis,True,False
+Viral Warts,Viral Warts,Viral Warts,True,True
+Emphysema,Emphysema,Emphysema,True,True
+Ethylene glycol poisoning-1,Ethylene glycol poisoning-1,Ethylene glycol poisoning-1,True,True
+Abscess,Abscess,Abscess,True,True
+Sciatica,Sciatica,Sciatica,True,True
+Nonalcoholic Liver Disease (NASH),Nonalcoholic Liver Disease (NASH),Lead Poisoning,True,False
+Fracture of the Arm,Fracture of the Arm,Fracture of the Arm,True,True
+Hyperhidrosis,Hyperhidrosis,"Outside of the temperature regulation, excessive sweating",True,False
+Pinworm Infection,Pinworm Infection,Pinworm Infection,True,True
+Foreign Body in the Throat,Foreign Body in the Throat,Foreign Body in the Throat,True,True
+Liver Cancer,Liver Cancer,Liver Cancer,True,True
+Torticollis,Torticollis,Torticollis,True,True
+Myasthenia Gravis,Myasthenia Gravis,Myasthenia Gravis,True,True
+Pregnancy-Related Back Pain,Pregnancy-Related Back Pain,Pregnancy-Related Back Pain,True,True
+Stroke,Stroke,Stroke,True,True
+Dermatitis due to Sun Exposure,Dermatitis due to Sun Exposure,Dermatitis due to Sun Exposure,True,True
+Benign Kidney Cyst,Benign Kidney Cyst,Benign Kidney Cyst,True,True
+Bronchitis,Bronchitis,Bronchitis,True,True
+Chancroid,Chancroid,Chancroid,True,True
+Hypoglycemia,Hypoglycemia,Hypoglycemia,True,True
+Rheumatoid Arthritis,Rheumatoid Arthritis,Rheumatoid Arthritis,True,True
+Subdural hemorrhage,Subdural hemorrhage,Pericarditis,True,False
+Chancroid,Chancroid,Chancroid,True,True
+"Sedative, Hypnotic, or Anxiolytic Use Disorder","Sedative, Hypnotic, or Anxiolytic Use Disorder","Sedative, Hypnotic, or Anxiolytic Use Disorder",True,True
+Encephalitis,Encephalitis,Pneumonia,True,False
+Mononucleosis,Mononucleosis,Mononucleosis,True,True
+Hyperhidrosis,Hyperhidrosis,"Outside of the temperature regulation, excessive sweating",True,False
+Pharyngitis,Pharyngitis,Mononucleosis,True,False
+Lice,Lice,Lice,True,True
+Contact Dermatitis,Contact Dermatitis,Corticosis,True,False
+Wharton's duct stones,Wharton's duct stones,Wharton's duct stones,True,True
+Vaginal Cyst,Vaginal Cyst,Vaginal Cyst,True,True
+Actinic Keratosis,Actinic Keratosis,Actinic Keratosis,True,True
+Psoriasis,Psoriasis,Psoriasis,True,True
+Adenoid cystic carcinoma,Adenoid cystic carcinoma,Musketis,True,False
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Urethral Valves,Urethral Valves,Uterine Reflux,True,False
+Pseudohypoparathyroidism,Pseudohypoparathyroidism,Pseudohypoparathyroidism,True,True
+Neuropathic Pain,Neuropathic Pain,Incontinence,True,False
+Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),True,True
+Seborrheic Dermatitis,Seborrheic Dermatitis,Seborrheic Dermatitis,True,True
+Adenoid cystic carcinoma,Adenoid cystic carcinoma,Musketis,True,False
+Liver Cancer,Liver Cancer,Liver Cancer,True,True
+Rabies,Rabies,Rabies,True,True
+Conductive Hearing Loss,Conductive Hearing Loss,Conductive Hearing Loss,True,True
+Gastroesophageal Reflux Disease (GERD),Gastroesophageal Reflux Disease (GERD),Gastroesophageal Reflux Disease (GERD),True,True
+Torticollis,Torticollis,Torticollis,True,True
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Flat Feet,Flat Feet,Foot and Foot Pain,True,False
+Osteoporosis,Osteoporosis,Osteoporosis,True,True
+Idiopathic Nonmenstrual Bleeding,Idiopathic Nonmenstrual Bleeding,Idiopathic Nonmenstrual Bleeding,True,True
+Antimicrobial Drugs Poisoning,Antimicrobial Drugs Poisoning,Flu from the Acute Disorder,True,False
+Stimulant Use Disorder,Stimulant Use Disorder,Stimulant Use Disorder,True,True
+Fracture of the Arm,Fracture of the Arm,Fracture of the Arm,True,True
+Diverticulosis,Diverticulosis,Diverticulosis,True,True
+Lymphedema,Lymphedema,Lymphedema,True,True
+Scurvy,Scurvy,Scurvy,True,True
+Cold Sore,Cold Sore,Cold Sore,True,True
+Lead Poisoning,Lead Poisoning,Lead Poisoning,True,True
+Bone Cancer,Bone Cancer,Osteoarthritis,True,False
+Chronic Headache,Chronic Headache,Chronic Headache,True,True
+Acute Otitis Media,Acute Otitis Media,Acute Otitis Media,True,True
+Vesicoureteral Reflux,Vesicoureteral Reflux,Vesicoureteral Reflux,True,True
+Panic disorder,Panic disorder,Hypoglycemia,True,False
+Lateral Epicondylitis (Tennis Elbow),Lateral Epicondylitis (Tennis Elbow),Lateral Epicondylitis (Tennis Elbow),True,True
+Lice,Lice,Lice,True,True
+Kidney Failure,Kidney Failure,Kidney Failure,True,True
+Hypercalcemia,Hypercalcemia,Hypercalcemia,True,True
+Presbycusis,Presbycusis,Presbycusis,True,True
+Dental Caries,Dental Caries,Dental Caries,True,True
+Normal Pressure Hydrocephalus,Normal Pressure Hydrocephalus,Normal Pressure Hydrocephalus,True,True
+Heart Block,Heart Block,Hypertrophic Heart Disease,True,False
+Neuromyelitis Optica,Neuromyelitis Optica,Neuromyelitis optica,True,True
+Testicular Cancer,Testicular Cancer,Testicular Cancer,True,True
+Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),True,True
+Migraine,Migraine,Migraine,True,True
+Hemorrhoids,Hemorrhoids,Hemorrhoids,True,True
+Anal Fissure,Anal Fissure,Anal Fissure,True,True
+Injury to Internal Organ,Injury to Internal Organ,Osteoarthritis,True,False
+Hyperhidrosis,Hyperhidrosis,"Outside of the temperature regulation, excessive sweating",True,False
+Foreign Body in the Throat,Foreign Body in the Throat,Foreign Body in the Throat,True,True
+Breast Cancer,Breast Cancer,Breast Cancer,True,True
+Stenosis of the Tear Duct,Stenosis of the Tear Duct,Stenosis of the Tear Duct,True,True
+Impulse Control Disorder,Impulse Control Disorder,Impulse Control Disorder,True,True
+Dengue Fever,Dengue Fever,Dengue Fever,True,True
+Acute Pancreatitis,Acute Pancreatitis,Acute Pancreatitis,True,True
+Pinworm Infection,Pinworm Infection,Pinworm Infection,True,True
+Hemolytic Anemia,Hemolytic Anemia,Anemia due to Malignancy,True,False
+Chronic Otitis Media,Chronic Otitis Media,Chronic Otitis Media,True,True
+Asthma,Asthma,Asthma,True,True
+Stroke,Stroke,Stroke,True,True
+Pyelonephritis,Pyelonephritis,Pyelonephritis,True,True
+Polymyalgia Rheumatica,Polymyalgia Rheumatica,Polymyalgia Rheumatica,True,True
+Cellulitis,Cellulitis,Cellulitis,True,True
+Dermatitis due to Sun Exposure,Dermatitis due to Sun Exposure,Acute Sunburn Syndrome,True,False
+Aplastic Anemia,Aplastic Anemia,Aplastic Anemia,True,True
+Hiatal Hernia,Hiatal Hernia,Anemia,True,False
+Volvulus,Volvulus,Volvulus,True,True
+Stroke,Stroke,Stroke,True,True
+Myositis,Myositis,Myositis,True,True
+Complex Regional Pain Syndrome (CRPS),Complex Regional Pain Syndrome (CRPS),Haute Temperature Change,True,False
+Scleroderma,Scleroderma,Scleroderma,True,True
+Gestational Hypertension,Gestational Hypertension,Preeclampsia,True,False
+Retinal Detachment,Retinal Detachment,Retinal Detachment,True,True
+Mucocele,Mucocele,Mucocele,True,True
+Mitral Valve Disease,Mitral Valve Disease,Mitral Valve Disease,True,True
+Female Infertility of Unknown Cause,Female Infertility of Unknown Cause,Non-Profit Conceivability,True,False
+Abscess of the Lung,Abscess of the Lung,Abscess of the Lung,True,True
+Colonic Polyp,Colonic Polyp,Colonic Polyp,True,True
+Wilson Disease,Wilson Disease,Wilson Disease,True,True
+Contact Dermatitis,Contact Dermatitis,Corticosis,True,False
+Von Hippel-Lindau Disease,Von Hippel-Lindau Disease,Von Hippel-Lindau Disease,True,True
+Ocular Hypertension,Ocular Hypertension,Ocular Hypertension,True,True
+Hemarthrosis,Hemarthrosis,Bursitis,True,False
+Thrombocytopenia,Thrombocytopenia,Thrombocytopenia,True,True
+Sialolithiasis,Sialolithiasis,Sialolithiasis,True,True
+Vaginal Cyst,Vaginal Cyst,Vaginal Cyst,True,True
+Pulmonary Fibrosis,Pulmonary Fibrosis,Pulmonary Congestion,True,False
+Anxiety,Anxiety,Anxiety,True,True
+Stroke,Stroke,Stroke,True,True
+Anemia,Anemia,Anemia,True,True
+Goiter,Goiter,Goiter,True,True
+Cannabis Use Disorder,Cannabis Use Disorder,Cannabis Use Disorder,True,True
+Von Willebrand Disease,Von Willebrand Disease,Von Willebrand Disease,True,True
+Contact Dermatitis,Contact Dermatitis,Corticosis,True,False
+Congenital rubella,Congenital rubella,Congenital rubella,True,True
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Cranial Nerve Palsy,Cranial Nerve Palsy,Cranial Nerve Palsy,True,True
+Placenta Previa,Placenta Previa,Placenta Previa,True,True
+Scarlet Fever,Scarlet Fever,Scarlet Fever,True,True
+Hypercholesterolemia,Hypercholesterolemia,Hypercholesterolemia,True,True
+Urticaria (Hives),Urticaria (Hives),Urticaria (Hives),True,True
+Acute Glaucoma,Acute Glaucoma,Acute Glaucoma,True,True
+Osteoporosis,Osteoporosis,Osteoporosis,True,True
+Hemarthrosis,Hemarthrosis,Bursitis,True,False
+Intracranial Abscess,Intracranial Abscess,Pneumonia,True,False
+Pyelonephritis,Pyelonephritis,Pyelonephritis,True,True
+Primary Insomnia,Primary Insomnia,Primary Insomnia,True,True
+Insect Bites,Insect Bites,Insect Bites,True,True
+"Sedative, Hypnotic, or Anxiolytic Use Disorder","Sedative, Hypnotic, or Anxiolytic Use Disorder","Sedative, Hypnotic, or Anxiolytic Use Disorder",True,True
+Head and Neck Cancer,Head and Neck Cancer,Head and Neck Cancer,True,True
+Gum Disease,Gum Disease,Scurvy,True,False
+Hyperemesis Gravidarum,Hyperemesis Gravidarum,Halbblutblut,True,False
+Myelodysplastic Syndrome,Myelodysplastic Syndrome,Myelodysplastic Syndrome,True,True
+Ethylene glycol poisoning-2,Ethylene glycol poisoning-2,Ethylene glycol poisoning-2,True,True
+Hirschsprung Disease,Hirschsprung Disease,Congenital constipation,True,False
+Pain after an Operation,Pain after an Operation,Pain after an Operation,True,True
+Emphysema,Emphysema,Emphysema,True,True
+Bone Cancer,Bone Cancer,Osteoarthritis,True,False
+Abdominal Hernia,Abdominal Hernia,Abdominal Hernia,True,True
+Premature Ventricular Contractions (PVCs),Premature Ventricular Contractions (PVCs),Premature Ventricular Contractions (PVCs),True,True
+Alopecia,Alopecia,Alopecia,True,True
+Concussion,Concussion,Migraine,True,False
+Atrophic vaginitis,Atrophic vaginitis,Atrophic vaginitis,True,True
+Vaginal Cyst,Vaginal Cyst,Vaginal Cyst,True,True
+Colonic Polyp,Colonic Polyp,Colonic Polyp,True,True
+Encephalitis,Encephalitis,Pneumonia,True,False
+Recurrent salivary stones,Recurrent salivary stones,Recurrent salivary stones,True,True
+Ludwig's angina,Ludwig's angina,Spondylosis,True,False
+Obesity,Obesity,Obesity,True,True
+Pyelonephritis,Pyelonephritis,Pyelonephritis,True,True
+Ocular Hypertension,Ocular Hypertension,Ocular Hypertension,True,True
+Hirsutism,Hirsutism,Hirsutism,True,True
+Fracture,Fracture,Injury to the Leg,True,False
+Leukemia,Leukemia,Hemorrhage,True,False
+Spondylosis,Spondylosis,Spondylosis,True,True
+Acinic cell carcinoma,Acinic cell carcinoma,Musketis,True,False
+Anxiety,Anxiety,Anxiety,True,True
+Hypercholesterolemia,Hypercholesterolemia,Hypercholesterolemia,True,True
+Volvulus,Volvulus,Volvulus,True,True
+Corneal Disorder,Corneal Disorder,Corneal Disorder,True,True
+Syphilis,Syphilis,Syphilis,True,True
+Contact Dermatitis,Contact Dermatitis,Corticosis,True,False
+Polymyalgia Rheumatica,Polymyalgia Rheumatica,Polymyalgia Rheumatica,True,True
+Autism,Autism,Autism,True,True
+Food Allergy,Food Allergy,Rheumatoid Arthritis,True,False
+Orthorexia Nervosa,Orthorexia Nervosa,"Obsessive Focus on ""clean"" eating",True,False
+Poisoning due to Analgesics,Poisoning due to Analgesics,Fluorideal Infection (GERD),True,False
+Hemophilia,Hemophilia,Hemophilia,True,True
+Infection of Open Wound,Infection of Open Wound,Infection of Open Wound,True,True
+Glucocorticoid Deficiency,Glucocorticoid Deficiency,Anemia,True,False
+Headache after lumbar puncture,Headache after lumbar puncture,Headache after lumbar puncture,True,True
+Cannabis Use Disorder,Cannabis Use Disorder,Cannabis Use Disorder,True,True
+Asthma,Asthma,Asthma,True,True
+Osteoarthritis,Osteoarthritis,Osteoarthritis,True,True
+Ovarian Torsion,Ovarian Torsion,Acute Pancreatitis,True,False
+Hyperopia,Hyperopia,Hyperopia,True,True
+Primary Insomnia,Primary Insomnia,Primary Insomnia,True,True
+Hypergammaglobulinemia,Hypergammaglobulinemia,Hypergammaglobulinemia,True,True
+Chronic Knee Pain,Chronic Knee Pain,Chronic Knee Pain,True,True
+Cholesteatoma,Cholesteatoma,Otosclerosis,True,False
+Alcohol Intoxication,Alcohol Intoxication,Alcohol Intoxication,True,True
+Tension Headache,Tension Headache,Spondylitis,True,False
+Anemia of Chronic Disease,Anemia of Chronic Disease,Anemia of Chronic Disease,True,True
+Premature Ventricular Contractions (PVCs),Premature Ventricular Contractions (PVCs),Premature Ventricular Contractions (PVCs),True,True
+Injury to the Leg,Injury to the Leg,Injury to the Leg,True,True
+Bronchitis,Bronchitis,Bronchitis,True,True
+Gestational Diabetes,Gestational Diabetes,Gestational Diabetes,True,True
+Pneumonia,Pneumonia,Pneumonia,True,True
+Drug Abuse (Barbiturates),Drug Abuse (Barbiturates),"Sedative, Drug, or Intoxication",True,False
+Anal Fissure,Anal Fissure,Anal Fissure,True,True
+Nose Disorder,Nose Disorder,Nose Disorder,True,True
+Scleritis,Scleritis,Scleritis,True,True
+Scabies,Scabies,Scabies,True,True
+Vaginal Cyst,Vaginal Cyst,Vaginal Cyst,True,True
+Hemolytic Anemia,Hemolytic Anemia,Anemia due to Malignancy,True,False
+Torticollis,Torticollis,Torticollis,True,True
+Drug Abuse (Barbiturates),Drug Abuse (Barbiturates),"Sedative, Drug, or Intoxication",True,False
+Chronic Sinusitis,Chronic Sinusitis,Chronic Sinusitis,True,True
+Postpartum Depression,Postpartum Depression,Obesity,True,False
+Uterine Fibroids,Uterine Fibroids,Uterine Fibroids,True,True
+Scleritis,Scleritis,Scleritis,True,True
+Scarlet Fever,Scarlet Fever,Scarlet Fever,True,True
+Urethral Valves,Urethral Valves,Uterine Reflux,True,False
+Lateral Epicondylitis (Tennis Elbow),Lateral Epicondylitis (Tennis Elbow),Lateral Epicondylitis (Tennis Elbow),True,True
+Angle-Closure Glaucoma,Angle-Closure Glaucoma,Angle-Closure Glaucoma,True,True
+Benzodiazepine Use Disorder,Benzodiazepine Use Disorder,Benzodiazepine Use Disorder,True,True
+Labyrinthitis,Labyrinthitis,Labyrinthitis,True,True
+Drug Reaction,Drug Reaction,Rheumatoid Arthritis,True,False
+Mastoiditis,Mastoiditis,Mastoiditis,True,True
+Gastrointestinal Hemorrhage,Gastrointestinal Hemorrhage,Esophageal Cancer,True,False
+Premenstrual Tension Syndrome,Premenstrual Tension Syndrome,Premenstrual Tension Syndrome,True,True
+Peritonsillar Abscess,Peritonsillar Abscess,Peritonsillar Abscess,True,True
+Endometriosis,Endometriosis,Endometriosis,True,True
+Alcohol Use Disorder,Alcohol Use Disorder,Alcohol Use Disorder,True,True
+Opioid Use Disorder,Opioid Use Disorder,Opioid Use Disorder,True,True
+Arthritis,Arthritis,Osteoarthritis,True,False
+Leishmaniasis,Leishmaniasis,Pneumonia,True,False
+Antihypertensives Poisoning,Antihypertensives Poisoning,Hypoglycemia,True,False
+Tension Headache,Tension Headache,Spondylitis,True,False
+Anemia due to Chronic Kidney Disease,Anemia due to Chronic Kidney Disease,Anemia due to Chronic Kidney Disease,True,True
+Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),Gastroenteritis (Stomach Flu),True,True
+Injury to Internal Organ,Injury to Internal Organ,Osteoarthritis,True,False
+Thyroid Disease,Thyroid Disease,Thyroid Disease,True,True
+Gum Disease,Gum Disease,Scurvy,True,False
+Migraine,Migraine,Migraine,True,True
+Cold Sore,Cold Sore,Cold Sore,True,True
+Autism,Autism,Autism,True,True
+Fracture of the Shoulder,Fracture of the Shoulder,Rotator Cuff Injury,True,False
+Dermatitis due to Sun Exposure,Dermatitis due to Sun Exposure,Acute Sunburn Syndrome,True,False
+Mittelschmerz,Mittelschmerz,Mittelschmerz,True,True
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Parasitic Infections,Parasitic Infections,Parasitic Infections,True,True
+Pinguecula,Pinguecula,Pinguecula,True,True
+Vitreous Hemorrhage,Vitreous Hemorrhage,Vitreous Hemorrhage,True,True
+Actinic Keratosis,Actinic Keratosis,Actinic Keratosis,True,True
+Wilson Disease,Wilson Disease,Wilson Disease,True,True
+Muscular Dystrophy,Muscular Dystrophy,Muscular Dystrophy,True,True
+Drug Withdrawal,Drug Withdrawal,Drug Withdrawal,True,True
+Sciatica,Sciatica,Sciatica,True,True
+Antimicrobial Drugs Poisoning,Antimicrobial Drugs Poisoning,Flu from the Acute Disorder,True,False
+Thoracic Aortic Aneurysm,Thoracic Aortic Aneurysm,Thoracic Aortic Aneurysm,True,True
+Retinal Detachment,Retinal Detachment,Retinal Detachment,True,True
+Hemophilia,Hemophilia,Hemophilia,True,True
+Crushing Injury,Crushing Injury,Crushing Injury,True,True
+Bronchitis,Bronchitis,Bronchitis,True,True
+Neuralgia,Neuralgia,Neuralgia,True,True
+Fibromyalgia,Fibromyalgia,Musculoskeletal Pain,True,False
+Myoclonus,Myoclonus,Myoclonus,True,True
+Adrenal Cancer,Adrenal Cancer,Acute Spine Disease,True,False
+Drug Abuse (Cocaine),Drug Abuse (Cocaine),"Euphorie, Energie Deficit Disorder, etc.",True,False
+Amyloidosis,Amyloidosis,Amyloidosis,True,True
+Cellulitis,Cellulitis,Cellulitis,True,True
+Rumination Disorder,Rumination Disorder,Re-electronics of the Food Act,True,False
+Von Willebrand Disease,Von Willebrand Disease,Von Willebrand Disease,True,True
+Transient ischemic attack,Transient ischemic attack,Transient ischemic attack,True,True
+Eczema,Eczema,"Itchy, Red, Incontinenced Skin",True,False
+Polycystic Kidney Disease,Polycystic Kidney Disease,Polycystic Kidney Disease,True,True
+Myopia,Myopia,Myopia,True,True
+Vitamin B12 Deficiency,Vitamin B12 Deficiency,Vitamin B12 Deficiency,True,True
+Cystic Fibrosis,Cystic Fibrosis,Cystic Fibrosis,True,True
+Lead Poisoning,Lead Poisoning,Lead Poisoning,True,True
+Acute Otitis Media,Acute Otitis Media,Acute Otitis Media,True,True
+Muscle Spasm,Muscle Spasm,Muscle Spasm,True,True
+Varicose Veins,Varicose Veins,Varicose Veins,True,True
+Bursitis,Bursitis,Bursitis,True,True
+Encephalitis,Encephalitis,Pneumonia,True,False
+Fracture,Fracture,Injury to the Leg,True,False
+Pseudohypoparathyroidism,Pseudohypoparathyroidism,Pseudohypoparathyroidism,True,True
+Other Specified Feeding or Eating Disorder (OSFED),Other Specified Feeding or Eating Disorder (OSFED),Other Eating Disorder (OSFED),True,False
+Chronic Fatigue Syndrome,Chronic Fatigue Syndrome,Pregnancy-Related Sleep Disorder,True,False
+Hemolytic Anemia,Hemolytic Anemia,Anemia due to Malignancy,True,False
+Rumination Disorder,Rumination Disorder,Re-electronics of the Food Act,True,False
+Pneumonia,Pneumonia,Pneumonia,True,True
+Bladder Cancer,Bladder Cancer,Urinary Kidney Cyst,True,False
+Thyroid Disease,Thyroid Disease,Thyroid Disease,True,True
+Pinworm Infection,Pinworm Infection,Pinworm Infection,True,True
+Polymyalgia Rheumatica,Polymyalgia Rheumatica,Polymyalgia Rheumatica,True,True
+Intracranial Abscess,Intracranial Abscess,Pneumonia,True,False
+Hypothyroidism,Hypothyroidism,Hypothyroidism,True,True
+Endometriosis,Endometriosis,Pregnancy-Related Pilonidal Cyst,True,False
+Sciatica,Sciatica,Sciatica,True,True
+Carpal Tunnel Syndrome,Carpal Tunnel Syndrome,Carpal Tunnel Syndrome,True,True
+Other Specified Feeding or Eating Disorder (OSFED),Other Specified Feeding or Eating Disorder (OSFED),Other Eating Disorder (OSFED),True,False
+Cryptococcosis,Cryptococcosis,Cryptococcosis,True,True
+Juvenile Rheumatoid Arthritis,Juvenile Rheumatoid Arthritis,Rheumatoid Arthritis,True,False
+Idiopathic Absence of Menstruation,Idiopathic Absence of Menstruation,Idiopathic Absence of Menstruation,True,True
+Heart Block,Heart Block,Hypertrophic Heart Disease,True,False
+Pigmentary Glaucoma,Pigmentary Glaucoma,Pigmentary Glaucoma,True,True
+Mononucleosis,Mononucleosis,Mononucleosis,True,True
+Syndrome of Inappropriate Secretion of ADH (SIADH),Syndrome of Inappropriate Secretion of ADH (SIADH),Syndrome of Inappropriate Secretion of ADH (SIADH),True,True
+Preeclampsia,Preeclampsia,Preeclampsia,True,True
+Empyema,Empyema,Pericarditis,True,False
+Bladder Disorder,Bladder Disorder,Bladder Disorder,True,True
+Cornea Infection,Cornea Infection,Cornea Infection,True,True
+Fracture,Fracture,Injury to the Leg,True,False
+Panic disorder,Panic disorder,Hypoglycemia,True,False
+Intertrigo,Intertrigo,Infection of the Skin,True,False
+Vaginal Yeast Infection,Vaginal Yeast Infection,Vaginal Yeast Infection,True,True
+Pharyngitis,Pharyngitis,Mononucleosis,True,False
+Extrapyramidal Effect of Drugs,Extrapyramidal Effect of Drugs,Extrapyramidal Effect of Drugs,True,True
+Neuralgia,Neuralgia,Neuralgia,True,True
+Glucocorticoid Deficiency,Glucocorticoid Deficiency,Anemia,True,False
+Pelvic Organ Prolapse,Pelvic Organ Prolapse,Pregnancy-Related Body,True,False
+Hypothyroidism,Hypothyroidism,Hypothyroidism,True,True
+Bursitis,Bursitis,Bursitis,True,True
+Drug Reaction,Drug Reaction,Rheumatoid Arthritis,True,False
+Drug Abuse (Methamphetamine),Drug Abuse (Methamphetamine),Acute Heart Disease,True,False
+Threatened Pregnancy,Threatened Pregnancy,Threatened Pregnancy,True,True
+Arthritis,Arthritis,Osteoarthritis,True,False
+Mucoepidermoid carcinoma,Mucoepidermoid carcinoma,Mucoepidermoid carcinoma,True,True
+Endometriosis,Endometriosis,Pregnancy-Related Pilonidal Cyst,True,False
+Restless Leg Syndrome,Restless Leg Syndrome,Restless Leg Syndrome,True,True
+Hepatic Encephalopathy,Hepatic Encephalopathy,Hepatic Encephalopathy,True,True
+Chronic Headache,Chronic Headache,Chronic Headache,True,True
+Benzodiazepine Use Disorder,Benzodiazepine Use Disorder,Benzodiazepine Use Disorder,True,True
+Cold Sore,Cold Sore,Cold Sore,True,True
+Fungal Infection of the Skin,Fungal Infection of the Skin,Pneumonia,True,False
+Lead Poisoning,Lead Poisoning,Lead Poisoning,True,True
+Fibromyalgia,Fibromyalgia,Musculoskeletal Pain,True,False
+Ethylene glycol poisoning-2,Ethylene glycol poisoning-2,Ethylene glycol poisoning-2,True,True
+Urge Incontinence,Urge Incontinence,Urge Incontinence,True,True
+Vasculitis,Vasculitis,Vasculitis,True,True
+Sciatica,Sciatica,Sciatica,True,True
+Dislocation of the Ankle,Dislocation of the Ankle,Dislocation of the Ankle,True,True
+Anemia,Anemia,Anemia,True,True
+Conductive Hearing Loss,Conductive Hearing Loss,Conductive Hearing Loss,True,True
+Hypertensive Heart Disease,Hypertensive Heart Disease,Hypertensive Heart Disease,True,True
+Preeclampsia,Preeclampsia,Preeclampsia,True,True
+Sciatica,Sciatica,Sciatica,True,True
+Lice,Lice,Lice,True,True
+Diverticulosis,Diverticulosis,Diverticulosis,True,True
+Macular Degeneration,Macular Degeneration,Blindness,True,False
+Obesity,Obesity,Obesity,True,True
+Overflow Incontinence,Overflow Incontinence,Overflow Incontinence,True,True
+Parkinson Disease,Parkinson Disease,Parkinson Disease,True,True
+Urinary Stones (Kidney Stones),Urinary Stones (Kidney Stones),Urinary Urinary Urinary Urinary Urinary Urinary Ur,True,False
+Adrenal Cancer,Adrenal Cancer,Acute Spine Disease,True,False
+Secondary Glaucoma,Secondary Glaucoma,The Cause of the Cause,True,False
+Lymphoma,Lymphoma,Lymphoma,True,True
+Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),Urinary Tract Infection (UTI),True,True
+Chronic Knee Pain,Chronic Knee Pain,Chronic Knee Pain,True,True
+Plantar Fasciitis,Plantar Fasciitis,Fermentary Fermentary Injury,True,False
+Meniere Disease,Meniere Disease,Meniere Disease,True,True
+Injury to the Leg,Injury to the Leg,Injury to the Leg,True,True
+Myoclonus,Myoclonus,Myoclonus,True,True

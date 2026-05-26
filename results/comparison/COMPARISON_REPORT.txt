@@ -1,0 +1,68 @@
+====================================================================================================
+PROVING CONTEXT IMPROVES MEDICAL DIAGNOSIS PREDICTION
+====================================================================================================
+
+Analysis Date: 2026-05-26T18:15:24.556532
+Total Test Samples: 2160
+
+SECTION 1: EXECUTIVE SUMMARY
+----------------------------------------------------------------------------------------------------
+
+The context-based diagnosis model outperformed the symptom-only model in 571 out of 2160 test cases (26.4%).
+This demonstrates that incorporating patient context significantly improves diagnostic accuracy.
+
+SECTION 2: DETAILED PERFORMANCE METRICS
+----------------------------------------------------------------------------------------------------
+Metric                              Context Model             No-Context Model          Improvement    
+----------------------------------------------------------------------------------------------------
+exact_match                         0.9991                    0.7352                    +0.2639 (35.89%)
+partial_match                       0.9991                    0.7421                    +0.2569 (34.62%)
+top_k_accuracy                      0.9995                    0.7468                    +0.2528 (33.85%)
+semantic_similarity                 0.9996                    0.8226                    +0.1770 (21.52%)
+avg_confidence                      0.9995                    0.8162                    +0.1833 (22.46%)
+std_confidence                      0.0181                    0.3175                    +-0.2995 (-94.30%)
+confidence_correct                  1.0000                    1.0000                    +0.0000 (0.00%)
+confidence_incorrect                0.4851                    0.3060                    +0.1790 (58.51%)
+max_confidence                      1.0000                    1.0000                    +0.0000 (0.00%)
+min_confidence                      0.1875                    0.0645                    +0.1230 (190.62%)
+
+
+SECTION 3: ERROR ANALYSIS
+----------------------------------------------------------------------------------------------------
+
+Context Model Error Breakdown:
+  Correct: 2158/2160 (99.91%)
+  Similar diseases: 0
+  Partially similar: 1
+  Completely wrong: 1
+
+No-Context Model Error Breakdown:
+  Correct: 1588/2160 (73.52%)
+  Similar diseases: 15
+  Partially similar: 53
+  Completely wrong: 504
+
+
+SECTION 4: KEY FINDINGS & IMPLICATIONS
+----------------------------------------------------------------------------------------------------
+
+1. CONTEXT ADVANTAGE
+   The context model demonstrated superior performance with 571 cases where it made correct predictions while the no-context model failed.
+   This represents a 26.4% advantage over the baseline symptom-only approach.
+
+2. CONFIDENCE IN PREDICTIONS
+   Context model average confidence: 0.9995
+   No-context model average confidence: 0.8162
+   Difference: +0.1833
+
+3. DISEASE-SPECIFIC INSIGHTS
+   Most improved diseases with context:
+      - Eczema: 100.0% improvement (0.0% → 100.0%)
+      - Coronary Atherosclerosis: 100.0% improvement (0.0% → 100.0%)
+      - Chronic Glaucoma: 100.0% improvement (0.0% → 100.0%)
+      - Bladder Cancer: 100.0% improvement (0.0% → 100.0%)
+      - Flat Feet: 100.0% improvement (0.0% → 100.0%)
+
+====================================================================================================
+END OF REPORT
+====================================================================================================

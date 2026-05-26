@@ -92,6 +92,8 @@ class NoContextDiagnosisClassifier:
         )
 
         if compute_metrics:
+            from diagnosis_engine.evaluation_metrics import DiagnosisEvaluator
+            evaluator = DiagnosisEvaluator(use_semantic_similarity=True)
             rouge_metric = evaluate.load("rouge")
             bleu_metric = evaluate.load("bleu")
 
@@ -112,16 +114,20 @@ class NoContextDiagnosisClassifier:
                     references=decoded_labels,
                 )
 
-                exact_matches = np.mean([
-                    int(pred.strip().lower() == label.strip().lower())
-                    for pred, label in zip(decoded_preds, decoded_labels)
-                ])
+                advanced_metrics = evaluator.compute_all_metrics(decoded_preds, decoded_labels)
 
                 result = {
                     "rougeL": round(rouge_result["rougeL"], 4),
                     "bleu": round(bleu_result["bleu"], 4),
-                    "exact_match": round(exact_matches, 4)
+                    "exact_match": round(advanced_metrics['exact_match'], 4),
+                    "partial_match": round(advanced_metrics['partial_match'], 4),
+                    "top_k_accuracy": round(advanced_metrics['top_k_accuracy'], 4),
+                    "avg_confidence": round(advanced_metrics['avg_confidence'], 4),
                 }
+                
+                if 'semantic_similarity' in advanced_metrics:
+                    result['semantic_similarity'] = round(advanced_metrics['semantic_similarity'], 4)
+                
                 return result
         else:
             compute_metrics_fn = None
